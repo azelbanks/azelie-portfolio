@@ -1,0 +1,77 @@
+{
+  "personal": {
+    "name": "Azélie Bernard",
+    "title": {
+      "strategist": "Ingénieure de Projets Européens",
+      "tech": "Data Engineer en devenir"
+    },
+    "tagline": "Là où la stratégie rencontre le code",
+    "location": "Bordeaux, France",
+    "email": "azeliebernard@gmail.com",
+    "phone": "+33 6 46 48 10 77",
+    "age": 30,
+    "languages": [
+      { "lang": "Français", "level": "Natif" },
+      { "lang": "Anglais", "level": "B2" },
+      { "lang": "Wolof", "level": "Notions" }
+    ]
+  },
+  
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/azélie-bernard",
+    "github": "https://github.com/azelie-bernard",
+    "streamlit": "https://dilemme-du-prisonnier.streamlit.app/"
+  },
+  
+  "about": {
+    "strategist": "Ingénieure de projets européens pendant 8 ans, j'ai structuré des programmes complexes de Dakar à Bruxelles. Coordination multi-acteurs, reporting bailleurs, pilotage budgétaire — transformer la complexité en impact mesurable. Mon passage chez Erasmus+ m'a appris à naviguer entre institutions, terrain et stratégie.",
+    "tech": "8 ans à manipuler des données sans le savoir. Indicateurs de performance, cadres logiques, tableaux de bord — j'ai toujours pensé en systèmes. Aujourd'hui, je code ce que j'analysais. Python, SQL, ML — même mission, nouveaux outils. Transformer le chaos en algorithmes qui ont du sens."
+  },
+  
+  "why": "Après 8 ans à piloter des projets complexes — de Dakar à Bruxelles — j'ai réalisé que je ne voulais plus seulement analyser la donnée, mais la faire parler. Ma reconversion vers l'IA est une continuité logique : utiliser le machine learning pour amplifier ce que j'ai toujours fait — transformer le chaos en décisions concrètes.",
+  
+  "highlights": [
+    {
+      "number": "8+",
+      "label": "Années d'expérience",
+      "context": "en gestion de projets"
+    },
+    {
+      "number": "4",
+      "label": "Pays d'intervention",
+      "context": "France, Sénégal, Togo, Europe"
+    },
+    {
+      "number": "15+",
+      "label": "Partenaires gérés",
+      "context": "collectivités, ONG, institutions"
+    },
+    {
+      "number": "1M€+",
+      "label": "Budgets pilotés",
+      "context": "projets européens"
+    }
+  ],
+  
+  "currentFocus": {
+    "title": "Mastère Big Data & IA",
+    "school": "Sup de Vinci",
+    "status": "En alternance — Sept. 2025",
+    "learning": ["Python", "SQL", "Power BI", "Machine Learning", "ETL"]
+  },
+  
+  "values": [
+    {
+      "title": "Impact mesurable",
+      "description": "Chaque projet doit produire des résultats quantifiables"
+    },
+    {
+      "title": "Approche systémique",
+      "description": "Comprendre les interconnexions avant d'agir"
+    },
+    {
+      "title": "Éthique & durabilité",
+      "description": "L'IA au service de l'humain, pas l'inverse"
+    }
+  ]
+}

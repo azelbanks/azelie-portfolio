@@ -1,0 +1,193 @@
+{
+  "qa": [
+    {
+      "question": "Qui est Azélie Bernard ?",
+      "alternates": ["Présente-toi", "C'est qui Azélie ?", "Who is Azélie?", "Dis-moi qui tu représentes"],
+      "answer": {
+        "strategist": "Azélie Bernard a 30 ans et vit à Bordeaux. Elle a 8 ans d'expérience en ingénierie de projets européens (Erasmus+, Horizon Europe). Elle est actuellement en reconversion vers la data et l'IA, et prépare un Mastère Big Data & Intelligence Artificielle à Sup de Vinci en alternance à partir de septembre 2025.",
+        "tech": "Azélie Bernard, 30 ans, basée à Bordeaux. Background : 8 ans d'ingénierie de projets européens. Actuellement en transition vers la `data/IA` — Mastère Big Data & IA à Sup de Vinci (alternance, sept. 2025). Elle code en Python, SQL, et construit des dashboards Power BI."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Pourquoi Azélie fait une reconversion vers la data/IA ?",
+      "alternates": ["Why the career change?", "Pourquoi quitter la gestion de projet?", "Pourquoi la reconversion?"],
+      "answer": {
+        "strategist": "Après 8 ans à piloter des projets complexes de Dakar à Bruxelles, Azélie a réalisé qu'elle ne voulait plus seulement analyser la donnée, mais la faire parler. Sa reconversion vers l'IA est une continuité logique : utiliser le machine learning pour amplifier ce qu'elle a toujours fait — transformer le chaos en décisions concrètes.",
+        "tech": "8 ans à manipuler des données sans le savoir — indicateurs, cadres logiques, dashboards. Elle pensait déjà en systèmes. Maintenant elle code ce qu'elle analysait. Même mission, stack différente. `from project_manager import data_engineer`"
+      },
+      "category": "background"
+    },
+    {
+      "question": "Quelles sont les qualités d'Azélie ?",
+      "alternates": ["Ses soft skills?", "What are her strengths?", "Points forts?", "Ses atouts?"],
+      "answer": {
+        "strategist": "Azélie se distingue par sa capacité à structurer la complexité, son aisance dans la coordination multi-acteurs et sa vision systémique. 8 ans de gestion de consortiums européens lui ont forgé une rigueur et une adaptabilité rares.",
+        "tech": "Pensée systémique, gestion multi-projets en parallèle, communication claire entre équipes techniques et métier. Elle sait transformer le chaos organisationnel en processus structurés. Bref : elle `debug` les systèmes humains depuis 2013."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Pourquoi recruter Azélie ?",
+      "alternates": ["Why should I hire her?", "Pourquoi elle et pas quelqu'un d'autre?", "Qu'est-ce qu'elle apporte?"],
+      "answer": {
+        "strategist": "Azélie apporte un profil rare : une double compétence alliant 8 ans d'ingénierie de projets internationaux et une formation avancée en Big Data et IA. Elle comprend les enjeux métier autant que les contraintes techniques. C'est le pont idéal entre les équipes business et tech.",
+        "tech": "Profil hybride rare : 8 ans de compréhension métier + compétences data/IA en montée. Elle ne fait pas que construire des modèles — elle comprend pourquoi la donnée compte. Le pont parfait entre l'équipe data et les stakeholders."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Elle cherche quoi comme poste ?",
+      "alternates": ["What kind of job?", "Quel type d'alternance?", "What is she looking for?", "Disponibilité?"],
+      "answer": {
+        "strategist": "Azélie recherche une alternance en Data Engineering ou IA à partir de septembre 2025, dans le cadre de son Mastère Big Data & Intelligence Artificielle à Sup de Vinci à Bordeaux. Elle souhaite un environnement où ses compétences en gestion de projet enrichissent sa montée en compétences techniques.",
+        "tech": "Recherche : alternance à partir de septembre 2025. Postes visés : Data Engineer, ML Engineer, ou projet IA. Stack : Python, SQL, Power BI, Machine Learning. Bonus si l'entreprise valorise les profils qui font le pont entre l'équipe data et le métier."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "C'est quoi ce portfolio ?",
+      "alternates": ["How was this site built?", "Comment ce site a été fait?", "C'est quoi ce site?"],
+      "answer": {
+        "strategist": "Ce portfolio interactif illustre la dualité d'Azélie : un mode Stratège élégant et institutionnel, et un mode Tech au design cyberpunk. Il intègre de la gamification avec des badges et un système de progression pour rendre la découverte du profil plus engageante.",
+        "tech": "Stack : Next.js 14 + TypeScript + Tailwind CSS + Framer Motion + Zustand. Features : dual-mode theming via CSS variables, système de gamification avec badges, easter egg (Dilemme du Prisonnier), et ce chatbot RAG avec Groq/Mixtral."
+      },
+      "category": "meta"
+    },
+    {
+      "question": "C'est quoi l'expérience à Dakar ?",
+      "alternates": ["Tell me about Senegal", "Parle-moi du Sénégal", "L'expérience au Sénégal?"],
+      "answer": {
+        "strategist": "En 2018, Azélie a dirigé le programme Écozone à Dakar pour GS Écologie Urbaine pendant un an. Elle a structuré un programme qui était suspendu, créé des Living Labs urbains et capitalisé 10 ans de recherche-action en développement durable. Elle a managé une équipe de 12 personnes dans un contexte interculturel exigeant.",
+        "tech": "Dakar, 2018 — mission d'un an chez GS Écologie Urbaine. Elle a restructuré un programme suspendu, créé des systèmes de collecte de données from scratch, numérisé 10 ans de données non structurées, et managé 12 personnes. En gros : de l'ETL sur du chaos réel, version humaine."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Quelles sont ses compétences techniques ?",
+      "alternates": ["Hard skills?", "Technical skills?", "Compétences tech?", "Elle sait coder?"],
+      "answer": {
+        "strategist": "Azélie développe actuellement des compétences en Python, SQL, Power BI, Machine Learning et ETL dans le cadre de son Mastère à Sup de Vinci. Elle maîtrise également les outils de gestion de projet, le reporting institutionnel et l'analyse de données.",
+        "tech": "Stack actuel : Python (Pandas, scikit-learn, spaCy), SQL, Power BI, Streamlit. En apprentissage : pipelines ML, ETL, NLP, architectures Big Data, MLOps. Compétences transférées de sa vie précédente : modélisation de données via cadres logiques, systèmes de KPIs, reporting multi-sources."
+      },
+      "category": "skills"
+    },
+    {
+      "question": "Qu'est-ce que le Dilemme du Prisonnier ?",
+      "alternates": ["Prisoner's Dilemma?", "C'est quoi le projet de théorie des jeux?", "Game theory project?"],
+      "answer": {
+        "strategist": "Le Dilemme du Prisonnier est une application Streamlit développée par Azélie en Python. Elle illustre les concepts de théorie des jeux avec plus de 5 stratégies IA (Tit-for-Tat, Pavlov, Random...) et des visualisations en temps réel avec Plotly. L'application est accessible sur dilemme-du-prisonnier.streamlit.app.",
+        "tech": "App Streamlit en Python qui simule le dilemme du prisonnier itéré. 5+ stratégies IA implémentées, visualisations Plotly en temps réel. Dispo ici : dilemme-du-prisonnier.streamlit.app"
+      },
+      "category": "projects"
+    },
+    {
+      "question": "Comment contacter Azélie ?",
+      "alternates": ["Contact info?", "Email?", "LinkedIn?", "Comment la joindre?", "Ses coordonnées?"],
+      "answer": {
+        "strategist": "Vous pouvez contacter Azélie par email à azeliebernard@gmail.com ou via son profil LinkedIn (linkedin.com/in/azélie-bernard). Le formulaire de contact en bas de ce portfolio fonctionne également.",
+        "tech": "Email : azeliebernard@gmail.com | LinkedIn : linkedin.com/in/azélie-bernard | GitHub : github.com/azelie-bernard. Ou descends jusqu'au formulaire de contact en bas de page."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Azélie parle quelles langues ?",
+      "alternates": ["Languages?", "She speaks what?", "Langues parlées?"],
+      "answer": {
+        "strategist": "Azélie parle français (langue maternelle), anglais (niveau B2, usage professionnel) et a des notions de wolof, acquises lors de son expérience au Sénégal.",
+        "tech": "Français (natif), anglais (B2 — suffisant pour lire de la doc, écrire des PRs et survivre aux meetings), wolof (notions — acquises à Dakar). Côté langages de programmation : Python, SQL, JavaScript/TypeScript."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "C'est quoi Erasmus+ ?",
+      "alternates": ["What is Erasmus?", "Son expérience Erasmus?", "Explain Erasmus+"],
+      "answer": {
+        "strategist": "Erasmus+ est le programme phare de l'Union européenne pour l'éducation, la formation, la jeunesse et le sport. Azélie a travaillé 4 ans (2021-2024) à l'Agence Erasmus+ France à Bordeaux comme ingénieure d'accompagnement, où elle a soutenu plus de 50 projets dans leur conception, mise en œuvre et reporting.",
+        "tech": "Erasmus+ est le programme de financement de l'UE pour l'éducation. Azélie y a bossé 4 ans (2021-2024) à l'Agence Erasmus+ France, accompagnant 50+ projets. Concrètement : beaucoup de données, de reporting et de coordination multi-pays."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Quelle est sa formation actuelle ?",
+      "alternates": ["What is she studying?", "Current education?", "Sup de Vinci?", "Études?"],
+      "answer": {
+        "strategist": "Azélie prépare un Mastère Big Data & Intelligence Artificielle à Sup de Vinci (Bordeaux), en alternance à partir de septembre 2025 jusqu'en septembre 2027. La formation couvre le Machine Learning, Python avancé, les architectures Big Data et le MLOps.",
+        "tech": "Mastère Big Data & IA à Sup de Vinci, Bordeaux. Alternance de septembre 2025 à septembre 2027. Au programme : Machine Learning, Python avancé, architectures Big Data, MLOps. Objectif : devenir le pont entre le domaine métier et le data engineering."
+      },
+      "category": "education"
+    },
+    {
+      "question": "C'est quoi l'easter egg du site ?",
+      "alternates": ["Easter egg?", "Secret?", "Hidden feature?", "Konami code?"],
+      "answer": {
+        "strategist": "Ce portfolio contient un Easter Egg secret ! Essayez de taper le fameux Konami Code (↑↑↓↓←→←→BA) pour débloquer un mini-jeu interactif basé sur la théorie des jeux : Le Dilemme du Recruteur.",
+        "tech": "Konami Code : ↑↑↓↓←→←→BA — ça débloque le Dilemme du Recruteur, un mini-jeu de théorie des jeux où tu joues au dilemme du prisonnier itéré contre l'IA d'Azélie. Coopérer ou trahir ? Ton choix révèle ton profil stratégique."
+      },
+      "category": "meta"
+    },
+    {
+      "question": "Où est-ce qu'elle habite ?",
+      "alternates": ["Where does she live?", "Location?", "Based where?", "Elle est où?"],
+      "answer": {
+        "strategist": "Azélie est basée à Bordeaux, en Nouvelle-Aquitaine. Elle a une expérience internationale significative, ayant travaillé en France (Paris, Lyon, Bordeaux, Cognac), au Sénégal (Dakar) et dans le cadre de programmes européens.",
+        "tech": "Basée à Bordeaux, France. Mais son parcours passe par Dakar, Paris, Lyon, Cognac et divers pays européens."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Qu'est-ce qui la rend unique ?",
+      "alternates": ["What makes her different?", "What's special about her?", "Profil atypique?"],
+      "answer": {
+        "strategist": "Ce qui distingue Azélie, c'est la combinaison rare d'une expertise terrain solide (8 ans en projets européens et internationaux) avec une montée en compétences data/IA. Elle ne vient pas de la tech — elle vient du problème. Et c'est précisément ce qui fait la valeur de son regard sur les données.",
+        "tech": "La plupart des data engineers apprennent la data d'abord, le métier ensuite. Azélie a fait l'inverse : 8 ans à comprendre POURQUOI la donnée compte, puis apprendre COMMENT la traiter. Elle peut expliquer un Random Forest à un chef de projet ET écrire le pipeline."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Quels sont ses projets ?",
+      "alternates": ["Her projects?", "Ses réalisations?", "Portfolio projects?", "Qu'est-ce qu'elle a fait?"],
+      "answer": {
+        "strategist": "Azélie a réalisé plusieurs projets : le Dilemme du Prisonnier (simulateur de théorie des jeux en Streamlit/Python), ce portfolio interactif (Next.js), un Dashboard de suivi Erasmus+ (Power BI), un Toolkit de nettoyage de données (Pandas), un Framework d'évaluation d'impact (Streamlit) et un Classificateur de documents NLP (scikit-learn, 89% de précision).",
+        "tech": "6 projets clés : Dilemme du Prisonnier (Streamlit/Python), ce portfolio (Next.js/TS), Dashboard Erasmus+ (Power BI), Data Cleaning Toolkit (Pandas), Impact Framework (Streamlit), et un Text Classifier NLP (scikit-learn, 89% accuracy). Tout est sur son GitHub."
+      },
+      "category": "projects"
+    },
+    {
+      "question": "Quel est son parcours professionnel ?",
+      "alternates": ["Son expérience?", "Career path?", "Parcours?", "Expériences professionnelles?"],
+      "answer": {
+        "strategist": "Azélie a un parcours riche de plus de 8 ans : elle a commencé à l'ADIF (2013-2014) sur des projets Erasmus+, puis à l'ASERC comme coordinatrice de mobilité européenne (2015-2016), à APF France Handicap (2016-2017), à Dakar comme cheffe de projet Écozone (2018), à la mairie d'Oullins (2019), et à l'Agence Erasmus+ France (2021-2024). Depuis 2021, elle est aussi consultante indépendante chez Niamato Consulting.",
+        "tech": "Timeline : ADIF (2013) → ASERC/Erasmus+ (2015) → APF France Handicap (2016) → Dakar/Écozone (2018) → Mairie d'Oullins (2019) → Agence Erasmus+ France (2021-2024) + Niamato Consulting en parallèle depuis 2021. Plus de 8 ans d'expérience cumulée."
+      },
+      "category": "background"
+    },
+    {
+      "question": "C'est quoi Niamato Consulting ?",
+      "alternates": ["Niamato?", "Son activité indépendante?", "Consultant?"],
+      "answer": {
+        "strategist": "Niamato Consulting est l'activité de conseil indépendante d'Azélie, lancée en 2021. Elle accompagne des organisations de la société civile, des institutions et des acteurs culturels dans le développement de leurs projets internationaux, avec une spécialisation sur les financements européens (Erasmus+, Horizon Europe).",
+        "tech": "Niamato Consulting = l'activité freelance d'Azélie depuis 2021. Conseil en ingénierie de projets européens : rédaction de dossiers de subventions, développement de consortiums Europe/Afrique de l'Ouest, audit organisationnel, suivi de KPIs et reporting."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Elle a quel âge ?",
+      "alternates": ["How old is she?", "Son âge?", "Age?"],
+      "answer": {
+        "strategist": "Azélie a 30 ans.",
+        "tech": "30 ans."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Bonjour",
+      "alternates": ["Hello", "Hey", "Salut", "Coucou", "Hi"],
+      "answer": {
+        "strategist": "Bonjour et bienvenue sur le portfolio d'Azélie Bernard ! Je suis son assistante virtuelle. N'hésitez pas à me poser des questions sur son parcours, ses compétences ou ses projets.",
+        "tech": "Salut ! Bienvenue sur le portfolio d'Azélie. Pose-moi tes questions sur son parcours, ses compétences, ses projets — je suis là pour ça."
+      },
+      "category": "meta"
+    }
+  ]
+}

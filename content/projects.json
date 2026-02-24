@@ -1,0 +1,134 @@
+{
+  "projects": [
+    {
+      "id": "dilemme-prisonnier",
+      "title": {
+        "strategist": "Le Dilemme du Prisonnier - Simulation Stratégique",
+        "tech": "Game Theory Simulator - Python/Streamlit"
+      },
+      "description": {
+        "strategist": "Application interactive illustrant les concepts de théorie des jeux et de prise de décision stratégique. Utilisée comme outil pédagogique pour explorer les dynamiques de coopération et de compétition.",
+        "tech": "Full-stack Streamlit app implementing iterated prisoner's dilemma with multiple AI strategies (Tit-for-Tat, Pavlov, Random). Real-time visualization with Plotly. Pure Python backend."
+      },
+      "category": "data",
+      "tags": ["Python", "Streamlit", "Game Theory", "Plotly", "Data Viz"],
+      "links": {
+        "streamlit": "https://dilemme-du-prisonnier.streamlit.app",
+        "github": "https://github.com/azelie-bernard/dilemme-prisonnier"
+      },
+      "highlights": [
+        "5+ stratégies IA",
+        "Visualisation temps réel",
+        "Interface interactive"
+      ],
+      "featured": true
+    },
+    {
+      "id": "portfolio-dualite",
+      "title": {
+        "strategist": "Portfolio Dualité - Ce site",
+        "tech": "Portfolio Website - Next.js/React"
+      },
+      "description": {
+        "strategist": "Portfolio interactif avec système de switch entre deux univers visuels : Stratège (élégant, institutionnel) et Tech (cyberpunk, data-driven). Gamification intégrée.",
+        "tech": "Next.js 14 + TypeScript + Tailwind + Framer Motion. Features: dual-mode theming, gamification system with badges, Easter Egg game, responsive design."
+      },
+      "category": "web",
+      "tags": ["Next.js", "TypeScript", "Tailwind", "Framer Motion", "Zustand"],
+      "links": {
+        "demo": "#",
+        "github": "https://github.com/azelie-bernard/portfolio"
+      },
+      "highlights": [
+        "Mode dual Stratège/Tech",
+        "Gamification & badges",
+        "Easter Egg interactif"
+      ],
+      "featured": true
+    },
+    {
+      "id": "erasmus-dashboard",
+      "title": {
+        "strategist": "Dashboard de Suivi Erasmus+",
+        "tech": "KPI Dashboard - Power BI/Excel"
+      },
+      "description": {
+        "strategist": "Tableau de bord de suivi des indicateurs clés de performance pour les projets Erasmus+. Automatisation du reporting mensuel et visualisation des données d'impact.",
+        "tech": "Data pipeline from Excel/CSV sources to Power BI dashboards. Automated data cleaning with Python scripts. Real-time KPI tracking for 50+ EU projects."
+      },
+      "category": "data",
+      "tags": ["Power BI", "Excel", "Python", "Data Analysis", "Reporting"],
+      "links": {},
+      "highlights": [
+        "50+ projets suivis",
+        "Reporting automatisé",
+        "KPIs en temps réel"
+      ],
+      "featured": false
+    },
+    {
+      "id": "data-cleaning-toolkit",
+      "title": {
+        "strategist": "Toolkit de Nettoyage de Données",
+        "tech": "Data Cleaning Pipeline - Pandas/Python"
+      },
+      "description": {
+        "strategist": "Suite d'outils automatisés pour le nettoyage et la standardisation de jeux de données hétérogènes. Réduction du temps de préparation des données de 70%.",
+        "tech": "Python toolkit with Pandas for data wrangling. Features: duplicate detection, missing value imputation, data type inference, export to multiple formats (CSV, Excel, JSON)."
+      },
+      "category": "data",
+      "tags": ["Python", "Pandas", "Data Cleaning", "Automation"],
+      "links": {
+        "github": "https://github.com/azelie-bernard/data-toolkit"
+      },
+      "highlights": [
+        "-70% temps préparation",
+        "Détection doublons",
+        "Multi-format export"
+      ],
+      "featured": false
+    },
+    {
+      "id": "impact-framework",
+      "title": {
+        "strategist": "Framework d'Évaluation d'Impact",
+        "tech": "Impact Assessment Tool - Python/Streamlit"
+      },
+      "description": {
+        "strategist": "Méthodologie et outils pour l'évaluation de l'impact social des projets de développement. Cadre logique, indicateurs SMART, collecte et analyse des données.",
+        "tech": "Streamlit application for NGO impact assessment. Features: logic model builder, SMART indicator generator, data collection forms, automated reporting."
+      },
+      "category": "management",
+      "tags": ["Méthodologie", "Impact", "Streamlit", "Evaluation"],
+      "links": {},
+      "highlights": [
+        "Cadre logique automatisé",
+        "Indicateurs SMART",
+        "Rapports auto-générés"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ml-text-classifier",
+      "title": {
+        "strategist": "Classificateur de Documents",
+        "tech": "NLP Text Classifier - scikit-learn"
+      },
+      "description": {
+        "strategist": "Outil de classification automatique de documents pour le tri et l'organisation de grandes bases documentaires. Gain de productivité estimé à 60%.",
+        "tech": "NLP pipeline using spaCy for preprocessing + scikit-learn for classification. TF-IDF vectorization, SVM classifier, 89% accuracy on test set."
+      },
+      "category": "ai",
+      "tags": ["Python", "scikit-learn", "spaCy", "NLP", "Machine Learning"],
+      "links": {
+        "github": "https://github.com/azelie-bernard/text-classifier"
+      },
+      "highlights": [
+        "89% accuracy",
+        "Pipeline complet",
+        "Multi-catégories"
+      ],
+      "featured": false
+    }
+  ]
+}

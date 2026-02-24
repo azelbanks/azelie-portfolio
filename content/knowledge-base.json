@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "nom_complet": "Azélie Bernard",
+    "age": 30,
+    "date_naissance": null,
+    "localisation": "Bordeaux, Nouvelle-Aquitaine, France",
+    "nationalite": "Française",
+    "email": "azeliebernard@gmail.com",
+    "telephone": "+33 6 46 48 10 77",
+    "linkedin": "https://www.linkedin.com/in/azélie-bernard",
+    "github": "https://github.com/azelie-bernard",
+    "site_streamlit": "https://dilemme-du-prisonnier.streamlit.app/",
+    "langues": [
+      { "langue": "Français", "niveau": "Langue maternelle" },
+      { "langue": "Anglais", "niveau": "B2 — usage professionnel courant" },
+      { "langue": "Wolof", "niveau": "Notions (acquises au Sénégal)" }
+    ],
+    "tagline": "Là où la stratégie rencontre le code",
+    "resume_profil": "Ingénieure de projets européens pendant 8 ans, Azélie se reconvertit vers la data et l'IA. Elle prépare un Mastère Big Data & Intelligence Artificielle à Sup de Vinci (Bordeaux) en alternance à partir de septembre 2025. Son profil hybride combine expertise métier en gestion de projets internationaux et compétences techniques en data science."
+  },
+
+  "formation": [
+    {
+      "diplome": "Mastère Big Data & Intelligence Artificielle",
+      "etablissement": "Sup de Vinci",
+      "ville": "Bordeaux",
+      "periode": "Septembre 2025 — Septembre 2027",
+      "statut": "En cours (alternance)",
+      "contenu": "Machine Learning, Python avancé, SQL, architectures Big Data, ETL, MLOps, Power BI",
+      "objectif": "Devenir le pont entre le domaine métier et le data engineering"
+    },
+    {
+      "diplome": "Coordinateur de Projet de Solidarité Internationale",
+      "etablissement": "Institut Bioforce",
+      "ville": "Lyon",
+      "periode": "2019",
+      "contenu": "Cycle de projet, gestion d'équipe, logistique, relations bailleurs de fonds, cadres logiques, gestion budgétaire avancée"
+    },
+    {
+      "diplome": "Master Sciences Politiques — Action Humanitaire Internationale",
+      "etablissement": "Université Paris-Est Créteil",
+      "ville": "Paris",
+      "periode": "2017 — 2018",
+      "contenu": "Relations internationales, action humanitaire, politiques publiques, coopération internationale, méthodologie de recherche"
+    },
+    {
+      "diplome": "Licence Pro Gestion des Organisations de l'Économie Sociale et Solidaire",
+      "etablissement": "Université Paris-Est Marne-la-Vallée",
+      "ville": "Paris",
+      "periode": "2016 — 2017",
+      "contenu": "Gestion associative, entrepreneuriat social, modèles économiques alternatifs, gouvernance participative"
+    }
+  ],
+
+  "experiences": [
+    {
+      "poste": "Consultante Senior en Ingénierie de Projets Européens & Stratégie",
+      "entreprise": "Niamato Consulting (Indépendant)",
+      "lieu": "Bordeaux — Hybride",
+      "periode": "Janvier 2021 — Aujourd'hui",
+      "duree": "5 ans+",
+      "en_cours": true,
+      "description": "Accompagnement des organisations de la société civile, institutions et acteurs culturels dans le développement de leurs projets internationaux. Spécialisation sur les financements européens (Erasmus+, Horizon Europe).",
+      "realisations": [
+        "Conception et rédaction de demandes de subventions complexes",
+        "Sécurisation de financements pluriannuels (Erasmus+, Horizon Europe)",
+        "Développement de consortiums transnationaux Europe/Afrique de l'Ouest",
+        "Audit organisationnel et structuration pour bailleurs internationaux",
+        "Supervision de la mise en œuvre, suivi des KPIs, reporting narratif et financier"
+      ],
+      "competences": ["Ingénierie de projet", "Financements européens", "Stratégie", "Gestion de consortiums", "Reporting UE"]
+    },
+    {
+      "poste": "Ingénieure d'accompagnement des porteurs de projets",
+      "entreprise": "Agence Erasmus+ France",
+      "lieu": "Bordeaux",
+      "periode": "Janvier 2021 — Décembre 2024",
+      "duree": "4 ans",
+      "en_cours": false,
+      "description": "Accompagnement stratégique des porteurs de projets européens. Gestion de portefeuilles multi-projets, analyse des indicateurs pour le reporting institutionnel, coordination avec les partenaires européens et formation des équipes.",
+      "realisations": [
+        "Accompagnement de plus de 50 projets Erasmus+",
+        "Mise en place de tableaux de bord de suivi",
+        "Formation des équipes aux outils de reporting",
+        "Coordination avec les partenaires européens"
+      ],
+      "competences": ["Gestion de projet", "Analyse de données", "Reporting", "Coordination européenne", "Formation"]
+    },
+    {
+      "poste": "Cheffe de Projet / Responsable Programme Écozone",
+      "entreprise": "GS Écologie Urbaine",
+      "lieu": "Dakar, Sénégal",
+      "periode": "Février 2018 — Décembre 2018",
+      "duree": "1 an",
+      "en_cours": false,
+      "description": "Pilotage d'un programme de développement urbain durable. Coordination d'équipes pluridisciplinaires, structuration d'un programme suspendu, capitalisation de 10 ans de recherche-action.",
+      "realisations": [
+        "Structuration d'un programme qui était suspendu",
+        "Création de Living Labs urbains",
+        "Capitalisation de 10 ans de recherche-action",
+        "Management d'une équipe de 12 personnes"
+      ],
+      "competences": ["Management", "Développement durable", "Capitalisation", "Partenariats", "Gestion d'équipe"],
+      "experience_marquante": true
+    },
+    {
+      "poste": "Chargée de Mission — Diagnostic territorial sportif",
+      "entreprise": "Service Politique de la Ville — Mairie d'Oullins",
+      "lieu": "Oullins, Rhône",
+      "periode": "Juillet 2019 — Décembre 2019",
+      "duree": "6 mois",
+      "en_cours": false,
+      "description": "Analyse des besoins sportifs locaux. Collecte de données avec Kobo Toolbox, analyse quantitative, visualisation des résultats et recommandations stratégiques aux élus.",
+      "realisations": [
+        "Diagnostic territorial complet",
+        "Recommandations adoptées par la mairie",
+        "Enquêtes terrain auprès des habitants"
+      ],
+      "competences": ["Diagnostic territorial", "Kobo Toolbox", "Analyse de données", "Recommandations stratégiques"]
+    },
+    {
+      "poste": "Chargée de développement des actions associatives",
+      "entreprise": "APF France Handicap",
+      "lieu": "Paris",
+      "periode": "Janvier 2016 — Décembre 2017",
+      "duree": "2 ans",
+      "en_cours": false,
+      "description": "Coordination de projets visant à rompre l'isolement des personnes en situation de handicap. Gestion de base de données de bénévoles, mise en place d'indicateurs d'impact social.",
+      "realisations": [
+        "Relance du réseau Les Cordées",
+        "Plus de 200 personnes accompagnées",
+        "Partenariats avec structures médico-sociales"
+      ],
+      "competences": ["Inclusion", "Coordination", "Indicateurs d'impact", "Animation de réseau"]
+    },
+    {
+      "poste": "Coordinatrice de projets de mobilité européenne",
+      "entreprise": "ASERC (Association Socio Éducative de la Région de Cognac)",
+      "lieu": "Nouvelle-Aquitaine",
+      "periode": "Janvier 2015 — Septembre 2016",
+      "duree": "1 an et 9 mois",
+      "en_cours": false,
+      "description": "Pilotage des demandes de financement Erasmus+, conception et animation de formations, développement d'outils d'évaluation, diagnostics socio-économiques.",
+      "realisations": [
+        "Pilotage des demandes Erasmus+",
+        "Conception et animation de formations",
+        "Développement d'outils d'évaluation",
+        "Gestion des ressources humaines et financières"
+      ],
+      "competences": ["Erasmus+", "Formation", "Évaluation", "Gestion RH", "Communication"]
+    },
+    {
+      "poste": "Chargée de projets",
+      "entreprise": "ADIF",
+      "lieu": "France",
+      "periode": "Octobre 2013 — Juillet 2014",
+      "duree": "10 mois",
+      "en_cours": false,
+      "description": "Gestion de projets Erasmus+ et de coopération Nord/Sud. Animation d'échanges de jeunes et de formations sur la lutte contre les discriminations.",
+      "realisations": [
+        "Gestion de projets Erasmus+ et coopération Nord/Sud",
+        "Animation d'échanges de jeunes",
+        "Formations sur la lutte contre les discriminations"
+      ],
+      "competences": ["Erasmus+", "Coopération internationale", "Animation", "Lutte contre les discriminations"]
+    }
+  ],
+
+  "competences": {
+    "techniques": [
+      "Python (Pandas, scikit-learn, spaCy, Streamlit)",
+      "SQL",
+      "Power BI",
+      "Machine Learning",
+      "ETL",
+      "NLP (Natural Language Processing)",
+      "Data Cleaning & Wrangling",
+      "Visualisation de données (Plotly, Power BI)",
+      "Next.js / React / TypeScript (ce portfolio)",
+      "Git / GitHub"
+    ],
+    "metier": [
+      "Ingénierie de projets européens (Erasmus+, Horizon Europe)",
+      "Rédaction de demandes de subventions",
+      "Gestion de consortiums transnationaux",
+      "Reporting narratif et financier pour bailleurs",
+      "Cadres logiques et indicateurs SMART",
+      "Pilotage budgétaire (budgets > 1M€)",
+      "Coordination multi-acteurs (collectivités, ONG, institutions)",
+      "Formation et transfert de compétences"
+    ],
+    "soft_skills": [
+      "Vision systémique",
+      "Structuration de la complexité",
+      "Communication interculturelle",
+      "Adaptabilité",
+      "Rigueur",
+      "Travail en équipe pluridisciplinaire",
+      "Management (jusqu'à 12 personnes)"
+    ],
+    "outils": [
+      "Power BI", "Excel avancé", "Kobo Toolbox",
+      "Streamlit", "Jupyter Notebook",
+      "VS Code", "Git/GitHub"
+    ]
+  },
+
+  "projets": [
+    {
+      "nom": "Le Dilemme du Prisonnier",
+      "type": "Application web",
+      "stack": "Python, Streamlit, Plotly",
+      "description": "Simulateur interactif de théorie des jeux avec plus de 5 stratégies IA (Tit-for-Tat, Pavlov, Random...). Visualisations en temps réel.",
+      "lien": "https://dilemme-du-prisonnier.streamlit.app",
+      "github": "https://github.com/azelie-bernard/dilemme-prisonnier",
+      "points_forts": ["5+ stratégies IA", "Visualisation temps réel", "Interface interactive"],
+      "projet_phare": true
+    },
+    {
+      "nom": "Portfolio Dualité",
+      "type": "Site web",
+      "stack": "Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Zustand",
+      "description": "Portfolio interactif avec double mode (Stratège/Tech), gamification, Easter Egg, et chatbot IA RAG.",
+      "lien": "Ce site",
+      "github": "https://github.com/azelie-bernard/portfolio",
+      "points_forts": ["Mode dual Stratège/Tech", "Gamification & badges", "Easter Egg interactif", "Chatbot IA"],
+      "projet_phare": true
+    },
+    {
+      "nom": "Dashboard de Suivi Erasmus+",
+      "type": "Dashboard",
+      "stack": "Power BI, Excel, Python",
+      "description": "Tableau de bord de suivi des KPIs pour 50+ projets Erasmus+. Reporting automatisé et visualisation des données d'impact.",
+      "points_forts": ["50+ projets suivis", "Reporting automatisé", "KPIs en temps réel"],
+      "projet_phare": false
+    },
+    {
+      "nom": "Toolkit de Nettoyage de Données",
+      "type": "Outil Python",
+      "stack": "Python, Pandas",
+      "description": "Suite d'outils pour le nettoyage et la standardisation de jeux de données hétérogènes. Réduction du temps de préparation de 70%.",
+      "github": "https://github.com/azelie-bernard/data-toolkit",
+      "points_forts": ["-70% temps de préparation", "Détection de doublons", "Export multi-format"],
+      "projet_phare": false
+    },
+    {
+      "nom": "Framework d'Évaluation d'Impact",
+      "type": "Application web",
+      "stack": "Python, Streamlit",
+      "description": "Outil d'évaluation de l'impact social des projets de développement. Cadre logique automatisé, indicateurs SMART, rapports auto-générés.",
+      "points_forts": ["Cadre logique automatisé", "Indicateurs SMART", "Rapports auto-générés"],
+      "projet_phare": false
+    },
+    {
+      "nom": "Classificateur de Documents NLP",
+      "type": "Pipeline ML",
+      "stack": "Python, scikit-learn, spaCy",
+      "description": "Pipeline NLP de classification automatique de documents. Vectorisation TF-IDF, classificateur SVM. 89% de précision sur le jeu de test.",
+      "github": "https://github.com/azelie-bernard/text-classifier",
+      "points_forts": ["89% de précision", "Pipeline complet", "Multi-catégories"],
+      "projet_phare": false
+    }
+  ],
+
+  "chiffres_cles": {
+    "annees_experience": "8+",
+    "pays_intervention": "4 (France, Sénégal, Togo, Europe)",
+    "partenaires_geres": "15+",
+    "budgets_pilotes": "1M€+",
+    "projets_erasmus_accompagnes": "50+",
+    "personnes_accompagnees_apf": "200+",
+    "equipe_max_managee": "12 personnes",
+    "precision_classificateur_nlp": "89%",
+    "reduction_temps_data_cleaning": "70%"
+  },
+
+  "valeurs": [
+    "Impact mesurable : chaque projet doit produire des résultats quantifiables",
+    "Approche systémique : comprendre les interconnexions avant d'agir",
+    "Éthique & durabilité : l'IA au service de l'humain, pas l'inverse"
+  ],
+
+  "recherche_emploi": {
+    "type": "Alternance",
+    "debut": "Septembre 2025",
+    "fin": "Septembre 2027",
+    "postes_vises": ["Data Engineer", "ML Engineer", "Chargée de projet IA/Data"],
+    "secteurs_interet": ["Data Engineering", "Intelligence Artificielle", "Analyse de données", "Projets internationaux"],
+    "localisation_souhaitee": "Bordeaux ou télétravail/hybride",
+    "disponibilite": "Septembre 2025",
+    "valeur_ajoutee": "Double compétence métier (8 ans gestion de projets internationaux) + technique (data/IA). Pont idéal entre équipes business et tech."
+  },
+
+  "parcours_international": {
+    "france": ["Paris", "Lyon", "Bordeaux", "Oullins", "Cognac"],
+    "senegal": "Dakar (2018, programme Écozone, 1 an)",
+    "europe": "Programmes européens multi-pays via Erasmus+ et Horizon Europe"
+  },
+
+  "a_propos_du_portfolio": {
+    "concept": "Portfolio interactif basé sur le concept de dualité : un switch entre deux univers visuels (Stratège et Tech)",
+    "mode_stratege": "Élégance institutionnelle — tons ivoire, or et marine. Police Playfair Display. Ton formel et structuré.",
+    "mode_tech": "Cyberpunk raffiné — noir profond, accents néon cyan/magenta. Police JetBrains Mono. Ton décontracté et technique.",
+    "gamification": "Barre de progression, badges à débloquer en explorant le site",
+    "easter_egg": "Le Konami Code (↑↑↓↓←→←→BA) débloque Le Dilemme du Recruteur, un mini-jeu de théorie des jeux",
+    "chatbot": "Assistant IA RAG alimenté par Groq (Llama 3.3), avec personnalité adaptée au mode actif",
+    "stack": "Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Zustand, Three.js, GSAP"
+  }
+}

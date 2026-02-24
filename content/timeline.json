@@ -1,0 +1,223 @@
+{
+  "experiences": [
+    {
+      "id": "niamato",
+      "type": "experience",
+      "title": "Consultant Senior en Ingénierie de Projets Européens & Stratégie",
+      "organization": "Niamato Consulting (Indépendant)",
+      "location": "Bordeaux, Nouvelle-Aquitaine, France · Hybride",
+      "startDate": "2021-01",
+      "endDate": null,
+      "duration": "5 ans+",
+      "description": {
+        "strategist": "Depuis 2021, j'accompagne les organisations de la société civile, les institutions et les acteurs culturels dans le développement et la pérennisation de leurs projets internationaux. Mon intervention couvre l'intégralité du cycle de projet, avec une spécialisation sur les programmes de financement européens (Erasmus+, Horizon Europe).",
+        "tech": "Conseil stratégique avec une approche data-driven : conception de cadres logiques, modélisation budgétaire, définition de KPIs et mise en place de systèmes de suivi. Automatisation des processus de reporting pour les bailleurs européens."
+      },
+      "achievements": [
+        "Pilotage & levée de fonds : conception et rédaction de demandes de subventions complexes",
+        "Sécurisation de financements pluriannuels (Erasmus+, Horizon Europe)",
+        "Développement de consortiums transnationaux Europe/Afrique de l'Ouest",
+        "Audit organisationnel et structuration pour bailleurs internationaux",
+        "Supervision de la mise en œuvre, suivi des KPIs, reporting narratif et financier"
+      ],
+      "skills": ["Ingénierie de projet", "Financements européens", "Stratégie", "Gestion de consortiums", "Reporting UE"],
+      "highlight": true,
+      "current": true
+    },
+    {
+      "id": "erasmus",
+      "type": "experience",
+      "title": "Ingénieure d'accompagnement des porteurs de projets",
+      "organization": "Agence Erasmus+ France",
+      "location": "Bordeaux",
+      "startDate": "2021-01",
+      "endDate": "2024-12",
+      "duration": "4 ans",
+      "description": {
+        "strategist": "Accompagnement stratégique des porteurs de projets européens. Gestion de portefeuilles multi-projets, analyse des indicateurs pour le reporting institutionnel, coordination avec les partenaires européens et formation des équipes.",
+        "tech": "4 ans d'analyse de données déguisée en gestion de projet : extraction et nettoyage de données pour le reporting, construction de tableaux de bord de suivi, analyse de KPIs. SQL sur Excel avant de connaître SQL."
+      },
+      "achievements": [
+        "Accompagnement de 50+ projets Erasmus+",
+        "Mise en place de tableaux de bord de suivi",
+        "Formation des équipes aux outils de reporting",
+        "Coordination avec les partenaires européens"
+      ],
+      "skills": ["Gestion de projet", "Analyse de données", "Reporting", "Coordination européenne", "Formation"],
+      "highlight": false
+    },
+    {
+      "id": "dakar",
+      "type": "experience",
+      "title": "Cheffe de Projet / Responsable Programme Écozone",
+      "organization": "GS Écologie Urbaine",
+      "location": "Dakar, Sénégal",
+      "startDate": "2018-02",
+      "endDate": "2018-12",
+      "duration": "1 an",
+      "description": {
+        "strategist": "Pilotage d'un programme de développement urbain durable. Coordination d'équipes pluridisciplinaires, gestion des relations avec les bailleurs, structuration de la capitalisation des savoirs sur 10 ans de recherche-action.",
+        "tech": "Mission terrain intense : création de systèmes de collecte de données from scratch, structuration de 10 ans de données non formalisées, mise en place de processus de capitalisation et d'archivage numérique."
+      },
+      "achievements": [
+        "Structuration d'un programme suspendu",
+        "Création de Living Labs urbains",
+        "Capitalisation de 10 ans de recherche-action",
+        "Management d'une équipe de 12 personnes"
+      ],
+      "skills": ["Management", "Développement durable", "Capitalisation", "Partenariats", "Gestion d'équipe"],
+      "highlight": true,
+      "special": "dakar-connection"
+    },
+    {
+      "id": "oullins",
+      "type": "experience",
+      "title": "Chargée de Mission",
+      "organization": "Service Politique de la Ville - Mairie d'Oullins",
+      "location": "Oullins, Rhône",
+      "startDate": "2019-07",
+      "endDate": "2019-12",
+      "duration": "6 mois",
+      "description": {
+        "strategist": "Analyse des besoins sportifs locaux et formulation de recommandations stratégiques basées sur des enquêtes terrain et l'analyse des données collectées.",
+        "tech": "Première vraie mission data : collecte de données avec Kobo Toolbox, analyse quantitative des résultats, visualisation et présentation des insights aux élus."
+      },
+      "achievements": [
+        "Diagnostic territorial complet",
+        "Recommandations adoptées par la mairie",
+        "Enquêtes terrain auprès des habitants"
+      ],
+      "skills": ["Diagnostic territorial", "Kobo Toolbox", "Analyse de données", "Recommandations stratégiques"],
+      "highlight": false
+    },
+    {
+      "id": "apf",
+      "type": "experience",
+      "title": "Chargée de développement des actions associatives",
+      "organization": "APF France Handicap",
+      "location": "Paris",
+      "startDate": "2016-01",
+      "endDate": "2017-12",
+      "duration": "2 ans",
+      "description": {
+        "strategist": "Coordination de projets visant à rompre l'isolement des personnes en situation de handicap. Rédaction de projets, suivi d'indicateurs d'impact social, lien avec les structures médico-sociales.",
+        "tech": "Gestion de base de données de bénévoles, mise en place d'indicateurs d'impact social, création des premiers dashboards de pilotage de l'activité."
+      },
+      "achievements": [
+        "Relance du réseau Les Cordées",
+        "200+ personnes accompagnées",
+        "Partenariats avec structures médico-sociales"
+      ],
+      "skills": ["Inclusion", "Coordination", "Indicateurs d'impact", "Animation de réseau"],
+      "highlight": false
+    },
+    {
+      "id": "aserc",
+      "type": "experience",
+      "title": "Coordinatrice de projets de mobilité européenne",
+      "organization": "Association Socio Educative de la Région de Cognac (ASERC)",
+      "location": "Nouvelle-Aquitaine, France",
+      "startDate": "2015-01",
+      "endDate": "2016-09",
+      "duration": "1 an 9 mois",
+      "description": {
+        "strategist": "Pilotage des demandes de financement Erasmus+, conception et animation de formations, développement d'outils d'évaluation, réalisation de diagnostics socio-économiques et gestion des ressources humaines et financières.",
+        "tech": "Gestion de projet avec focus sur les outils : création de supports de formation, développement d'outils d'évaluation, mise en place de plans de communication et reporting aux financeurs."
+      },
+      "achievements": [
+        "Pilotage des demandes Erasmus+",
+        "Conception et animation de formations",
+        "Développement d'outils d'évaluation",
+        "Gestion des ressources humaines et financières"
+      ],
+      "skills": ["Erasmus+", "Formation", "Évaluation", "Gestion RH", "Communication"],
+      "highlight": false
+    },
+    {
+      "id": "adif",
+      "type": "experience",
+      "title": "Chargée de projets",
+      "organization": "ADIF",
+      "location": "France",
+      "startDate": "2013-10",
+      "endDate": "2014-07",
+      "duration": "10 mois",
+      "description": {
+        "strategist": "Gestion de projets Erasmus+ et de coopération Nord/Sud. Animation d'échanges de jeunes et de formations sur la lutte contre les discriminations.",
+        "tech": "Première expérience en gestion de projet européen : coordination logistique, suivi budgétaire, animation d'ateliers et reporting aux partenaires."
+      },
+      "achievements": [
+        "Gestion de projets Erasmus+ et coopération Nord/Sud",
+        "Animation d'échanges de jeunes",
+        "Formations sur la lutte contre les discriminations"
+      ],
+      "skills": ["Erasmus+", "Coopération internationale", "Animation", "Lutte contre les discriminations"],
+      "highlight": false
+    }
+  ],
+  
+  "education": [
+    {
+      "id": "supdevinci",
+      "type": "education",
+      "title": "Mastère Big Data & Intelligence Artificielle",
+      "organization": "Sup de Vinci",
+      "location": "Bordeaux",
+      "startDate": "2025-09",
+      "endDate": "2027-09",
+      "status": "En cours (alternance)",
+      "description": {
+        "strategist": "Formation en alternance combinant mon expertise en gestion de projet avec des compétences techniques avancées en data science et intelligence artificielle.",
+        "tech": "Deep dive en Machine Learning, Python avancé, architectures Big Data et MLOps. Objectif : devenir le pont entre le métier et la tech."
+      },
+      "skills": ["Python", "SQL", "Machine Learning", "Big Data", "ETL", "MLOps"],
+      "highlight": true,
+      "current": true
+    },
+    {
+      "id": "bioforce",
+      "type": "education",
+      "title": "Coordinateur de Projet de Solidarité Internationale",
+      "organization": "Institut Bioforce",
+      "location": "Lyon",
+      "startDate": "2019-01",
+      "endDate": "2019-12",
+      "description": {
+        "strategist": "Formation professionnalisante intensive en gestion de projets humanitaires : cycle de projet, gestion d'équipe, logistique, relations avec les bailleurs de fonds.",
+        "tech": "Formation complète en ingénierie de projet : cadres logiques, définition d'indicateurs, gestion budgétaire avancée, outils de planification et de suivi."
+      },
+      "skills": ["Gestion de projet humanitaire", "Cycle de projet", "Bailleurs de fonds", "Logistique"],
+      "highlight": false
+    },
+    {
+      "id": "master",
+      "type": "education",
+      "title": "Master Sciences Politiques — Action Humanitaire Internationale",
+      "organization": "Université Paris-Est Créteil",
+      "location": "Paris",
+      "startDate": "2017-09",
+      "endDate": "2018-09",
+      "description": {
+        "strategist": "Formation académique en relations internationales et action humanitaire, avec un focus sur les politiques publiques et la coopération internationale.",
+        "tech": "Bases solides en analyse politique et méthodologie de recherche. Premier contact avec l'analyse quantitative appliquée aux sciences sociales."
+      },
+      "skills": ["Sciences politiques", "Relations internationales", "Méthodologie de recherche", "Analyse"],
+      "highlight": false
+    },
+    {
+      "id": "licence",
+      "type": "education",
+      "title": "Licence Pro Gestion des Organisations de l'Économie Sociale et Solidaire",
+      "organization": "Université Paris-Est Marne-la-Vallée",
+      "location": "Paris",
+      "startDate": "2016-09",
+      "endDate": "2017-06",
+      "description": {
+        "strategist": "Formation en économie sociale et solidaire : gestion associative, entrepreneuriat social, modèles économiques alternatifs et gouvernance participative.",
+        "tech": "Introduction à la gestion organisationnelle et aux indicateurs de performance dans le secteur non-lucratif."
+      },
+      "skills": ["Économie sociale et solidaire", "Gestion associative", "Entrepreneuriat social", "Gouvernance"],
+      "highlight": false
+    }
+  ]
+}
