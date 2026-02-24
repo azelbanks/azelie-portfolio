@@ -404,10 +404,10 @@ export function Journey() {
   const [filter, setFilter] = useState<'all' | 'experience' | 'education'>('all');
   
   // Combiner et trier les données
-  const allItems: TimelineItem[] = [
+  const allItems = ([
     ...timelineData.experiences,
     ...timelineData.education
-  ].sort((a, b) => {
+  ] as TimelineItem[]).sort((a, b) => {
     if (a.current && !b.current) return -1;
     if (!a.current && b.current) return 1;
     return b.startDate.localeCompare(a.startDate);
