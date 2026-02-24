@@ -1,18 +1,19 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
-import Particles from '@tsparticles/react';
+import { useEffect, useState, useMemo } from 'react';
+import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadSlim } from '@tsparticles/slim';
-import type { Engine, ISourceOptions } from '@tsparticles/engine';
+import type { ISourceOptions } from '@tsparticles/engine';
 import { useAppStore } from '@/lib/store';
 
 export function ParticleField() {
   const mode = useAppStore((state) => state.mode);
   const [isReady, setIsReady] = useState(false);
 
-  const particlesInit = useCallback(async (engine: Engine) => {
-    await loadSlim(engine);
-    setIsReady(true);
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
+    }).then(() => setIsReady(true));
   }, []);
 
   const strategistOptions: ISourceOptions = {
@@ -199,13 +200,14 @@ export function ParticleField() {
 
   const options = mode === 'strategist' ? strategistOptions : techOptions;
 
+  if (!isReady) return null;
+
   return (
     <Particles
       id="hero-particles"
       className="absolute inset-0 z-0"
-      init={particlesInit}
       options={options}
-      key={mode} // Force re-render on mode change
+      key={mode}
     />
   );
 }
