@@ -158,7 +158,7 @@ export async function POST(request: NextRequest) {
       const errorText = await groqResponse.text();
       console.error('Groq API error:', groqResponse.status, errorText);
       return new Response(
-        JSON.stringify({ error: 'LLM service error' }),
+        JSON.stringify({ error: `LLM service error: ${groqResponse.status}` }),
         { status: 502, headers: { 'Content-Type': 'application/json' } }
       );
     }
