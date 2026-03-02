@@ -175,12 +175,22 @@ export async function POST(request: NextRequest) {
         }
 
         try {
+          let buffer = '';
+
           while (true) {
             const { done, value } = await reader.read();
             if (done) break;
 
-            const chunk = decoder.decode(value, { stream: true });
-            const lines = chunk.split('\n').filter(line => line.trim() !== '');
+            buffer += decoder.decode(value, { stream: true });
+
+            // Process only complete lines (ending with \n)
+            const lastNewline = buffer.lastIndexOf('\n');
+            if (lastNewline === -1) continue;
+
+            const complete = buffer.slice(0, lastNewline);
+            buffer = buffer.slice(lastNewline + 1);
+
+            const lines = complete.split('\n').filter(line => line.trim() !== '');
 
             for (const line of lines) {
               if (line.startsWith('data: ')) {
@@ -199,7 +209,7 @@ export async function POST(request: NextRequest) {
                     );
                   }
                 } catch {
-                  // Skip malformed chunks
+                  // Skip malformed JSON
                 }
               }
             }
