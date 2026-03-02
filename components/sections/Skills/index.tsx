@@ -287,7 +287,7 @@ export function Skills() {
           <p className="text-lg text-foreground-muted max-w-2xl mx-auto mb-6">
             {mode === 'strategist' 
               ? 'Plus de 10 ans d\'expérience en gestion de projets européens et internationaux.'
-              : 'En reconversion vers la data et l\'IA, avec une solide base en gestion de projet.'}
+              : '10+ ans de gestion de projets complexes, désormais renforcés par la data et l\'IA.'}
           </p>
           
           {/* Légende des niveaux */}

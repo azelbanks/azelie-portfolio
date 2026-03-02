@@ -228,7 +228,7 @@ export function About() {
                 'font-heading font-semibold mb-3 text-foreground-primary',
                 !isStrategist && 'font-mono'
               )}>
-                {isStrategist ? 'Pourquoi cette reconversion ?' : '// motivation.reason'}
+                {isStrategist ? 'Pourquoi cette évolution ?' : '// motivation.reason'}
               </h3>
               <p className="text-foreground-secondary text-sm leading-relaxed">
                 {profileData.why}

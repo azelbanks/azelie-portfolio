@@ -134,7 +134,7 @@ export function Hero() {
                   ? [
                       'Ingénieure de Projets Européens',
                       'Cheffe de Projet',
-                      'Data Analyst en devenir',
+                      'Data & IA en consolidation',
                       'Profil Hybride',
                     ]
                   : [
