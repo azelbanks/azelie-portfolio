@@ -1,65 +1,182 @@
 {
   "qa": [
     {
+      "question": "Bonjour",
+      "alternates": ["Hello", "Hey", "Salut", "Coucou", "Hi"],
+      "answer": {
+        "strategist": "Bonjour et bienvenue sur le portfolio d'Azélie Bernard ! Je suis son assistante virtuelle. N'hésitez pas à me poser des questions sur son parcours, ses compétences ou ses projets.",
+        "tech": "Salut ! Bienvenue sur le portfolio d'Azélie. Pose-moi tes questions sur son parcours, ses compétences, ses projets — je suis là pour ça."
+      },
+      "category": "meta"
+    },
+    {
       "question": "Qui est Azélie Bernard ?",
       "alternates": ["Présente-toi", "C'est qui Azélie ?", "Who is Azélie?", "Dis-moi qui tu représentes"],
       "answer": {
-        "strategist": "Azélie Bernard a 30 ans et vit à Bordeaux. Elle a 8 ans d'expérience en ingénierie de projets européens (Erasmus+, Horizon Europe). Elle est actuellement en reconversion vers la data et l'IA, et prépare un Mastère Big Data & Intelligence Artificielle à Sup de Vinci en alternance à partir de septembre 2025.",
-        "tech": "Azélie Bernard, 30 ans, basée à Bordeaux. Background : 8 ans d'ingénierie de projets européens. Actuellement en transition vers la `data/IA` — Mastère Big Data & IA à Sup de Vinci (alternance, sept. 2025). Elle code en Python, SQL, et construit des dashboards Power BI."
+        "strategist": "Azélie Bernard est une professionnelle de l'impact avec plus de 10 ans d'expérience en gestion de projets complexes et internationaux. Elle développe aujourd'hui une expertise technique en Big Data et IA dans le cadre d'un M1 à Sup de Vinci. Son profil hybride relie **vision stratégique**, **maturité organisationnelle** et **compétences data/IA en consolidation active**.",
+        "tech": "Azélie Bernard, 31 ans, basée à Bordeaux. 10+ ans de gestion de projets internationaux, maintenant en `data/IA`. Elle fait un M1 Big Data & IA à Sup de Vinci et consolide son stack : `Python`, `SQL`, `Power BI`, `ML`. Le genre de profil qui comprend le `WHY` autant que le `HOW`."
       },
       "category": "personal"
     },
     {
-      "question": "Pourquoi Azélie fait une reconversion vers la data/IA ?",
-      "alternates": ["Why the career change?", "Pourquoi quitter la gestion de projet?", "Pourquoi la reconversion?"],
+      "question": "Pourquoi Azélie s'est tournée vers la data/IA ?",
+      "alternates": ["Why the career change?", "Pourquoi quitter la gestion de projet?", "Pourquoi la data?", "Pourquoi l'IA?", "Pourquoi ce changement?"],
       "answer": {
-        "strategist": "Après 8 ans à piloter des projets complexes de Dakar à Bruxelles, Azélie a réalisé qu'elle ne voulait plus seulement analyser la donnée, mais la faire parler. Sa reconversion vers l'IA est une continuité logique : utiliser le machine learning pour amplifier ce qu'elle a toujours fait — transformer le chaos en décisions concrètes.",
-        "tech": "8 ans à manipuler des données sans le savoir — indicateurs, cadres logiques, dashboards. Elle pensait déjà en systèmes. Maintenant elle code ce qu'elle analysait. Même mission, stack différente. `from project_manager import data_engineer`"
+        "strategist": "La donnée était déjà au cœur de ses projets depuis plus de 10 ans : indicateurs de performance, cadres logiques, tableaux de bord, analyses d'impact. Azélie a voulu passer de l'analyse stratégique à la maîtrise technique. Ce n'est pas une rupture, c'est une **évolution stratégique** — une montée en complexité cohérente vers la maîtrise des systèmes.",
+        "tech": "10 ans à manipuler des données en mode `gestionnaire` — KPIs, cadres logiques, reporting multi-sources. Elle pensait déjà en `systèmes`. Maintenant elle code ce qu'elle analysait. Même mission, stack différente. `from strategic_analyst import data_engineer`"
       },
       "category": "background"
     },
     {
-      "question": "Quelles sont les qualités d'Azélie ?",
-      "alternates": ["Ses soft skills?", "What are her strengths?", "Points forts?", "Ses atouts?"],
+      "question": "Est-elle techniquement autonome ?",
+      "alternates": ["Son niveau technique?", "Elle sait coder seule?", "Is she technically independent?", "Autonomie technique?"],
       "answer": {
-        "strategist": "Azélie se distingue par sa capacité à structurer la complexité, son aisance dans la coordination multi-acteurs et sa vision systémique. 8 ans de gestion de consortiums européens lui ont forgé une rigueur et une adaptabilité rares.",
-        "tech": "Pensée systémique, gestion multi-projets en parallèle, communication claire entre équipes techniques et métier. Elle sait transformer le chaos organisationnel en processus structurés. Bref : elle `debug` les systèmes humains depuis 2013."
+        "strategist": "Azélie consolide activement son autonomie technique dans le cadre d'un M1 Big Data & IA exigeant. En **Power BI**, elle maîtrise solidement la logique des dashboards et de la visualisation. En **SQL**, elle manie les requêtes analytiques intermédiaires. En **Python**, elle progresse de manière structurée. Son objectif est d'aligner profondeur technique et vision stratégique.",
+        "tech": "En `Power BI` : solide, la logique des dashboards est acquise. En `SQL` : requêtes analytiques intermédiaires, ok. En `Python` : en progression dans le cadre du M1. Ce qui la distingue : elle comprend la `logique` derrière les outils, pas juste la syntaxe. Et elle apprend vite."
+      },
+      "category": "skills"
+    },
+    {
+      "question": "Est-elle junior ou expérimentée ?",
+      "alternates": ["Quel est son niveau?", "C'est une débutante?", "Is she junior?", "Niveau d'expérience?"],
+      "answer": {
+        "strategist": "Techniquement, Azélie est en consolidation de compétences. Professionnellement, elle est **expérimentée** : plus de 10 ans de gestion de projets, de budgets supérieurs à 1M€, de partenariats internationaux et de pilotage d'indicateurs. Elle n'est pas une débutante du monde du travail. Elle construit une nouvelle compétence technique sur une base professionnelle solide.",
+        "tech": "Techniquement : en montée en compétence active. Professionnellement : 10+ ans d'XP, budgets > 1M€, 50+ projets pilotés, management d'équipes jusqu'à 12 personnes. Elle n'est pas `junior` — elle ajoute une nouvelle `stack` à un profil déjà senior en gestion de projet."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Est-elle capable de leadership ?",
+      "alternates": ["Leadership?", "Elle sait manager?", "Can she lead?", "Compétences managériales?"],
+      "answer": {
+        "strategist": "Oui, un leadership **structurant** et **éthique**. Azélie sait cadrer un projet, clarifier des objectifs, aligner des parties prenantes et responsabiliser les équipes. Elle a managé jusqu'à 12 personnes à Dakar dans un contexte interculturel exigeant. Son leadership ne repose pas sur l'autorité hiérarchique mais sur la structuration et la responsabilité.",
+        "tech": "Leadership confirmé : management de 12 personnes à Dakar, coordination de 50+ projets européens, pilotage de consortiums multi-pays. Son style : elle `structure`, elle `clarifie`, elle `responsabilise`. Pas du leadership d'ego — du leadership qui rend le système plus fluide."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Pourquoi devrait-on la recruter ?",
+      "alternates": ["Why should I hire her?", "Pourquoi elle et pas quelqu'un d'autre?", "Qu'est-ce qu'elle apporte?", "Pourquoi recruter Azélie?"],
+      "answer": {
+        "strategist": "Azélie combine **maturité professionnelle**, **vision stratégique**, **montée en compétence technique** et **sens de l'impact**. Elle ne vient pas chercher un poste, elle vient construire une trajectoire durable. Son profil hybride est rare : elle comprend les enjeux métier autant que les contraintes techniques. C'est le pont idéal entre les équipes business et tech.",
+        "tech": "Profil hybride rare : 10+ ans de compréhension métier + compétences `data/IA` en consolidation. La plupart des data engineers apprennent la data d'abord, le métier ensuite. Azélie a fait l'inverse : 10 ans à comprendre `POURQUOI` la donnée compte, puis apprendre `COMMENT` la traiter."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Est-elle stable ou va-t-elle encore changer de voie ?",
+      "alternates": ["Is she stable?", "Va-t-elle changer encore?", "Parcours instable?", "Stabilité?"],
+      "answer": {
+        "strategist": "Son parcours montre une **progression cohérente** vers plus de profondeur, pas une instabilité. Humanitaire → gestion de projet → pilotage d'indicateurs → data → IA. C'est une montée en complexité. La data et l'IA sont une extension logique de son expertise en structuration et en impact. Ce n'est pas un changement opportuniste, c'est une **spirale ascendante**.",
+        "tech": "Regarde la trajectoire : `humanitaire → gestion_projet → indicateurs → data → IA`. Chaque étape ajoute une couche de complexité technique. C'est un `upgrade` progressif, pas un `pivot` aléatoire. La direction est claire : relier `impact` + `organisation` + `technologie`."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Quelles sont ses zones de vigilance ?",
+      "alternates": ["Ses défauts?", "Weaknesses?", "Points faibles?", "Axes d'amélioration?"],
+      "answer": {
+        "strategist": "Azélie identifie trois traits à canaliser : un **perfectionnisme** qui la pousse à vouloir comprendre en profondeur avant d'agir, une **exigence élevée** envers elle-même, et une tension entre sens et pragmatisme. Ces traits sont maîtrisés et canalisés — le perfectionnisme devient rigueur, l'exigence devient moteur de progression.",
+        "tech": "Elle le dit clairement : `perfectionnisme` (veut trop comprendre avant de shipper), `exigence élevée` (parfois dure avec elle-même), et elle a besoin de comprendre le `WHY` avant le `HOW`. Mais ces traits sont canalisés : le perfectionnisme = rigueur, l'exigence = qualité."
       },
       "category": "personal"
     },
     {
-      "question": "Pourquoi recruter Azélie ?",
-      "alternates": ["Why should I hire her?", "Pourquoi elle et pas quelqu'un d'autre?", "Qu'est-ce qu'elle apporte?"],
+      "question": "Quel environnement lui convient ?",
+      "alternates": ["Environnement de travail?", "Work environment?", "Ce qu'elle cherche?", "Conditions idéales?"],
       "answer": {
-        "strategist": "Azélie apporte un profil rare : une double compétence alliant 8 ans d'ingénierie de projets internationaux et une formation avancée en Big Data et IA. Elle comprend les enjeux métier autant que les contraintes techniques. C'est le pont idéal entre les équipes business et tech.",
-        "tech": "Profil hybride rare : 8 ans de compréhension métier + compétences data/IA en montée. Elle ne fait pas que construire des modèles — elle comprend pourquoi la donnée compte. Le pont parfait entre l'équipe data et les stakeholders."
+        "strategist": "Azélie s'épanouit dans un environnement **stimulant** avec des projets complexes, une **culture d'apprentissage**, un **impact réel** et une responsabilité progressive. Elle a besoin de missions qui la challengent. Elle ne cherche pas le confort, elle cherche la progression.",
+        "tech": "Environnement idéal : projets complexes, culture de `learning`, impact réel, responsabilité progressive. Elle ne cherche pas un poste pépère — elle veut des missions qui la `challenge`. Un endroit où on apprend autant qu'on livre."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Quelles sont ses valeurs ?",
+      "alternates": ["Her values?", "Ses principes?", "En quoi elle croit?", "Values?"],
+      "answer": {
+        "strategist": "Quatre valeurs fondamentales guident Azélie : la **responsabilité** (la technologie n'est pas neutre), l'**humilité** (condition de croissance), l'**exigence** (dans la qualité et la cohérence), et le **sens** (comprendre pourquoi avant de s'engager). Ces valeurs se traduisent concrètement dans ses choix de projets et sa manière de travailler.",
+        "tech": "4 `core values` : `responsabilité` (la tech a des conséquences), `humilité` (savoir ce qu'on ne sait pas), `exigence` (pas de travail superficiel), `sens` (besoin du `WHY`). C'est pas juste des mots — ça drive ses choix de projets et sa manière de bosser."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Quelle est son éthique sur l'IA ?",
+      "alternates": ["AI ethics?", "Son rapport à l'IA?", "Position sur l'IA?", "Éthique IA?"],
+      "answer": {
+        "strategist": "Azélie considère que l'IA doit être **explicable**, **maîtrisée** et **alignée avec des objectifs responsables**. Elle refuse l'IA gadget et l'illusion technologique. Pour elle, la donnée doit servir la vérité opérationnelle, pas raconter des histoires flatteuses. La performance et la responsabilité ne sont pas dissociables.",
+        "tech": "Sa position est claire : l'IA doit être `explicable`, `maîtrisée` et `responsable`. Pas d'`IA gadget`, pas d'`illusion tech`. La data sert la vérité opérationnelle, pas le storytelling. Si un modèle est performant mais éthiquement discutable, c'est un `red flag` pour elle."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Quelles sont ses ambitions ?",
+      "alternates": ["Ses objectifs?", "Career goals?", "Où elle se voit?", "Ambitions?", "Projections?"],
+      "answer": {
+        "strategist": "À moyen terme, Azélie vise un rôle d'**AI Engineer à impact** ou de **cheffe de projet IA** avec un socle technique solide. Elle veut être capable de relier enjeux métier, stratégie organisationnelle, architecture data et implémentation technique. Elle souhaite contribuer à des projets dans la **santé**, l'**environnement**, l'**humanitaire** et les **politiques publiques**.",
+        "tech": "Objectif : `AI Engineer` orientée impact ou `cheffe de projet IA` avec crédibilité technique. Stack cible : relier `besoin_métier ↔ architecture_data ↔ implémentation`. Secteurs : `santé`, `environnement`, `humanitaire`, `politiques publiques`. Pas de la tech pour la tech — de la tech pour le `changement`."
       },
       "category": "hiring"
     },
     {
       "question": "Elle cherche quoi comme poste ?",
-      "alternates": ["What kind of job?", "Quel type d'alternance?", "What is she looking for?", "Disponibilité?"],
+      "alternates": ["What kind of job?", "Quel type de poste?", "What is she looking for?", "Disponibilité?"],
       "answer": {
-        "strategist": "Azélie recherche une alternance en Data Engineering ou IA à partir de septembre 2025, dans le cadre de son Mastère Big Data & Intelligence Artificielle à Sup de Vinci à Bordeaux. Elle souhaite un environnement où ses compétences en gestion de projet enrichissent sa montée en compétences techniques.",
-        "tech": "Recherche : alternance à partir de septembre 2025. Postes visés : Data Engineer, ML Engineer, ou projet IA. Stack : Python, SQL, Power BI, Machine Learning. Bonus si l'entreprise valorise les profils qui font le pont entre l'équipe data et le métier."
+        "strategist": "Azélie recherche un **CDI** en tant qu'AI Engineer, Cheffe de projet IA ou Data Engineer. Elle est ouverte à des postes en **France**, à l'**international** ou en **full remote**. Elle poursuit en parallèle un M1 Big Data & IA à Sup de Vinci en alternance. Elle cherche un environnement où ses compétences stratégiques et son socle technique en consolidation peuvent créer de la valeur.",
+        "tech": "Recherche : `CDI`. Postes visés : `AI Engineer`, `Cheffe de projet IA`, `Data Engineer`. Localisation : France, international ou `full remote`. Elle fait aussi un M1 Big Data & IA à Sup de Vinci en alternance. Bonus si l'entreprise valorise les profils qui font le pont entre la `data` et le `métier`."
       },
       "category": "hiring"
     },
     {
-      "question": "C'est quoi ce portfolio ?",
-      "alternates": ["How was this site built?", "Comment ce site a été fait?", "C'est quoi ce site?"],
+      "question": "Quelles sont ses qualités ?",
+      "alternates": ["Ses soft skills?", "What are her strengths?", "Points forts?", "Ses atouts?"],
       "answer": {
-        "strategist": "Ce portfolio interactif illustre la dualité d'Azélie : un mode Stratège élégant et institutionnel, et un mode Tech au design cyberpunk. Il intègre de la gamification avec des badges et un système de progression pour rendre la découverte du profil plus engageante.",
-        "tech": "Stack : Next.js 14 + TypeScript + Tailwind CSS + Framer Motion + Zustand. Features : dual-mode theming via CSS variables, système de gamification avec badges, easter egg (Dilemme du Prisonnier), et ce chatbot RAG avec Groq/Mixtral."
+        "strategist": "Azélie se distingue par sa **vision systémique**, sa capacité à **structurer la complexité**, son **aisance interculturelle** et sa **maturité organisationnelle**. Plus de 10 ans de gestion de consortiums européens lui ont forgé une rigueur et une adaptabilité rares. Sa force est de comprendre les systèmes dans leur globalité — les interactions, les dépendances, les enjeux humains.",
+        "tech": "Pensée `systémique`, gestion multi-projets en parallèle, communication claire entre équipes techniques et métier. Elle sait transformer le chaos organisationnel en processus structurés. 10+ ans de coordination multi-pays, ça forge une capacité à `debugger` les systèmes humains."
       },
-      "category": "meta"
+      "category": "personal"
+    },
+    {
+      "question": "Comment se positionne-t-elle face aux profils purement techniques ?",
+      "alternates": ["Vs profils techniques?", "Compared to developers?", "Vs data engineers?", "Face à un dev senior?"],
+      "answer": {
+        "strategist": "Azélie ne prétend pas rivaliser avec un développeur senior sur la maîtrise du code. Sa valeur est ailleurs : elle comprend **pourquoi** la donnée compte, pas seulement **comment** la traiter. Beaucoup de profils purement techniques excellent en implémentation mais peinent sur la dimension stratégique et humaine des projets. Azélie est un **pont** entre ces deux mondes — et c'est un profil que les organisations recherchent de plus en plus.",
+        "tech": "Elle ne va pas battre un dev senior sur un `code review`. Mais combien de devs seniors savent traduire un besoin métier en architecture data, piloter un budget de 1M€ ET comprendre les enjeux interculturels d'un projet ? Sa force c'est le `full stack` au sens large : `métier + stratégie + data + humain`."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Est-elle plus stratège ou technicienne ?",
+      "alternates": ["Strategist or technical?", "Exécutante ou stratège?", "Son profil dominant?", "Executive vs strategic?"],
+      "answer": {
+        "strategist": "Son potentiel dominant est **stratégique**, et elle développe activement son socle exécutif technique pour rendre ce potentiel crédible. Elle ne veut être ni une stratège sans compréhension technique, ni une technicienne sans vision. Elle se projette comme une **architecte de transformation** — capable de relier vision et exécution, humain et technique, stratégie et donnée.",
+        "tech": "Son `main()` est stratégique. Mais elle `build` son socle technique pour que ça compile. Elle veut pas être une stratège qui parle de tech sans comprendre, ni une dev isolée sans vision produit. Elle veut être le `bridge` : `strategy.connect(implementation)`."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "C'est quoi l'expérience au Togo ?",
+      "alternates": ["Le voyage au Togo?", "Togo experience?", "Son voyage humanitaire?", "Le déclic?"],
+      "answer": {
+        "strategist": "En janvier 2013, Azélie est partie au Togo pour participer à la construction d'une école — son premier voyage en avion. Cette expérience a été un **pivot fondateur** : elle y a découvert la puissance de l'échange interculturel, l'humilité face à d'autres réalités de vie, et la conviction que l'éducation transforme les destins. Elle a laissé derrière elle une pierre pour améliorer l'avenir des enfants, et elle a emporté une conviction qui guide toute sa trajectoire.",
+        "tech": "Janvier 2013, Togo. Premier vol, première mission humanitaire, premier `commit` sur sa trajectoire. Construction d'une école — pas juste poser des briques, mais contribuer à un `système éducatif`. Le `return` de cette mission : une conviction profonde que la tech doit servir l'impact réel. C'est le `seed` de tout ce qui a suivi."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Quels sont ses centres d'intérêt ?",
+      "alternates": ["Hobbies?", "Ses passions?", "What does she like?", "Loisirs?", "Centres d'intérêt?"],
+      "answer": {
+        "strategist": "Azélie est animée par une curiosité expansive : elle adore **cuisiner et faire de la pâtisserie** (un espace d'expérimentation et de précision), explorer la **gastronomie** — en particulier les cuisines fusion qui mêlent les cultures dans une assiette. Elle aime **voyager**, découvrir de nouvelles cultures, et regarde beaucoup de **séries historiques** pour comprendre les dynamiques de pouvoir. L'apprentissage continu est central dans sa vie.",
+        "tech": "Hors code : cuisine et pâtisserie (elle optimise des recettes comme des algorithmes), gastronomie fusion (le `merge` des cultures dans une assiette), voyages et découverte culturelle, séries historiques (pour le `lore` des dynamiques de pouvoir). En résumé : elle `explore` en permanence, que ce soit un nouveau pays ou un nouveau framework."
+      },
+      "category": "personal"
     },
     {
       "question": "C'est quoi l'expérience à Dakar ?",
       "alternates": ["Tell me about Senegal", "Parle-moi du Sénégal", "L'expérience au Sénégal?"],
       "answer": {
-        "strategist": "En 2018, Azélie a dirigé le programme Écozone à Dakar pour GS Écologie Urbaine pendant un an. Elle a structuré un programme qui était suspendu, créé des Living Labs urbains et capitalisé 10 ans de recherche-action en développement durable. Elle a managé une équipe de 12 personnes dans un contexte interculturel exigeant.",
-        "tech": "Dakar, 2018 — mission d'un an chez GS Écologie Urbaine. Elle a restructuré un programme suspendu, créé des systèmes de collecte de données from scratch, numérisé 10 ans de données non structurées, et managé 12 personnes. En gros : de l'ETL sur du chaos réel, version humaine."
+        "strategist": "En 2018, Azélie a dirigé le programme Écozone à Dakar pour GS Écologie Urbaine pendant un an. Elle a **structuré un programme qui était suspendu**, créé des Living Labs urbains et capitalisé 10 ans de recherche-action en développement durable. Elle a managé une équipe de **12 personnes** dans un contexte interculturel exigeant. Cette mission démontre sa capacité à prendre en main des situations complexes et à livrer des résultats concrets.",
+        "tech": "Dakar, 2018 — mission d'un an chez GS Écologie Urbaine. Elle a restructuré un programme suspendu, créé des systèmes de collecte de données `from scratch`, numérisé 10 ans de données non structurées, et managé 12 personnes. En gros : du `ETL` sur du chaos réel, version humaine, dans un environnement interculturel."
       },
       "category": "background"
     },
@@ -67,17 +184,89 @@
       "question": "Quelles sont ses compétences techniques ?",
       "alternates": ["Hard skills?", "Technical skills?", "Compétences tech?", "Elle sait coder?"],
       "answer": {
-        "strategist": "Azélie développe actuellement des compétences en Python, SQL, Power BI, Machine Learning et ETL dans le cadre de son Mastère à Sup de Vinci. Elle maîtrise également les outils de gestion de projet, le reporting institutionnel et l'analyse de données.",
-        "tech": "Stack actuel : Python (Pandas, scikit-learn, spaCy), SQL, Power BI, Streamlit. En apprentissage : pipelines ML, ETL, NLP, architectures Big Data, MLOps. Compétences transférées de sa vie précédente : modélisation de données via cadres logiques, systèmes de KPIs, reporting multi-sources."
+        "strategist": "Azélie consolide activement ses compétences techniques dans le cadre de son M1 Big Data & IA : **Power BI** (maîtrise solide), **SQL** (requêtes analytiques intermédiaires), **Python** (Pandas, scikit-learn, spaCy — en progression structurée), **Machine Learning** et **ETL**. Sa force différenciante n'est pas d'être la plus technique, mais de comprendre la logique technique **ET** les enjeux métier.",
+        "tech": "Stack actuel : `Power BI` (solide), `SQL` (intermédiaire analytique), `Python` (Pandas, scikit-learn, spaCy, Streamlit — en progression), `ML`, `ETL`. En apprentissage : architectures Big Data, MLOps. Le vrai `diff` : elle comprend le `WHY` métier autant que le `HOW` technique. C'est pas juste du code, c'est du code qui a du sens."
       },
       "category": "skills"
+    },
+    {
+      "question": "Quel est son parcours professionnel ?",
+      "alternates": ["Son expérience?", "Career path?", "Parcours?", "Expériences professionnelles?"],
+      "answer": {
+        "strategist": "Azélie a un parcours riche de plus de 10 ans montrant une **progression cohérente** : ADIF (2013-2014), ASERC comme coordinatrice Erasmus+ (2015-2016), APF France Handicap (2016-2017), cheffe de projet Écozone à Dakar (2018), mairie d'Oullins (2019), Agence Erasmus+ France (2021-2024), et Niamato Consulting en parallèle depuis 2021. Chaque étape a ajouté une couche de complexité à son expertise.",
+        "tech": "Timeline : `ADIF` (2013) → `ASERC/Erasmus+` (2015) → `APF France Handicap` (2016) → `Dakar/Écozone` (2018) → `Mairie d'Oullins` (2019) → `Agence Erasmus+ France` (2021-2024) + `Niamato Consulting` en parallèle depuis 2021. 10+ ans d'XP cumulée, chaque rôle = un `level up` en complexité."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Résume son profil en une phrase",
+      "alternates": ["One sentence summary?", "En une phrase?", "Pitch?", "Elevator pitch?"],
+      "answer": {
+        "strategist": "**Azélie est une professionnelle de l'impact qui construit une expertise technique en IA pour relier stratégie, données et transformation réelle.**",
+        "tech": "En une ligne : `professionnelle_impact.add(expertise_IA).connect(stratégie, données, transformation_réelle)`"
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Son potentiel de leadership futur ?",
+      "alternates": ["Future leadership?", "Son évolution possible?", "Leadership potential?", "Où elle sera dans 5 ans?"],
+      "answer": {
+        "strategist": "La trajectoire d'Azélie la projette vers un **leadership hybride** : à court terme, consolidation technique et crédibilité. À moyen terme (3-6 ans), un rôle d'AI Engineer senior ou de cheffe de projet IA stratégique. À long terme, un potentiel de **Head of AI Project** ou **responsable transformation data**. Son profil lui permet de piloter des équipes multidisciplinaires avec maturité stratégique et compréhension technique.",
+        "tech": "Roadmap leadership : `v1.0` (1-3 ans) consolidation technique + crédibilité. `v2.0` (3-6 ans) AI Engineer senior ou cheffe de projet IA stratégique. `v3.0` (6-10 ans) Head of AI Project ou responsable transformation data. Le `diff` : elle aura la compréhension `end-to-end`, du besoin métier au déploiement."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "C'est quoi Niamato Consulting ?",
+      "alternates": ["Niamato?", "Son activité indépendante?", "Consultant?"],
+      "answer": {
+        "strategist": "Niamato Consulting est l'activité de conseil indépendante d'Azélie, lancée en 2021. Elle accompagne des organisations de la société civile, des institutions et des acteurs culturels dans le développement de leurs projets internationaux, avec une spécialisation sur les financements européens (Erasmus+, Horizon Europe).",
+        "tech": "Niamato Consulting = l'activité freelance d'Azélie depuis 2021. Conseil en ingénierie de projets européens : rédaction de dossiers de subventions, développement de consortiums Europe/Afrique de l'Ouest, audit organisationnel, suivi de KPIs et reporting."
+      },
+      "category": "background"
+    },
+    {
+      "question": "C'est quoi ce portfolio ?",
+      "alternates": ["How was this site built?", "Comment ce site a été fait?", "C'est quoi ce site?"],
+      "answer": {
+        "strategist": "Ce portfolio interactif illustre la dualité d'Azélie : un mode **Stratège** élégant et institutionnel, et un mode **Tech** au design cyberpunk. Il intègre de la gamification avec des badges et un système de progression pour rendre la découverte du profil plus engageante.",
+        "tech": "Stack : `Next.js 14` + `TypeScript` + `Tailwind CSS` + `Framer Motion` + `Zustand`. Features : dual-mode theming via CSS variables, système de gamification avec badges, easter egg (Dilemme du Prisonnier), et ce chatbot alimenté par `Groq/Llama 3.3`."
+      },
+      "category": "meta"
+    },
+    {
+      "question": "C'est quoi Erasmus+ ?",
+      "alternates": ["What is Erasmus?", "Son expérience Erasmus?", "Explain Erasmus+"],
+      "answer": {
+        "strategist": "Erasmus+ est le programme phare de l'Union européenne pour l'éducation, la formation, la jeunesse et le sport. Azélie a travaillé 4 ans (2021-2024) à l'**Agence Erasmus+ France** à Bordeaux comme ingénieure d'accompagnement, où elle a soutenu plus de 50 projets dans leur conception, mise en œuvre et reporting.",
+        "tech": "Erasmus+ est le programme de financement de l'UE pour l'éducation. Azélie y a bossé 4 ans (2021-2024) à l'Agence Erasmus+ France, accompagnant 50+ projets. Concrètement : beaucoup de `data`, de `reporting` et de coordination multi-pays."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Quelle est sa formation actuelle ?",
+      "alternates": ["What is she studying?", "Current education?", "Sup de Vinci?", "Études?"],
+      "answer": {
+        "strategist": "Azélie prépare un **Mastère Big Data & Intelligence Artificielle** à Sup de Vinci (Bordeaux), en alternance de septembre 2025 à septembre 2027. La formation couvre le Machine Learning, Python avancé, les architectures Big Data et le MLOps. Elle consolide ainsi un socle technique solide pour soutenir une ambition stratégique en IA.",
+        "tech": "M1 Big Data & IA à Sup de Vinci, Bordeaux. Alternance de septembre 2025 à septembre 2027. Au programme : `Machine Learning`, `Python avancé`, architectures `Big Data`, `MLOps`. Objectif : avoir la crédibilité technique pour piloter des projets IA."
+      },
+      "category": "education"
+    },
+    {
+      "question": "Quelle est sa formation passée ?",
+      "alternates": ["Previous education?", "Ses diplômes?", "Academic background?", "Diplômes?"],
+      "answer": {
+        "strategist": "Azélie est diplômée d'un **Master Sciences Politiques — Action Humanitaire Internationale** de l'Université Paris-Est Créteil (2018), et d'une formation de **Coordinateur de Projet Humanitaire** à l'Institut Bioforce (2019). Elle détient également une **Licence Pro en Économie Sociale et Solidaire**. Ce parcours académique complète sa formation actuelle en Big Data & IA.",
+        "tech": "Background académique : `Master Sciences Politiques` (Paris-Est Créteil, 2018), formation `Coordinateur de Projet Humanitaire` (Bioforce, 2019), `Licence Pro ESS`. Maintenant : M1 `Big Data & IA` (Sup de Vinci). Chaque diplôme = un `layer` de plus dans sa compréhension des systèmes."
+      },
+      "category": "education"
     },
     {
       "question": "Qu'est-ce que le Dilemme du Prisonnier ?",
       "alternates": ["Prisoner's Dilemma?", "C'est quoi le projet de théorie des jeux?", "Game theory project?"],
       "answer": {
         "strategist": "Le Dilemme du Prisonnier est une application Streamlit développée par Azélie en Python. Elle illustre les concepts de théorie des jeux avec plus de 5 stratégies IA (Tit-for-Tat, Pavlov, Random...) et des visualisations en temps réel avec Plotly. L'application est accessible sur dilemme-du-prisonnier.streamlit.app.",
-        "tech": "App Streamlit en Python qui simule le dilemme du prisonnier itéré. 5+ stratégies IA implémentées, visualisations Plotly en temps réel. Dispo ici : dilemme-du-prisonnier.streamlit.app"
+        "tech": "App `Streamlit` en `Python` qui simule le dilemme du prisonnier itéré. 5+ stratégies IA implémentées, visualisations `Plotly` en temps réel. Dispo ici : dilemme-du-prisonnier.streamlit.app"
       },
       "category": "projects"
     },
@@ -95,34 +284,16 @@
       "alternates": ["Languages?", "She speaks what?", "Langues parlées?"],
       "answer": {
         "strategist": "Azélie parle français (langue maternelle), anglais (niveau B2, usage professionnel) et a des notions de wolof, acquises lors de son expérience au Sénégal.",
-        "tech": "Français (natif), anglais (B2 — suffisant pour lire de la doc, écrire des PRs et survivre aux meetings), wolof (notions — acquises à Dakar). Côté langages de programmation : Python, SQL, JavaScript/TypeScript."
+        "tech": "Français (natif), anglais (B2 — suffisant pour lire de la doc, écrire des PRs et survivre aux meetings), wolof (notions — acquises à Dakar). Côté langages de programmation : `Python`, `SQL`, `JavaScript/TypeScript`."
       },
       "category": "personal"
-    },
-    {
-      "question": "C'est quoi Erasmus+ ?",
-      "alternates": ["What is Erasmus?", "Son expérience Erasmus?", "Explain Erasmus+"],
-      "answer": {
-        "strategist": "Erasmus+ est le programme phare de l'Union européenne pour l'éducation, la formation, la jeunesse et le sport. Azélie a travaillé 4 ans (2021-2024) à l'Agence Erasmus+ France à Bordeaux comme ingénieure d'accompagnement, où elle a soutenu plus de 50 projets dans leur conception, mise en œuvre et reporting.",
-        "tech": "Erasmus+ est le programme de financement de l'UE pour l'éducation. Azélie y a bossé 4 ans (2021-2024) à l'Agence Erasmus+ France, accompagnant 50+ projets. Concrètement : beaucoup de données, de reporting et de coordination multi-pays."
-      },
-      "category": "background"
-    },
-    {
-      "question": "Quelle est sa formation actuelle ?",
-      "alternates": ["What is she studying?", "Current education?", "Sup de Vinci?", "Études?"],
-      "answer": {
-        "strategist": "Azélie prépare un Mastère Big Data & Intelligence Artificielle à Sup de Vinci (Bordeaux), en alternance à partir de septembre 2025 jusqu'en septembre 2027. La formation couvre le Machine Learning, Python avancé, les architectures Big Data et le MLOps.",
-        "tech": "Mastère Big Data & IA à Sup de Vinci, Bordeaux. Alternance de septembre 2025 à septembre 2027. Au programme : Machine Learning, Python avancé, architectures Big Data, MLOps. Objectif : devenir le pont entre le domaine métier et le data engineering."
-      },
-      "category": "education"
     },
     {
       "question": "C'est quoi l'easter egg du site ?",
       "alternates": ["Easter egg?", "Secret?", "Hidden feature?", "Konami code?"],
       "answer": {
         "strategist": "Ce portfolio contient un Easter Egg secret ! Essayez de taper le fameux Konami Code (↑↑↓↓←→←→BA) pour débloquer un mini-jeu interactif basé sur la théorie des jeux : Le Dilemme du Recruteur.",
-        "tech": "Konami Code : ↑↑↓↓←→←→BA — ça débloque le Dilemme du Recruteur, un mini-jeu de théorie des jeux où tu joues au dilemme du prisonnier itéré contre l'IA d'Azélie. Coopérer ou trahir ? Ton choix révèle ton profil stratégique."
+        "tech": "Konami Code : `↑↑↓↓←→←→BA` — ça débloque le Dilemme du Recruteur, un mini-jeu de théorie des jeux où tu joues au dilemme du prisonnier itéré contre l'IA d'Azélie. Coopérer ou trahir ? Ton choix révèle ton profil stratégique."
       },
       "category": "meta"
     },
@@ -130,8 +301,8 @@
       "question": "Où est-ce qu'elle habite ?",
       "alternates": ["Where does she live?", "Location?", "Based where?", "Elle est où?"],
       "answer": {
-        "strategist": "Azélie est basée à Bordeaux, en Nouvelle-Aquitaine. Elle a une expérience internationale significative, ayant travaillé en France (Paris, Lyon, Bordeaux, Cognac), au Sénégal (Dakar) et dans le cadre de programmes européens.",
-        "tech": "Basée à Bordeaux, France. Mais son parcours passe par Dakar, Paris, Lyon, Cognac et divers pays européens."
+        "strategist": "Azélie est basée à Bordeaux, en Nouvelle-Aquitaine. Elle a une expérience internationale significative, ayant travaillé en France (Paris, Lyon, Bordeaux, Cognac), au Sénégal (Dakar), au Togo et dans le cadre de programmes européens.",
+        "tech": "Basée à Bordeaux, France. Mais son parcours passe par Dakar, le Togo, Paris, Lyon, Cognac et divers pays européens."
       },
       "category": "personal"
     },
@@ -139,8 +310,8 @@
       "question": "Qu'est-ce qui la rend unique ?",
       "alternates": ["What makes her different?", "What's special about her?", "Profil atypique?"],
       "answer": {
-        "strategist": "Ce qui distingue Azélie, c'est la combinaison rare d'une expertise terrain solide (8 ans en projets européens et internationaux) avec une montée en compétences data/IA. Elle ne vient pas de la tech — elle vient du problème. Et c'est précisément ce qui fait la valeur de son regard sur les données.",
-        "tech": "La plupart des data engineers apprennent la data d'abord, le métier ensuite. Azélie a fait l'inverse : 8 ans à comprendre POURQUOI la donnée compte, puis apprendre COMMENT la traiter. Elle peut expliquer un Random Forest à un chef de projet ET écrire le pipeline."
+        "strategist": "Ce qui distingue Azélie, c'est la combinaison rare d'une **décennie d'expertise terrain** en projets internationaux avec une **montée en compétences data/IA**. Elle ne vient pas de la tech — elle vient du problème. Et c'est précisément ce qui fait la valeur de son regard sur les données : elle sait pourquoi elles comptent avant de savoir comment les traiter.",
+        "tech": "La plupart des data engineers apprennent la data d'abord, le métier ensuite. Azélie a fait l'inverse : 10 ans à comprendre `POURQUOI` la donnée compte, puis apprendre `COMMENT` la traiter. Elle peut contextualiser un `modèle ML` dans un enjeu métier réel ET comprendre les contraintes techniques."
       },
       "category": "hiring"
     },
@@ -148,46 +319,389 @@
       "question": "Quels sont ses projets ?",
       "alternates": ["Her projects?", "Ses réalisations?", "Portfolio projects?", "Qu'est-ce qu'elle a fait?"],
       "answer": {
-        "strategist": "Azélie a réalisé plusieurs projets : le Dilemme du Prisonnier (simulateur de théorie des jeux en Streamlit/Python), ce portfolio interactif (Next.js), un Dashboard de suivi Erasmus+ (Power BI), un Toolkit de nettoyage de données (Pandas), un Framework d'évaluation d'impact (Streamlit) et un Classificateur de documents NLP (scikit-learn, 89% de précision).",
-        "tech": "6 projets clés : Dilemme du Prisonnier (Streamlit/Python), ce portfolio (Next.js/TS), Dashboard Erasmus+ (Power BI), Data Cleaning Toolkit (Pandas), Impact Framework (Streamlit), et un Text Classifier NLP (scikit-learn, 89% accuracy). Tout est sur son GitHub."
+        "strategist": "Azélie a réalisé plusieurs projets : le **Dilemme du Prisonnier** (simulateur de théorie des jeux en Streamlit/Python), ce **portfolio interactif** (Next.js), un **Dashboard de suivi Erasmus+** (Power BI), un **Toolkit de nettoyage de données** (Pandas), un **Framework d'évaluation d'impact** (Streamlit) et un **Classificateur de documents NLP** (scikit-learn, 89% de précision).",
+        "tech": "6 projets clés : `Dilemme du Prisonnier` (Streamlit/Python), ce `portfolio` (Next.js/TS), `Dashboard Erasmus+` (Power BI), `Data Cleaning Toolkit` (Pandas), `Impact Framework` (Streamlit), et un `Text Classifier NLP` (scikit-learn, 89% accuracy). Tout est sur son GitHub."
       },
       "category": "projects"
-    },
-    {
-      "question": "Quel est son parcours professionnel ?",
-      "alternates": ["Son expérience?", "Career path?", "Parcours?", "Expériences professionnelles?"],
-      "answer": {
-        "strategist": "Azélie a un parcours riche de plus de 8 ans : elle a commencé à l'ADIF (2013-2014) sur des projets Erasmus+, puis à l'ASERC comme coordinatrice de mobilité européenne (2015-2016), à APF France Handicap (2016-2017), à Dakar comme cheffe de projet Écozone (2018), à la mairie d'Oullins (2019), et à l'Agence Erasmus+ France (2021-2024). Depuis 2021, elle est aussi consultante indépendante chez Niamato Consulting.",
-        "tech": "Timeline : ADIF (2013) → ASERC/Erasmus+ (2015) → APF France Handicap (2016) → Dakar/Écozone (2018) → Mairie d'Oullins (2019) → Agence Erasmus+ France (2021-2024) + Niamato Consulting en parallèle depuis 2021. Plus de 8 ans d'expérience cumulée."
-      },
-      "category": "background"
-    },
-    {
-      "question": "C'est quoi Niamato Consulting ?",
-      "alternates": ["Niamato?", "Son activité indépendante?", "Consultant?"],
-      "answer": {
-        "strategist": "Niamato Consulting est l'activité de conseil indépendante d'Azélie, lancée en 2021. Elle accompagne des organisations de la société civile, des institutions et des acteurs culturels dans le développement de leurs projets internationaux, avec une spécialisation sur les financements européens (Erasmus+, Horizon Europe).",
-        "tech": "Niamato Consulting = l'activité freelance d'Azélie depuis 2021. Conseil en ingénierie de projets européens : rédaction de dossiers de subventions, développement de consortiums Europe/Afrique de l'Ouest, audit organisationnel, suivi de KPIs et reporting."
-      },
-      "category": "background"
     },
     {
       "question": "Elle a quel âge ?",
       "alternates": ["How old is she?", "Son âge?", "Age?"],
       "answer": {
-        "strategist": "Azélie a 30 ans.",
-        "tech": "30 ans."
+        "strategist": "Azélie a 31 ans.",
+        "tech": "31 ans."
       },
       "category": "personal"
     },
     {
-      "question": "Bonjour",
-      "alternates": ["Hello", "Hey", "Salut", "Coucou", "Hi"],
+      "question": "Qu'est-ce qui l'a le plus marquée dans sa carrière ?",
+      "alternates": ["Plus grande fierté?", "Proudest moment?", "Ce dont elle est fière?", "Moment marquant?"],
       "answer": {
-        "strategist": "Bonjour et bienvenue sur le portfolio d'Azélie Bernard ! Je suis son assistante virtuelle. N'hésitez pas à me poser des questions sur son parcours, ses compétences ou ses projets.",
-        "tech": "Salut ! Bienvenue sur le portfolio d'Azélie. Pose-moi tes questions sur son parcours, ses compétences, ses projets — je suis là pour ça."
+        "strategist": "Sa plus grande fierté est sa **trajectoire elle-même** : partie sans vision claire après le bac, elle s'est construite à travers l'expérience, soutenue par des mentors qui ont cru en elle. Le déclic a été son premier voyage humanitaire au Togo en 2013 — la construction d'une école qui a installé en elle la conviction que l'éducation transforme les destins et que l'impact concret prime sur les discours.",
+        "tech": "Ce qui l'a le plus marquée : sa trajectoire entière. De `zero_direction` après le bac à M1 Big Data & IA, en passant par la construction d'une école au Togo (2013), 10+ ans de projets internationaux et des mentors qui ont `push` ses capacités. Le `commit` initial : Togo, 2013. Tout le reste est un `git log` cohérent."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Elle est prête pour un CDI ?",
+      "alternates": ["Ready for full-time?", "Prête pour le monde du travail?", "CDI ready?", "Expérience suffisante?"],
+      "answer": {
+        "strategist": "Azélie n'est pas une débutante qui cherche sa première expérience. C'est une professionnelle avec **plus de 10 ans d'expérience** en gestion de projets complexes, budgets > 1M€, management d'équipe et coordination internationale. Elle ajoute aujourd'hui une expertise technique en data/IA. Elle ne vient pas chercher un poste — elle vient **construire une trajectoire durable**.",
+        "tech": "10+ ans d'XP pro, budgets > 1M€, 50+ projets pilotés, management de 12 personnes, coordination multi-pays. Elle est pas `en stage` — elle `upgrade` son profil avec du `data/IA`. La question n'est pas si elle est prête pour un CDI, c'est quel CDI mérite son profil."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Pourquoi elle n'a pas fait un parcours tech dès le départ ?",
+      "alternates": ["Pourquoi pas d'école d'ingé?", "Why no CS degree?", "Pas de diplôme technique?", "Pourquoi si tard en tech?"],
+      "answer": {
+        "strategist": "Azélie a d'abord construit une expertise terrain solide — gestion de projets, pilotage budgétaire, coordination internationale. La donnée était déjà au cœur de son travail. Son évolution vers la tech n'est pas tardive, elle est **stratégique** : elle maîtrise maintenant le contexte métier que beaucoup de profils purement techniques passent des années à acquérir.",
+        "tech": "Parce qu'elle a `build` le contexte métier d'abord. 10 ans à comprendre les systèmes organisationnels, les KPIs, le reporting — c'est du `domain knowledge` que la plupart des devs n'auront jamais. Maintenant elle ajoute le `code`. C'est pas un retard, c'est un `design pattern` : comprendre le `WHY` avant le `HOW`."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Son parcours est décousu, non ?",
+      "alternates": ["Parcours incohérent?", "Trop de changements?", "C'est un peu brouillon non?", "Too many career changes?"],
+      "answer": {
+        "strategist": "Au contraire. Chaque étape a ajouté une couche de compétence à la précédente : humanitaire (terrain) → coordination européenne (institutionnel) → pilotage d'indicateurs (data) → IA (technique). C'est une **spirale ascendante** vers plus de maîtrise systémique, pas une dispersion. La cohérence est dans la direction : relier impact, organisation et technologie.",
+        "tech": "Lis le `git log` : chaque `commit` ajoute un `layer` au précédent. `Humanitaire` → `gestion_projet` → `indicateurs` → `data` → `IA`. C'est pas du `spaghetti code` — c'est une architecture en couches. Le fil rouge : `impact + systèmes + données`."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Quelles sont ses prétentions salariales ?",
+      "alternates": ["Salary expectations?", "Combien elle veut?", "Budget salarial?", "Rémunération?"],
+      "answer": {
+        "strategist": "Les prétentions salariales d'Azélie dépendent du poste, du périmètre de responsabilité et du contexte de l'entreprise. Elle privilégie la qualité du projet et l'environnement de travail. Pour discuter de ces aspects concrets, le mieux est de la contacter directement à **azeliebernard@gmail.com**.",
+        "tech": "Le `salary.expected` dépend du `scope`, du `role` et du `context`. C'est pas une variable qu'on hardcode ici. Pour en discuter : azeliebernard@gmail.com ou le formulaire de contact en bas de page."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Quand est-elle disponible ?",
+      "alternates": ["Disponibilité?", "When can she start?", "Date de début?", "Notice period?"],
+      "answer": {
+        "strategist": "Azélie est actuellement en alternance dans le cadre de son M1 Big Data & IA. Pour discuter des modalités et de sa disponibilité précise, contactez-la directement à **azeliebernard@gmail.com**.",
+        "tech": "Actuellement en alternance (M1 Big Data & IA). Pour les `details` de dispo et de `scheduling`, ping direct : azeliebernard@gmail.com."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Elle préfère le télétravail ou le présentiel ?",
+      "alternates": ["Remote or office?", "Mode de travail?", "Full remote?", "Hybride?"],
+      "answer": {
+        "strategist": "Azélie est ouverte aux trois formats : **présentiel**, **hybride** ou **full remote**. Elle a démontré sa capacité à travailler à distance (Niamato Consulting) comme en présentiel dans des environnements exigeants (Dakar, Agence Erasmus+). Le format compte moins que la qualité du projet et de la collaboration.",
+        "tech": "Flexible : `présentiel`, `hybride` ou `full remote`. Elle a l'habitude des trois — freelance à distance avec Niamato, présentiel intense à Dakar, hybride à l'Agence Erasmus+. Le `config` qui compte c'est la qualité du projet, pas le `location`."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Pourquoi a-t-elle quitté l'Agence Erasmus+ ?",
+      "alternates": ["Why did she leave Erasmus?", "Raison de départ?", "Pourquoi partir?"],
+      "answer": {
+        "strategist": "Après 4 ans à l'Agence Erasmus+ France, Azélie a choisi d'évoluer vers la data et l'IA — un choix délibéré de montée en compétence technique. Elle a quitté un poste stable pour investir dans une formation exigeante (M1 Big Data & IA). C'est un choix de **progression**, pas de fuite.",
+        "tech": "4 ans de `level up` chez Erasmus+ France, puis décision de `fork` vers la data/IA. Pas un `rage quit` — un choix stratégique de montée en compétence. Elle a quitté un CDI stable pour investir dans un M1 Big Data & IA. C'est du `calculated risk`."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Comment gère-t-elle un problème technique qu'elle ne comprend pas ?",
+      "alternates": ["Face à un blocage technique?", "Quand elle est bloquée?", "How does she handle technical challenges?"],
+      "answer": {
+        "strategist": "Azélie aborde les problèmes techniques avec méthode : elle **décompose** le problème, **recherche** activement (documentation, ressources, IA comme outil d'apprentissage), et **demande de l'aide** sans ego. Son expérience en gestion de projet lui a appris qu'identifier un blocage et le résoudre efficacement est plus précieux que prétendre tout savoir.",
+        "tech": "Son `debug process` : 1) décomposer le problème, 2) `RTFM` + recherche, 3) utiliser l'IA comme outil d'apprentissage (pas comme béquille), 4) demander de l'aide sans ego. 10 ans de gestion de projet lui ont appris que le vrai `skill` c'est le `problem-solving`, pas de tout savoir par cœur."
+      },
+      "category": "skills"
+    },
+    {
+      "question": "Comment travaille-t-elle en équipe ?",
+      "alternates": ["Teamwork?", "Travail d'équipe?", "Collaboration?", "Team player?"],
+      "answer": {
+        "strategist": "Azélie a coordonné des équipes pluridisciplinaires dans 4 pays, managé jusqu'à 12 personnes et piloté plus de 50 projets avec des partenaires multiples. En équipe, elle **structure**, **clarifie** et **responsabilise**. Elle sait s'adapter aux profils différents du sien et faciliter la communication entre métiers.",
+        "tech": "Coordination de 50+ projets multi-pays, management de 12 personnes, partenariats avec des profils très variés (institutions, ONG, collectivités). En équipe, elle joue le rôle de `facilitateur` : elle `parse` la complexité pour que chacun sache quoi faire. Le `bridge` entre les `silos`."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "C'est quoi son projet le plus technique ?",
+      "alternates": ["Most technical project?", "Projet tech le plus avancé?", "Son meilleur projet code?"],
+      "answer": {
+        "strategist": "Son projet le plus technique est le **Classificateur de Documents NLP** : un pipeline complet de classification automatique utilisant spaCy pour le preprocessing et scikit-learn pour la classification, avec vectorisation TF-IDF et classificateur SVM, atteignant **89% de précision**. Ce portfolio Next.js/TypeScript est également un projet techniquement ambitieux.",
+        "tech": "Le `NLP Text Classifier` : pipeline complet `spaCy` → `TF-IDF` → `SVM` via `scikit-learn`. 89% accuracy sur le test set. Sinon, ce portfolio : `Next.js 14` + `TypeScript` + `Tailwind` + `Framer Motion` + `Zustand` + chatbot `Groq/Llama 3.3`. Deux projets qui montrent des compétences différentes."
+      },
+      "category": "projects"
+    },
+    {
+      "question": "Startup ou grand groupe ?",
+      "alternates": ["Startup or corporate?", "Taille d'entreprise?", "Quel type de structure?", "PME ou multinationale?"],
+      "answer": {
+        "strategist": "Azélie est ouverte aux deux. Elle a évolué dans des **structures institutionnelles** (Agence Erasmus+, collectivités) comme dans des **structures agiles** (GS Écologie Urbaine à Dakar, Niamato Consulting). Ce qui compte pour elle : des projets complexes, une culture d'apprentissage, et un impact réel. La taille de la structure est secondaire.",
+        "tech": "Les deux. Elle a l'XP des grosses structures (Agence Erasmus+, collectivités) ET du mode startup (freelance, terrain à Dakar). Le `filter` c'est pas la `size` de la boîte — c'est la complexité des projets, la culture de `learning` et l'impact réel."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Que peut-elle apporter dès le premier jour ?",
+      "alternates": ["Day one contribution?", "Valeur immédiate?", "Contribution rapide?", "Quick wins?"],
+      "answer": {
+        "strategist": "Dès le premier jour, Azélie apporte : une **capacité à structurer** les projets et les processus, une **vision systémique** des enjeux, une **rigueur** dans le pilotage d'indicateurs, et une **aisance relationnelle** avec des interlocuteurs variés. Côté technique, elle peut contribuer en Power BI, requêtes SQL et analyse de données. Sa courbe d'apprentissage technique est rapide.",
+        "tech": "Day one : `Power BI` dashboards, requêtes `SQL`, structuration de projets data, pilotage de KPIs, coordination d'équipe. Ce qui prend 0 jours de `ramp-up` : comprendre les enjeux métier, poser les bonnes questions, structurer un plan. Le `technical stack` monte en parallèle."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Quel a été son plus gros challenge professionnel ?",
+      "alternates": ["Biggest challenge?", "Plus gros défi?", "Moment le plus difficile?", "Challenge professionnel?"],
+      "answer": {
+        "strategist": "À Dakar, Azélie a repris un programme qui était **suspendu** — sans documentation structurée, avec 10 ans de données non formalisées et une équipe de 12 personnes à remobiliser. Elle a reconstruit le cadre de A à Z. C'est une histoire qui en dit long sur sa capacité à transformer le chaos en structure. Elle pourrait vous en raconter les détails lors d'un échange.",
+        "tech": "Dakar, 2018 : un programme `suspended`, 10 ans de données `unstructured`, une équipe de 12 à `reboot`. Elle a tout restructuré `from scratch`. C'est son `case study` le plus parlant — et il y a pas mal de détails qu'un chatbot ne peut pas rendre. Mieux vaut lui en parler directement."
+      },
+      "category": "background"
+    },
+    {
+      "question": "A-t-elle déjà connu un échec ?",
+      "alternates": ["Un échec?", "Failures?", "Elle a déjà échoué?", "Biggest failure?"],
+      "answer": {
+        "strategist": "Azélie considère que ses moments de doute et de remise en question ont été des accélérateurs de croissance, pas des échecs. Elle a appris très tôt que **l'itération est plus précieuse que la perfection**. Ses expériences dans des contextes difficiles — terrain humanitaire, environnements interculturels — lui ont appris à transformer les blocages en apprentissages. C'est un sujet qu'elle aborde avec beaucoup de lucidité en entretien.",
+        "tech": "Elle dit que ses meilleurs `learnings` viennent des situations où rien ne se passait comme prévu. Terrain humanitaire, gestion de crise, projets complexes — elle a appris à `iterate` plutôt qu'à `panic`. Le vrai échec pour elle c'est la stagnation. Pour les détails : mieux vaut un échange direct."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Comment gère-t-elle la pression ?",
+      "alternates": ["Stress management?", "Gestion du stress?", "Under pressure?", "Elle est résistante au stress?"],
+      "answer": {
+        "strategist": "Azélie a piloté des projets à Dakar avec des contraintes logistiques fortes, géré des budgets de plus d'un million d'euros et coordonné des partenaires dans 4 pays simultanément. Sa méthode face à la pression : **structurer** pour réduire l'incertitude, **prioriser** pour ne pas s'éparpiller, et **communiquer** pour ne pas porter seule. C'est une approche forgée par l'expérience terrain.",
+        "tech": "Son `stress handler` a été forgé sur le terrain : Dakar, budget > 1M€, 12 personnes à coordonner, 4 pays en parallèle. Sa méthode : `decompose()` → `prioritize()` → `communicate()`. Elle ne `panic` pas, elle `structure`. Plus la situation est complexe, plus elle est dans son élément."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Comment gère-t-elle un désaccord avec un collègue ou un supérieur ?",
+      "alternates": ["Conflict resolution?", "Gestion de conflit?", "Quand elle n'est pas d'accord?", "Disagreements?"],
+      "answer": {
+        "strategist": "Azélie privilégie la **clarification factuelle** avant tout. Elle cherche à comprendre les raisons de l'autre avant de défendre sa position. Son expérience interculturelle — 4 pays, des dizaines de partenaires — lui a appris que les désaccords naissent souvent de contextes mal compris, pas de mauvaises intentions. C'est une approche qu'elle pourrait illustrer avec des exemples concrets lors d'un échange.",
+        "tech": "Pas de `force push`. Elle commence par `listen()`, puis `understand_context()`, puis expose sa position avec des `facts`. 10 ans de coordination multi-acteurs et interculturelle : les conflits viennent souvent de `missing context`, pas de mauvaises intentions."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Qu'est-ce qui la passionne vraiment ?",
+      "alternates": ["Sa passion?", "What drives her?", "Ce qui l'anime?", "Her passion?"],
+      "answer": {
+        "strategist": "Comprendre les **systèmes** — qu'il s'agisse d'une organisation, d'un jeu de données ou d'une recette de cuisine fusion. Azélie est animée par la même curiosité qu'elle explore au restaurant, en voyage ou dans une architecture data : trouver la **structure derrière la surface**. C'est ce qui rend son profil si cohérent malgré la diversité de ses expériences.",
+        "tech": "Les `systèmes`. Comprendre comment les choses fonctionnent — une organisation, un modèle ML, une recette de cuisine fusion, une dynamique culturelle. Le `pattern matching` entre des domaines différents, c'est son truc. C'est pour ça que son parcours paraît divers mais est en fait très `consistent`."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Comment elle se décrit en 3 mots ?",
+      "alternates": ["3 words?", "Trois mots?", "Describe herself?", "Si elle devait se résumer?"],
+      "answer": {
+        "strategist": "**Cohérente. Exigeante. Curieuse.** Cohérente parce qu'elle aligne ses actions avec ses convictions. Exigeante parce qu'elle ne se satisfait pas du superficiel. Curieuse parce qu'elle cherche toujours à comprendre la couche en dessous.",
+        "tech": "`Cohérente`, `exigeante`, `curieuse`. Trois traits qui expliquent autant sa trajectoire pro que sa façon d'apprendre le `Python` ou de choisir un restaurant."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Ce qui l'énerve au travail ?",
+      "alternates": ["Pet peeves?", "Ce qu'elle n'aime pas?", "Frustrations?", "What annoys her?"],
+      "answer": {
+        "strategist": "Le travail superficiel, les décisions prises sans réflexion, et les projets sans vision. Azélie a besoin de **comprendre le pourquoi** avant de s'investir. Ce n'est pas de la rigidité — c'est ce qui garantit qu'elle ne livrera jamais un travail bâclé. Elle en parle avec franchise et sans détour.",
+        "tech": "Le `bullshit` : des décisions sans data, des projets sans `vision`, du travail en surface. Elle a besoin du `WHY` sinon elle tourne pas à plein régime. C'est pas un bug, c'est une `feature` — ça garantit qu'elle livre jamais du travail bâclé."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Quelle est sa vision de l'IA dans 5 ans ?",
+      "alternates": ["AI in 5 years?", "Futur de l'IA?", "Sa vision tech?", "Where is AI going?"],
+      "answer": {
+        "strategist": "Azélie pense que l'IA va profondément **restructurer les organisations** et redéfinir les métiers. Elle croit que les profils qui comprendront à la fois la technique et les enjeux humains seront les plus précieux. C'est exactement le positionnement qu'elle construit. Sa vision de l'IA responsable est un sujet qu'elle approfondit avec conviction — un échange direct permettrait de mesurer la profondeur de cette réflexion.",
+        "tech": "Sa thèse : l'IA va `refactor` les organisations. Les profils les plus `valuable` seront ceux qui comprennent le `code` ET le `context`. C'est exactement son `build path`. Sur l'IA responsable, elle a des convictions fortes — c'est un sujet qu'elle aime creuser en entretien."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "L'IA responsable, concrètement ça veut dire quoi pour elle ?",
+      "alternates": ["Responsible AI?", "IA éthique concrètement?", "AI ethics in practice?", "C'est quoi l'IA responsable?"],
+      "answer": {
+        "strategist": "Pour Azélie, l'IA responsable n'est pas un concept abstrait. C'est : des modèles **explicables** (pas de boîte noire), des données **honnêtes** (pas de manipulation), des décisions **éclairées** (pas d'automatisme aveugle). Elle refuse l'IA gadget et l'illusion technologique. C'est une conviction forgée par 10 ans de projets où l'impact se mesurait en vies humaines, pas en métriques de performance.",
+        "tech": "Pas du `buzzword`. Concrètement : `explainability` (pas de boîte noire), `data honesty` (pas de manipulation), `human-in-the-loop` (pas d'automatisme aveugle). Son background humanitaire change tout : quand l'impact se mesure en vies humaines, tu ne prends pas les `bias` à la légère."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Comment elle apprend une nouvelle technologie ?",
+      "alternates": ["Learning method?", "Comment elle apprend?", "Méthode d'apprentissage?", "How does she learn?"],
+      "answer": {
+        "strategist": "Azélie fonctionne en **cycles structurés** : découverte, approfondissement, structuration, puis transmission. Elle ne se contente pas d'utiliser un outil — elle veut comprendre la **logique derrière**. C'est ce qui lui permet de progresser vite et de retenir durablement. Son M1 Big Data & IA fournit le cadre académique, mais sa curiosité naturelle est le vrai moteur.",
+        "tech": "Son `learning pipeline` : 1) `explore` (comprendre le concept), 2) `deep dive` (la logique derrière l'outil), 3) `structure` (organiser ce qu'elle a compris), 4) `build` (mettre en pratique). Elle veut pas juste copier-coller du `Stack Overflow` — elle veut comprendre le `WHY` du code."
+      },
+      "category": "skills"
+    },
+    {
+      "question": "Sa méthodologie de travail ?",
+      "alternates": ["Work methodology?", "Comment elle travaille?", "Process?", "Méthode de travail?"],
+      "answer": {
+        "strategist": "Azélie structure son travail autour de trois axes : **comprendre** (le contexte, les enjeux, les parties prenantes), **structurer** (les objectifs, les livrables, les indicateurs), puis **exécuter** (avec rigueur et itération). C'est une méthode héritée de la gestion de projets européens, où le cadre logique impose clarté et mesurabilité. Appliquée à la data et l'IA, cette approche est un avantage compétitif.",
+        "tech": "Process en 3 phases : `understand()` (contexte, enjeux, stakeholders) → `structure()` (objectifs, livrables, KPIs) → `execute()` (itération, rigueur). Héritée de la gestion de projets européens où tu dois justifier chaque euro. Appliquée à la data : clarté du `scope`, mesurabilité des résultats."
+      },
+      "category": "skills"
+    },
+    {
+      "question": "Quelle est sa définition du succès ?",
+      "alternates": ["Definition of success?", "C'est quoi réussir pour elle?", "Success?", "Sa vision du succès?"],
+      "answer": {
+        "strategist": "Pour Azélie, le succès n'est pas un titre ou un salaire. C'est la **compétence réelle** et l'**alignement** entre ce qu'elle fait et ce qu'elle croit. Elle veut pouvoir comprendre un problème complexe et proposer une solution solide. C'est une ambition exigeante — et c'est exactement ce qui la rend durable dans la durée.",
+        "tech": "Pas un `title`, pas un `salary`. Le succès pour elle = `compétence réelle` + `alignement valeurs/actions`. Pouvoir comprendre un problème complexe et `ship` une solution solide. C'est pas sexy sur le papier, mais c'est ce qui fait la différence entre un profil qui dure et un profil qui flambe."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Quel type de manager elle apprécie ?",
+      "alternates": ["Ideal manager?", "Son manager idéal?", "Management style?", "Quel management?"],
+      "answer": {
+        "strategist": "Azélie s'épanouit avec un management qui **fait confiance** et **responsabilise**. Elle apprécie les managers qui donnent du contexte, fixent un cap clair et laissent de l'autonomie sur l'exécution. Elle n'a pas besoin d'être micro-managée — elle a besoin de comprendre la vision d'ensemble et de contribuer intelligemment.",
+        "tech": "Un manager qui `trust` et `empower`. Qui donne le `context`, pose un `goal` clair, et laisse de l'autonomie sur le `how`. Pas de `micromanagement` — elle a géré des équipes de 12 personnes, elle sait s'auto-organiser. Elle a besoin de la `big picture`, pas d'un `task tracker`."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Comment elle mesure son propre impact ?",
+      "alternates": ["Self-assessment?", "Comment elle s'évalue?", "Measuring impact?", "Auto-évaluation?"],
+      "answer": {
+        "strategist": "Par la **progression réelle**, pas par la validation extérieure. Azélie mesure son impact à travers des indicateurs concrets : ce qu'elle a structuré, ce qu'elle a rendu possible, ce qu'elle a appris. Son parcours — d'une année sabbatique après le bac à un M1 Big Data & IA — est en lui-même la preuve de cette progression. C'est un sujet qu'elle aime approfondir lors d'un échange direct.",
+        "tech": "Pas par les `likes` ou les `titles`. Par la `progression réelle` : qu'est-ce qu'elle a structuré, qu'est-ce qu'elle a rendu possible, qu'est-ce qu'elle a appris. Son `git log` personnel — d'une année sabbatique à un M1 Big Data & IA — c'est la meilleure métrique."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Qu'est-ce qu'un recruteur ne voit pas sur son CV ?",
+      "alternates": ["Beyond the CV?", "Ce que le CV ne dit pas?", "Hidden qualities?", "What's not on paper?"],
+      "answer": {
+        "strategist": "Ce que le CV ne montre pas : la **profondeur de sa réflexion** sur sa trajectoire, sa capacité à relier des domaines en apparence éloignés, et la force de conviction qui l'a poussée à quitter un CDI stable pour investir dans l'IA. Azélie n'est pas un profil que l'on comprend en 30 secondes de lecture — c'est un profil qui se révèle en conversation. Le mieux est de lui proposer un échange.",
+        "tech": "Le CV montre les `facts`. Ce qu'il montre pas : la profondeur de sa réflexion, sa capacité à `connect` des domaines différents, et le `courage` de quitter un CDI stable pour `invest` dans l'IA. C'est un profil qui se `reveal` en conversation, pas en `scan` de 30 secondes."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Pourquoi je devrais la rencontrer ?",
+      "alternates": ["Why meet her?", "Pourquoi un entretien?", "Convince me", "Donnez-moi une raison"],
+      "answer": {
+        "strategist": "Parce qu'Azélie fait partie de ces profils qu'on ne comprend pas sur le papier. Sa trajectoire, sa vision de l'IA responsable, sa capacité à relier stratégie et technique — tout cela prend une dimension différente en conversation. Si vous cherchez un profil qui apporte de la **profondeur** et pas seulement de l'exécution, 30 minutes d'échange vous donneront plus qu'une heure de lecture de CV. Contact : **azeliebernard@gmail.com**.",
+        "tech": "Parce que ce chatbot te donne le `README`, mais le vrai `code source` c'est elle. Sa trajectoire, sa vision, sa capacité à `bridge` stratégie et tech — ça se `demo` en live, pas en `text`. 30 min d'échange > 1h de lecture de CV. Ping : azeliebernard@gmail.com."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Elle a des références ?",
+      "alternates": ["References?", "Recommandations?", "Quelqu'un peut la recommander?", "Testimonials?"],
+      "answer": {
+        "strategist": "Azélie a travaillé avec des institutions comme l'**Agence Erasmus+ France**, des organisations internationales, des collectivités et des ONG dans 4 pays. Ses références professionnelles sont disponibles sur demande. Le plus simple est de la contacter directement à **azeliebernard@gmail.com** pour organiser un échange et obtenir les contacts pertinents.",
+        "tech": "Agence Erasmus+ France, organisations internationales, collectivités, ONG — 4 pays d'intervention. Les `references` sont dispo sur demande. Pour les obtenir : azeliebernard@gmail.com."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "C'est quoi le World Cleanup Day ?",
+      "alternates": ["World Cleanup Day?", "Nettoyage mondial?", "Coordination Afrique de l'Ouest?"],
+      "answer": {
+        "strategist": "À Dakar, Azélie a coordonné le **World Cleanup Day** pour toute la **région Afrique de l'Ouest** — une campagne mondiale déployée dans 150 pays, mobilisant plus de 20 millions de personnes. Elle a géré la communication (création vidéo, flyers), les ressources humaines, le community management et le développement de partenariats. Une mission de coordination à grande échelle qui illustre sa capacité à structurer l'action collective.",
+        "tech": "Elle a coordonné le `World Cleanup Day` pour toute l'Afrique de l'Ouest — 150 pays, 20M+ personnes mobilisées dans le monde. Son scope : `communication` (vidéo, flyers), `RH` (fiches de poste, recrutement), `community management`, `partenariats`. Du `project management` à l'échelle continentale."
+      },
+      "category": "background"
+    },
+    {
+      "question": "C'est quoi le projet à Guinaw Rails ?",
+      "alternates": ["Guinaw Rails?", "Femmes transformatrices?", "Empowerment Dakar?", "Les femmes au Sénégal?"],
+      "answer": {
+        "strategist": "Dans le cadre de sa Licence Pro, Azélie a réalisé un diagnostic et accompagné **28 femmes transformatrices de produits agricoles** à Guinaw Rails, en banlieue de Dakar. Elle a conçu des plans d'affaires complets, des plans architecturaux 3D pour un espace de production, et des formations aux normes d'hygiène. L'objectif : l'**empowerment** — aider ces femmes à se positionner dans les structures de décision. C'est un projet qu'elle porte avec fierté.",
+        "tech": "Licence Pro : diagnostic de 28 femmes transformatrices agricoles à Guinaw Rails (banlieue Dakar). Outil utilisé : `ODUP` — comparaison 2009 vs 2017 sur 5 axes. Livrables : `business plans`, plans architecturaux 3D, budget de 10 365 EUR, formation hygiène. Objectif : `empowerment` et autonomisation des femmes. Du `data-driven decision making` version terrain."
+      },
+      "category": "background"
+    },
+    {
+      "question": "C'est quoi les Cordées à l'APF ?",
+      "alternates": ["APF Cordées?", "Réseau Les Cordées?", "APF France Handicap détails?", "Son travail avec le handicap?"],
+      "answer": {
+        "strategist": "Les Cordées est un réseau de correspondance créé en 1930 au sein d'APF France Handicap, qui avait décliné de 800 à environ 400 membres actifs. Azélie a **revitalisé ce réseau** : création d'un guide, refonte du blog et du site web, nouveaux supports de communication. Elle a aussi organisé une journée de solidarité à **Disneyland Paris** pour les adhérents en situation de handicap, avec un succès qui a permis le renouvellement du partenariat Disney.",
+        "tech": "Réseau Les Cordées (APF, créé en 1930) : en déclin de 800 à ~400 membres. Elle a `refactoré` le système : nouveau guide, refonte blog + site web, supports de com. Bonus : organisation d'une journée à `Disneyland Paris` pour les adhérents handicapés, avec succès → renouvellement partenariat Disney. Du `change management` appliqué au social."
+      },
+      "category": "background"
+    },
+    {
+      "question": "C'est quoi le projet Erasmus+ avec les jeunes ?",
+      "alternates": ["Erasmus jeunes?", "Mobilité des jeunes?", "Projet jeunesse?", "DEJEPS Erasmus?"],
+      "answer": {
+        "strategist": "Azélie a conçu et coordonné un échange européen Erasmus+ pour des **jeunes défavorisés de 13 à 17 ans** d'un quartier HLM de Cognac. Un contexte marquant : **87% de ces jeunes n'avaient jamais voyagé**. Elle a structuré un projet en 4 phases — sensibilisation, construction, échange de 10 jours, puis valorisation — avec un budget de 26 934 EUR. Son approche : l'éducation non formelle et le théâtre de l'opprimé comme outils d'empowerment.",
+        "tech": "Projet Erasmus+ pour des jeunes de 13-17 ans en quartier HLM. Stat clé : `87%` n'avaient jamais voyagé à l'étranger. Budget : 26 934 EUR. Architecture du projet : `sensibilisation` → `construction` (formations, vidéo, blog) → `échange` (10 jours, théâtre) → `valorisation` (spectacle, expo photo). Outils pédagogiques : théâtre de l'opprimé, `empowerment`, éducation non formelle."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Quels outils méthodologiques maîtrise-t-elle ?",
+      "alternates": ["Méthodologie?", "Ses outils?", "Outils de gestion?", "Frameworks utilisés?"],
+      "answer": {
+        "strategist": "Azélie maîtrise un arsenal méthodologique solide : **SWOT**, **Ishikawa** (causes-effets), **Eisenhower** (priorisation), **cadres logiques et indicateurs SMART**, **ODUP** (diagnostic organisationnel), mais aussi des outils d'animation comme le **théâtre-forum**, le **Metaplan** et le **Phillips 6x6**. C'est un savoir-faire qui traduit sa capacité à structurer des projets complexes de A à Z — et que peu de profils techniques possèdent.",
+        "tech": "Toolkit méthodologique : `SWOT`, `Ishikawa`, `Eisenhower`, cadres logiques `SMART`, `ODUP` (diagnostic organisationnel), théâtre-forum, `Metaplan`, `Phillips 6x6`, `mind mapping`, retro-planning, conduite du changement. Combiné avec ses outils techniques (`Power BI`, `Python`, `SQL`), ça fait un `full stack` projet → data rare sur le marché."
+      },
+      "category": "skills"
+    },
+    {
+      "question": "C'est quoi le projet de résilience à Dakar ?",
+      "alternates": ["Projet VAE?", "Vivre avec l'Eau?", "Résilience Dakar?", "860 000 personnes?"],
+      "answer": {
+        "strategist": "Azélie a contribué au projet **Vivre avec l'Eau** (financement coopération britannique, programme BRACED) visant à renforcer la **résilience aux inondations** pour **860 000 personnes exposées** dans 10 communes de la région de Dakar. Un projet à l'échelle d'une métropole de plus de 3,6 millions d'habitants. C'est le type de mission qui forge une compréhension profonde des enjeux à grande échelle.",
+        "tech": "Projet `VAE` (Vivre avec l'Eau) — financement BRACED/coopération britannique. Objectif : renforcer la résilience aux inondations pour `860 000` personnes dans 10 communes de Dakar. Contexte : une métropole de 3,6M d'habitants, densité de 4 251 hab/km². Du `impact at scale` — pas un POC, un `programme` réel."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Comment elle a géré la conduite du changement ?",
+      "alternates": ["Change management?", "Résistance au changement?", "Conduite du changement?", "Gestion des résistances?"],
+      "answer": {
+        "strategist": "À APF France Handicap, Azélie a fait face à des **résistances internes** lors de la modernisation du réseau Les Cordées. Sa méthode : expliquer les raisons du changement, impliquer les parties prenantes dans le processus, et adapter le rythme d'implantation. C'est une compétence qu'elle a affinée dans chaque poste — de Dakar à l'Agence Erasmus+. La conduite du changement n'est pas théorique chez elle, elle est **vécue**.",
+        "tech": "Cas concret à l'APF : modernisation du réseau Les Cordées face à des résistances internes. Son `playbook` : 1) `explain` les raisons du changement, 2) `involve` les parties prenantes, 3) `adapt` le rythme. Pas du change management de slide — du change management de terrain, testé à Dakar, à Paris, partout."
+      },
+      "category": "skills"
+    },
+    {
+      "question": "Elle a une citation qui résume sa philosophie ?",
+      "alternates": ["Sa philosophie?", "Une citation?", "Son motto?", "Quote?"],
+      "answer": {
+        "strategist": "Après son voyage au Togo, Azélie a écrit : *\"Apporter des moyens corrects à des enfants pour qu'ils puissent savoir est une grande source de satisfaction. Investir dans l'avenir des enfants, donc de la société de demain, est une construction qui va au-delà des briques que nous avons entassées.\"* — Cette phrase capture l'essence de son rapport à l'impact : construire quelque chose qui dépasse le geste immédiat. Pour comprendre ce qui l'anime vraiment, le mieux est d'en discuter avec elle.",
+        "tech": "Sa citation post-Togo : *\"Investir dans l'avenir des enfants, donc de la société de demain, est une construction qui va au-delà des briques que nous avons entassées.\"* — En gros : l'impact durable > l'output immédiat. C'est le `mindset` qu'elle applique à tout — de l'humanitaire à l'IA. Pour creuser : un échange direct vaut mieux qu'un chatbot."
+      },
+      "category": "personal"
+    },
+    {
+      "question": "Elle a de l'expérience en santé, environnement ou humanitaire ?",
+      "alternates": ["Healthcare experience?", "Expérience environnement?", "Humanitarian experience?", "Impact social?"],
+      "answer": {
+        "strategist": "Oui, ces trois secteurs sont au cœur de sa trajectoire. **Humanitaire** : construction d'école au Togo, programme Écozone à Dakar, formation Bioforce. **Social** : 2 ans à APF France Handicap, 200+ personnes accompagnées. **Environnement** : programme de développement urbain durable à Dakar. Elle apporte une compréhension fine de ces secteurs, ce qui est un atout majeur pour des projets IA dans ces domaines.",
+        "tech": "Triple XP : `humanitaire` (Togo, Dakar, Bioforce), `social` (APF France Handicap, 200+ personnes), `environnement` (programme Écozone urbain durable à Dakar). Elle a pas juste lu des articles — elle a `shipped` du concret dans ces secteurs. Pour de l'IA à impact, c'est du `domain expertise` rare."
+      },
+      "category": "background"
+    },
+    {
+      "question": "Comment elle voit son rôle dans une équipe data ?",
+      "alternates": ["Role in data team?", "Son rôle dans une équipe?", "Quelle place dans une équipe tech?", "Position in team?"],
+      "answer": {
+        "strategist": "Azélie se positionne naturellement comme le **lien entre le métier et la technique**. Dans une équipe data, elle est celle qui traduit les besoins métier en spécifications compréhensibles, qui contextualise les résultats techniques pour les décideurs, et qui s'assure que les solutions répondent au vrai problème. Elle consolide en parallèle sa capacité à contribuer techniquement.",
+        "tech": "Le `bridge` entre le métier et la tech. Dans une équipe data, elle `translate` les besoins métier en specs, `contextualize` les outputs pour les stakeholders, et s'assure que le `model` résout le vrai `problem`. En parallèle, elle monte sur le `technical contribution`. Le profil qui fait que l'équipe ne `build` pas dans le vide."
+      },
+      "category": "hiring"
+    },
+    {
+      "question": "Un mot pour la fin ?",
+      "alternates": ["Closing statement?", "Dernier mot?", "Something else?", "Anything else?", "Pour conclure?"],
+      "answer": {
+        "strategist": "Azélie construit une expertise technique en IA pour prolonger une décennie de gestion de projets complexes et à impact. Si ce profil vous intrigue, le mieux est de la rencontrer. Contactez-la à **azeliebernard@gmail.com** ou via le formulaire en bas de page. Elle sera ravie d'échanger avec vous.",
+        "tech": "Elle `build` de l'expertise IA sur 10 ans de projets complexes. Si le profil t'intrigue, le `next step` c'est un échange direct. Email : azeliebernard@gmail.com ou formulaire en bas de page. `connection.open()` — elle attend ton `ping`."
       },
       "category": "meta"
     }
   ]
 }
+

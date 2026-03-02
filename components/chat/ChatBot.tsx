@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useRef } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAppStore } from '@/lib/store';
 import { cn } from '@/lib/utils';
@@ -18,15 +18,17 @@ export function ChatBot() {
   const isTyping = useAppStore(state => state.isTyping);
   const setIsTyping = useAppStore(state => state.setIsTyping);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const [streamingContent, setStreamingContent] = useState('');
   const isStrategist = mode === 'strategist';
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [chatHistory, isTyping]);
+  }, [chatHistory, isTyping, streamingContent]);
 
   const handleSendMessage = useCallback(async (message: string) => {
     addChatMessage('user', message);
     setIsTyping(true);
+    setStreamingContent('');
 
     try {
       const response = await fetch('/api/chat', {
@@ -39,7 +41,20 @@ export function ChatBot() {
         }),
       });
 
-      if (!response.ok) throw new Error('API error');
+      if (!response.ok) {
+        let errorMsg: string;
+        try {
+          const errorData = await response.json();
+          errorMsg = errorData.error || 'Une erreur est survenue.';
+        } catch {
+          errorMsg = isStrategist
+            ? 'Désolée, une erreur est survenue. Réessayez dans quelques instants.'
+            : 'Error: connection.failed() // Try again later';
+        }
+        addChatMessage('assistant', errorMsg);
+        return;
+      }
+
       if (!response.body) throw new Error('No response body');
 
       const reader = response.body.getReader();
@@ -61,6 +76,7 @@ export function ChatBot() {
               const parsed = JSON.parse(data);
               if (parsed.content) {
                 accumulated += parsed.content;
+                setStreamingContent(accumulated);
               }
             } catch {
               // skip malformed chunks
@@ -70,12 +86,14 @@ export function ChatBot() {
       }
 
       if (accumulated) {
+        setStreamingContent('');
         addChatMessage('assistant', accumulated);
       }
     } catch (error) {
       console.error('Chat error:', error);
+      setStreamingContent('');
       const errorMsg = isStrategist
-        ? 'Desolee, une erreur est survenue. Reessayez dans quelques instants.'
+        ? 'Désolée, une erreur est survenue. Réessayez dans quelques instants.'
         : 'Error: connection.failed() // Try again later';
       addChatMessage('assistant', errorMsg);
     } finally {
@@ -86,7 +104,7 @@ export function ChatBot() {
   const welcomeMessage = {
     role: 'assistant' as const,
     content: isStrategist
-      ? 'Bonjour ! Je suis l\'assistante virtuelle d\'Azelie. Comment puis-je vous aider a decouvrir son profil ?'
+      ? 'Bonjour ! Je suis l\'assistante virtuelle d\'Azélie. Comment puis-je vous aider à découvrir son profil ?'
       : '> init azelie_bot.exe\n// Hey! Ask me anything about Azelie. Skills, projects, background — I got you.',
   };
 
@@ -94,9 +112,12 @@ export function ChatBot() {
     <AnimatePresence>
       {isChatOpen && (
         <motion.div
+          role="dialog"
+          aria-label={isStrategist ? 'Assistant virtuel d\'Azélie' : 'azelie.chat()'}
+          aria-modal="true"
           className={cn(
             'fixed bottom-4 right-4 z-overlay',
-            'w-[380px] max-w-[calc(100vw-2rem)] h-[520px] max-h-[calc(100vh-6rem)]',
+            'w-[380px] max-w-[calc(100vw-2rem)] h-[520px] max-h-[calc(100dvh-6rem)]',
             'flex flex-col',
             'rounded-2xl overflow-hidden',
             'border border-border',
@@ -120,9 +141,9 @@ export function ChatBot() {
                 : <Terminal size={16} className="text-accent-primary" />
               }
               <span className="font-heading font-semibold text-sm text-foreground-primary">
-                {isStrategist ? 'Assistant Azelie' : 'azelie.chat()'}
+                {isStrategist ? 'Assistant Azélie' : 'azelie.chat()'}
               </span>
-              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" aria-hidden="true" />
             </div>
             <div className="flex items-center gap-1">
               <motion.button
@@ -130,7 +151,7 @@ export function ChatBot() {
                 className="p-1.5 rounded-lg hover:bg-background-tertiary text-foreground-muted hover:text-foreground-primary transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                title={isStrategist ? 'Effacer la conversation' : 'clear()'}
+                aria-label={isStrategist ? 'Effacer la conversation' : 'clear()'}
               >
                 <Trash2 size={14} />
               </motion.button>
@@ -139,6 +160,7 @@ export function ChatBot() {
                 className="p-1.5 rounded-lg hover:bg-background-tertiary text-foreground-muted hover:text-foreground-primary transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
+                aria-label={isStrategist ? 'Fermer le chat' : 'close()'}
               >
                 <X size={14} />
               </motion.button>
@@ -146,16 +168,60 @@ export function ChatBot() {
           </div>
 
           {/* Messages area */}
-          <div className="flex-1 overflow-y-auto py-4 space-y-1">
-            {chatHistory.length === 0 && (
-              <ChatMessage message={welcomeMessage} index={0} />
+          <div className="flex-1 overflow-y-auto py-4 space-y-1" aria-live="polite">
+            {chatHistory.length === 0 && !streamingContent && (
+              <>
+                <ChatMessage message={welcomeMessage} index={0} />
+                <div className="px-4 pt-2 pb-1 flex flex-wrap gap-2">
+                  {(isStrategist
+                    ? [
+                        'Qui est Azélie ?',
+                        'Pourquoi la data et l\'IA ?',
+                        'Ses compétences',
+                        'Pourquoi la recruter ?',
+                      ]
+                    : [
+                        'Who is Azélie?',
+                        'Pourquoi l\'IA ?',
+                        'Stack technique',
+                        'Pourquoi la recruter ?',
+                      ]
+                  ).map((q) => (
+                    <motion.button
+                      key={q}
+                      onClick={() => handleSendMessage(q)}
+                      disabled={isTyping}
+                      className={cn(
+                        'text-xs px-3 py-1.5 rounded-full',
+                        'border border-border',
+                        'text-foreground-muted hover:text-foreground-primary',
+                        'hover:bg-background-secondary',
+                        'transition-colors duration-200',
+                        'disabled:opacity-50 disabled:cursor-not-allowed'
+                      )}
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      {q}
+                    </motion.button>
+                  ))}
+                </div>
+              </>
             )}
 
             {chatHistory.map((msg, i) => (
               <ChatMessage key={i} message={msg} index={i} />
             ))}
 
-            {isTyping && (
+            {streamingContent && (
+              <ChatMessage
+                message={{ role: 'assistant', content: streamingContent }}
+                index={chatHistory.length}
+                isStreaming
+              />
+            )}
+
+            {isTyping && !streamingContent && (
               <motion.div
                 className="flex items-center gap-3 px-4 py-3"
                 initial={{ opacity: 0 }}

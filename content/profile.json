@@ -2,14 +2,14 @@
   "personal": {
     "name": "Azélie Bernard",
     "title": {
-      "strategist": "Ingénieure de Projets Européens",
-      "tech": "Data Engineer en devenir"
+      "strategist": "Ingénieure de Projets & IA",
+      "tech": "Data & IA Engineer"
     },
     "tagline": "Là où la stratégie rencontre le code",
     "location": "Bordeaux, France",
     "email": "azeliebernard@gmail.com",
     "phone": "+33 6 46 48 10 77",
-    "age": 30,
+    "age": 31,
     "languages": [
       { "lang": "Français", "level": "Natif" },
       { "lang": "Anglais", "level": "B2" },
@@ -24,15 +24,15 @@
   },
   
   "about": {
-    "strategist": "Ingénieure de projets européens pendant 8 ans, j'ai structuré des programmes complexes de Dakar à Bruxelles. Coordination multi-acteurs, reporting bailleurs, pilotage budgétaire — transformer la complexité en impact mesurable. Mon passage chez Erasmus+ m'a appris à naviguer entre institutions, terrain et stratégie.",
-    "tech": "8 ans à manipuler des données sans le savoir. Indicateurs de performance, cadres logiques, tableaux de bord — j'ai toujours pensé en systèmes. Aujourd'hui, je code ce que j'analysais. Python, SQL, ML — même mission, nouveaux outils. Transformer le chaos en algorithmes qui ont du sens."
+    "strategist": "Plus de 10 ans à structurer des programmes complexes de Dakar à Bruxelles. Coordination multi-acteurs, pilotage budgétaire, reporting bailleurs — transformer la complexité en impact mesurable. Aujourd'hui, je développe une expertise technique en data et IA pour prolonger cette trajectoire.",
+    "tech": "10 ans à penser en systèmes. Indicateurs de performance, cadres logiques, tableaux de bord — la donnée a toujours été au cœur de mes projets. Aujourd'hui, je code ce que j'analysais. Python, SQL, ML — même mission, nouveaux outils. Transformer le chaos en algorithmes qui ont du sens."
   },
   
-  "why": "Après 8 ans à piloter des projets complexes — de Dakar à Bruxelles — j'ai réalisé que je ne voulais plus seulement analyser la donnée, mais la faire parler. Ma reconversion vers l'IA est une continuité logique : utiliser le machine learning pour amplifier ce que j'ai toujours fait — transformer le chaos en décisions concrètes.",
+  "why": "Après plus de 10 ans à piloter des projets complexes — de Dakar à Bruxelles — j'ai voulu passer de l'analyse stratégique à la maîtrise technique. Mon évolution vers la data et l'IA est une progression logique : utiliser le machine learning pour amplifier ce que j'ai toujours fait — transformer la complexité en décisions concrètes.",
   
   "highlights": [
     {
-      "number": "8+",
+      "number": "10+",
       "label": "Années d'expérience",
       "context": "en gestion de projets"
     },

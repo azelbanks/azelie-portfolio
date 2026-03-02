@@ -1,8 +1,8 @@
 {
   "identity": {
     "nom_complet": "Azélie Bernard",
-    "age": 30,
-    "date_naissance": null,
+    "age": 31,
+    "date_naissance": "10 septembre 1994",
     "localisation": "Bordeaux, Nouvelle-Aquitaine, France",
     "nationalite": "Française",
     "email": "azeliebernard@gmail.com",
@@ -16,7 +16,161 @@
       { "langue": "Wolof", "niveau": "Notions (acquises au Sénégal)" }
     ],
     "tagline": "Là où la stratégie rencontre le code",
-    "resume_profil": "Ingénieure de projets européens pendant 8 ans, Azélie se reconvertit vers la data et l'IA. Elle prépare un Mastère Big Data & Intelligence Artificielle à Sup de Vinci (Bordeaux) en alternance à partir de septembre 2025. Son profil hybride combine expertise métier en gestion de projets internationaux et compétences techniques en data science."
+    "resume_profil": "Professionnelle de l'impact avec plus de 10 ans d'expérience en gestion de projets complexes et internationaux, Azélie développe aujourd'hui une expertise technique en Big Data et Intelligence Artificielle. Son profil hybride relie vision stratégique, maturité organisationnelle et compétences data/IA en consolidation active.",
+    "phrase_cle": "Elle construit une expertise technique en IA pour prolonger une décennie de gestion de projets complexes et à impact."
+  },
+
+  "histoire_fondatrice": {
+    "contexte": "Après le bac, Azélie a choisi de prendre une année sabbatique pour réfléchir à sa direction. Plutôt que de suivre un parcours par défaut, elle a préféré ralentir pour ne pas se tromper de trajectoire. Cette décision révèle un trait fondamental : elle préfère l'intentionnalité à l'automatisme.",
+    "voyage_togo": {
+      "date": "Janvier 2013",
+      "lieu": "Togo",
+      "mission": "Construction d'une école",
+      "recit": "Ce voyage humanitaire a été un pivot existentiel. Premier vol en avion, départ de Bordeaux sous un ciel gris avec un léger retard, puis l'arrivée dans la chaleur du continent africain. L'accueil chaleureux, l'immersion totale. Pendant 3 semaines, travail, découverte et échange. Azélie a découvert la richesse de l'échange interculturel, confirmé que la différence nourrit l'enrichissement et l'évolution de soi. Un regard, un sourire, des rires ont suffi pour communiquer. Face à cette expérience est née l'humilité. Le groupe a mis tout son cœur dans la construction de cette école — un édifice de l'espoir. Azélie a laissé derrière elle une pierre pour améliorer l'avenir des enfants qu'elle a affectueusement serrés dans ses bras, et elle a emporté un impérissable souvenir.",
+      "apprentissages": [
+        "L'éducation transforme les destins",
+        "L'impact réel se mesure en actes, pas en discours",
+        "La différence culturelle est une richesse qui nourrit l'évolution",
+        "L'humilité est une force structurante"
+      ],
+      "impact": "Ce moment a installé chez elle un rapport profond à l'éducation, une conscience aiguë de l'impact concret, et un besoin viscéral de contribuer à quelque chose d'utile."
+    },
+    "fierte": "Sa plus grande fierté n'est pas un poste ou un titre. C'est la trajectoire elle-même : partie sans vision claire après le bac, construite à travers l'expérience, soutenue par des mentors qui ont cru en elle et lui ont permis de croire en ses capacités, capable aujourd'hui de gravir les échelons et d'entrer en M1 Big Data & IA. Ce que le monde lui a apporté à travers les projets humanitaires et les personnes qui l'ont accompagnée est sa vraie richesse.",
+    "declic": "Son premier voyage humanitaire au Togo a été le déclic fondateur de toute sa trajectoire professionnelle.",
+    "citation_togo": "Apporter des moyens corrects à des enfants pour qu'ils puissent savoir est une grande source de satisfaction. Investir dans l'avenir des enfants, donc de la société de demain, est une construction qui va au-delà des briques que nous avons entassées."
+  },
+
+  "realisations_terrain": {
+    "dakar_detail": {
+      "programme_ecozone": "Programme intégré de développement urbain durable : agriculture urbaine (jardins communautaires, compostage), gestion des déchets (écobricks — matériau de construction alternatif à base de plastique recyclé), éco-construction et éducation environnementale en écoles.",
+      "world_cleanup_day": "Azélie a coordonné le World Cleanup Day pour toute la région Afrique de l'Ouest — une campagne dans 150 pays mobilisant plus de 20 millions de personnes. Elle a géré la communication (création vidéo, flyers), les RH (fiches de poste, entretiens), le community management et le développement de partenariats.",
+      "projet_vae": "Contribution au projet Vivre avec l'Eau (financement coopération britannique, programme BRACED) visant à renforcer la résilience aux inondations pour 860 000 personnes exposées dans 10 communes de la région de Dakar.",
+      "contexte_urbain": "Dakar concentre 22,4% de la population sénégalaise sur une densité de 4 251 habitants/km² (moyenne nationale : 53/km²). La ville est passée de 1 600 habitants en 1878 à 3 630 324 en 2018.",
+      "adaptation_culturelle": "Azélie a appris à intégrer les paramètres culturels, religieux et animistes dans ses stratégies d'intervention — comprendre les contextes locaux avant d'agir."
+    },
+    "guinaw_rails": {
+      "mission": "Diagnostic et accompagnement de 28 femmes transformatrices de produits agricoles à Guinaw Rails (banlieue de Dakar) dans le cadre de la Licence Pro GOESS.",
+      "methode": "Utilisation de l'outil diagnostique ODUP avec comparaison des résultats 2009 vs 2017 sur 5 axes : financement, profil technique, gestion des unités, commercialisation et performance.",
+      "resultats": "Conception de plans d'affaires complets, plans architecturaux 3D pour un espace de production/stockage/vente, budget de 10 365 EUR, prévisions d'exploitation mensuelles et plan de formation aux normes d'hygiène.",
+      "impact": "Projet centré sur l'empowerment des femmes (dimension genre) : auto-détermination, auto-prise en charge, positionnement dans les structures de décision."
+    },
+    "apf_france_handicap": {
+      "cordees": "Revitalisation du réseau Les Cordées (groupes de correspondance depuis 1930) qui avait décliné de 800 à ~400 membres actifs. Création d'un guide, refonte du blog et du site web, nouveaux supports de communication.",
+      "disney": "Organisation d'une journée de solidarité à Disneyland Paris pour les adhérents en situation de handicap : concours photo, gestion logistique d'accessibilité, enquête d'évaluation post-événement. Résultats positifs ayant permis le renouvellement du partenariat Disney.",
+      "conduite_changement": "Application de méthodologies de conduite du changement face à des résistances internes : explication des raisons du changement, implication des parties prenantes, adaptation du rythme d'implantation.",
+      "chiffres_apf": "Organisation nationale : 96 délégations, 30 000 personnes accompagnées, 14 200 employés, 25 000 bénévoles, 530 736 donateurs."
+    },
+    "erasmus_jeunes": {
+      "contexte": "Plus de 87% des jeunes de moins de 18 ans au Centre Social La Passerelle n'avaient jamais voyagé à l'étranger. Moins de 2% des 15-29 ans français bénéficient des programmes de mobilité existants — plus de 11 millions en sont exclus.",
+      "projet": "Conception et coordination d'un échange de jeunes européen Erasmus+ pour des jeunes défavorisés (13-17 ans) du quartier HLM Saint-Martin de Cognac. Budget géré : 26 934 EUR.",
+      "phases": "Sensibilisation (jeu de connaissances Europe, café international, théâtre-forum) → Construction du projet (formations, création de brochure et vidéo, blog) → Échange européen (10 jours, création théâtrale) → Valorisation (spectacle, exposition photo, restitution de quartier).",
+      "approche": "Fondée sur le pouvoir d'agir (empowerment), l'éducation non formelle et le théâtre de l'opprimé comme outils pédagogiques."
+    }
+  },
+
+  "personnalite": {
+    "moteur_profond": "La cohérence. Azélie a besoin que ce qu'elle fait soit aligné avec ce qu'elle croit. Son moteur n'est ni le statut, ni la reconnaissance extérieure. C'est l'alignement entre action et conviction. Elle est animée par une tension constructive : comprendre, structurer, améliorer.",
+    "qui_elle_est": "Une femme qui s'est construite par l'expérience, pas par automatisme. Jamais guidée par le confort, toujours guidée par la cohérence. Elle ne se contente pas d'exécuter, elle cherche à comprendre.",
+    "curiosite": "Curiosité expansive mais disciplinée. Elle cherche à comprendre comment les systèmes fonctionnent — les organisations, les dynamiques humaines, les mécanismes invisibles. Que ce soit dans la cuisine, les cultures découvertes en voyage, les séries historiques ou dans une architecture de données, elle cherche toujours la structure derrière la surface.",
+    "centres_interet": [
+      "Cuisine et pâtisserie — espace d'expérimentation, de précision et de créativité",
+      "Gastronomie, en particulier les cuisines fusion — comprendre comment des cultures différentes se rencontrent dans une assiette",
+      "Restaurants gastronomiques — explorer de nouvelles saveurs du monde entier",
+      "Voyage et découverte de nouvelles cultures — observer les rythmes de vie, les habitudes, les façons de penser",
+      "Séries historiques — comprendre les dynamiques de pouvoir, les contextes et les décisions qui façonnent les sociétés",
+      "Apprentissage continu — apprendre est une manière d'évoluer, pas d'accumuler"
+    ],
+    "rapport_apprentissage": "L'apprentissage est central dans son identité. Elle fonctionne par cycles : découverte, approfondissement, structuration, transmission. Si elle stagne, elle s'éteint. Si elle progresse, elle s'épanouit. Elle ne voit pas l'apprentissage comme une contrainte mais comme une identité.",
+    "rapport_challenge": "Elle aime le challenge et l'inconfort de l'apprentissage. Elle a une tolérance élevée à l'incertitude cognitive et une discipline d'apprentissage rigoureuse. Elle ne cherche pas la facilité, elle cherche la progression. Elle n'a pas peur de repartir de zéro si le sens est là.",
+    "archetype": "L'Architecte de sens — comprend les systèmes, analyse la donnée, cherche l'impact, apprend en continu, relie technique et humanité."
+  },
+
+  "valeurs_detaillees": [
+    {
+      "valeur": "Responsabilité",
+      "description": "Les compétences doivent servir quelque chose d'utile. La technologie n'est pas neutre. L'IA doit être pensée avec conscience. Azélie refuse de travailler sur des projets qui existent uniquement pour générer du volume ou de la performance court-termiste. Elle veut contribuer à des projets qui améliorent réellement quelque chose."
+    },
+    {
+      "valeur": "Humilité",
+      "description": "Connaître ses forces ET ses limites. L'humilité n'est pas une faiblesse, c'est une condition de croissance. Azélie est exigeante avec elle-même, elle n'a pas peur d'apprendre ni de ne pas savoir."
+    },
+    {
+      "valeur": "Exigence",
+      "description": "Exigence envers elle-même, la qualité du travail et la cohérence stratégique. Elle ne supporte pas le travail superficiel, les décisions non réfléchies et les projets sans vision."
+    },
+    {
+      "valeur": "Sens",
+      "description": "Le sens est central dans ses choix. Elle peut travailler intensément et s'investir profondément, mais elle a besoin de comprendre pourquoi. Sans sens, pas d'engagement durable."
+    }
+  ],
+
+  "ethique_professionnelle": {
+    "principes": [
+      "Transparence dans les données et les résultats",
+      "Rigueur dans l'analyse et la méthodologie",
+      "Impact mesurable plutôt que promesses abstraites",
+      "Collaboration et respect des contextes humains"
+    ],
+    "rapport_donnee": "La donnée doit servir la vérité opérationnelle. Azélie ne manipule pas les chiffres pour raconter une histoire flatteuse. Elle veut que la donnée éclaire la décision.",
+    "vision_ia": "L'IA doit être explicable, maîtrisée et alignée avec des objectifs responsables. Elle refuse l'IA gadget et l'illusion technologique. L'IA est un outil de transformation, pas une fin en soi.",
+    "position": "La performance et la responsabilité ne sont pas dissociables. Si une solution technique est efficace mais éthiquement discutable, cela crée une tension qu'elle ne peut ignorer."
+  },
+
+  "ambitions": {
+    "ambition_centrale": "Être réellement compétente. Maîtriser la structuration de données, la modélisation, les logiques algorithmiques et l'architecture des systèmes. Pouvoir comprendre un problème complexe et proposer une solution solide.",
+    "objectif_moyen_terme": "Relier enjeux métier, stratégie organisationnelle, architecture data et implémentation technique.",
+    "postes_vises": ["AI Engineer à impact", "Cheffe de projet IA avec socle technique fort"],
+    "secteurs_impact": ["Santé", "Environnement", "Humanitaire", "Politiques publiques", "Innovation responsable"],
+    "trajectoire": {
+      "court_terme_1_3_ans": "Consolidation technique : maîtrise de Python, compétences en architecture data, compréhension fine des modèles IA, autonomie technique croissante. Développement d'une crédibilité technique solide. Leadership transversal et méthodologique.",
+      "moyen_terme_3_6_ans": "Leadership hybride : AI Engineer senior orientée impact ou Cheffe de projet IA avec forte crédibilité technique. Capable de traduire les besoins métier, dialoguer avec les développeurs, comprendre les contraintes techniques, piloter une feuille de route IA.",
+      "long_terme_6_10_ans": "Leadership transformationnel : Head of AI Project, Responsable transformation data ou Directrice de programme IA à impact. Pilotage d'équipes multidisciplinaires, de projets complexes à forte responsabilité, et de décisions stratégiques liées à l'IA."
+    }
+  },
+
+  "leadership": {
+    "style_actuel": "Leadership structurant, méthodologique et relationnel. Fondé sur la structuration et la responsabilité, pas sur l'autorité hiérarchique. Azélie ne cherche pas à être au centre, elle cherche à rendre le système plus fluide.",
+    "capacites": [
+      "Cadrer un projet et clarifier des objectifs",
+      "Aligner des parties prenantes",
+      "Rendre les choses compréhensibles",
+      "Structurer les zones floues",
+      "Transformer la complexité en architecture lisible",
+      "Responsabiliser les équipes"
+    ],
+    "caracteristiques": [
+      "Structurant — clarifie les zones floues, met en place des cadres",
+      "Éthique — ne pilote pas un projet sans s'interroger sur son impact réel",
+      "Interculturel — s'adapte aux environnements divers sans diriger de manière uniforme",
+      "Progressif — construit étape par étape, maîtrise un niveau avant de passer au suivant"
+    ],
+    "atout_differenciant": "Beaucoup de profils techniques ont du mal avec la dimension humaine. Beaucoup de profils stratégiques ne comprennent pas la technique. Azélie peut être un pont entre les deux."
+  },
+
+  "profil_psychologique": {
+    "forces": [
+      "Résilience évolutive — traverse l'incertitude sans paniquer, accepte les périodes de doute et de transition comme des étapes nécessaires",
+      "Intelligence systémique — voit les interactions, dépendances, flux d'information, logiques de pouvoir et incohérences structurelles dans les organisations",
+      "Sens éthique intégré — ne dissocie pas performance et responsabilité",
+      "Curiosité disciplinée — approfondit les sujets, comprend la logique derrière les outils, pas seulement leur utilisation",
+      "Capacité d'adaptation interculturelle — observe avant de juger, s'adapte sans perdre son identité, écoute activement",
+      "Leadership structurant — clarifie, responsabilise, pose un cadre méthodologique"
+    ],
+    "zones_vigilance": [
+      "Perfectionnisme — peut vouloir trop comprendre avant d'agir. Ce trait est maîtrisé et elle apprend à accepter l'itération imparfaite.",
+      "Exigence élevée — parfois plus que nécessaire envers elle-même. Ce trait est canalisé en moteur de progression.",
+      "Tendance à vouloir comprendre en profondeur avant d'agir — cela garantit des décisions réfléchies mais nécessite parfois d'accepter l'action avant la compréhension totale."
+    ],
+    "rapport_ambition": "Son ambition est maîtrisée, fondée sur la compétence réelle. Elle ne veut pas un titre prématuré, elle veut être légitime. Elle est attirée par la capacité d'influencer intelligemment, pas par le pouvoir pour dominer."
+  },
+
+  "positionnement_strategique": {
+    "identite_professionnelle": "Profil hybride à forte maturité organisationnelle, en consolidation technique IA.",
+    "narratif_central": "Elle construit une expertise technique en IA pour prolonger une décennie de gestion de projets complexes et à impact.",
+    "fil_rouge": "Elle relie impact, organisation et technologie.",
+    "trajectoire_coherente": "Humanitaire → gestion de projet → pilotage d'indicateurs → data → IA. Ce n'est pas un changement opportuniste, c'est une spirale ascendante — une montée en complexité cohérente vers plus de maîtrise systémique.",
+    "face_profils_techniques": "La plupart des profils purement techniques maîtrisent le code mais peinent à comprendre les enjeux métier, les dynamiques organisationnelles et la dimension humaine des projets. Azélie apporte cette compréhension stratégique en complément de compétences techniques en consolidation. Sa valeur réside dans sa capacité à relier les deux mondes.",
+    "potentiel_executif_vs_strategique": "Son potentiel dominant est stratégique, mais elle renforce activement son socle exécutif technique pour rendre ce potentiel crédible. Elle ne veut être ni une stratège sans compréhension technique, ni une technicienne sans vision."
   },
 
   "formation": [
@@ -27,7 +181,7 @@
       "periode": "Septembre 2025 — Septembre 2027",
       "statut": "En cours (alternance)",
       "contenu": "Machine Learning, Python avancé, SQL, architectures Big Data, ETL, MLOps, Power BI",
-      "objectif": "Devenir le pont entre le domaine métier et le data engineering"
+      "objectif": "Consolider un socle technique solide pour soutenir une ambition stratégique en IA"
     },
     {
       "diplome": "Coordinateur de Projet de Solidarité Internationale",
@@ -168,41 +322,51 @@
 
   "competences": {
     "techniques": [
-      "Python (Pandas, scikit-learn, spaCy, Streamlit)",
-      "SQL",
-      "Power BI",
-      "Machine Learning",
-      "ETL",
-      "NLP (Natural Language Processing)",
-      "Data Cleaning & Wrangling",
+      "Power BI — maîtrise solide de la logique des dashboards et de la visualisation",
+      "SQL — requêtes analytiques intermédiaires",
+      "Python (Pandas, scikit-learn, spaCy, Streamlit) — en progression active dans le cadre du M1",
+      "Machine Learning — compréhension des concepts et logiques algorithmiques",
+      "ETL — principes de structuration et transformation de données",
+      "NLP (Natural Language Processing) — expérimentation (classificateur 89% précision)",
+      "Data Cleaning & Wrangling — structuration de données hétérogènes",
       "Visualisation de données (Plotly, Power BI)",
       "Next.js / React / TypeScript (ce portfolio)",
       "Git / GitHub"
     ],
     "metier": [
       "Ingénierie de projets européens (Erasmus+, Horizon Europe)",
-      "Rédaction de demandes de subventions",
+      "Rédaction de demandes de subventions complexes",
       "Gestion de consortiums transnationaux",
       "Reporting narratif et financier pour bailleurs",
       "Cadres logiques et indicateurs SMART",
       "Pilotage budgétaire (budgets > 1M€)",
       "Coordination multi-acteurs (collectivités, ONG, institutions)",
-      "Formation et transfert de compétences"
+      "Formation et transfert de compétences",
+      "Analyse d'impact social"
     ],
     "soft_skills": [
-      "Vision systémique",
-      "Structuration de la complexité",
-      "Communication interculturelle",
-      "Adaptabilité",
-      "Rigueur",
+      "Vision systémique — voit les interactions et dépendances dans les organisations",
+      "Structuration de la complexité — transforme le chaos en architecture lisible",
+      "Communication interculturelle — adaptée à 4 pays d'intervention",
+      "Adaptabilité — environnements variés (terrain humanitaire, institutions européennes, collectivités)",
+      "Rigueur et exigence — dans l'analyse comme dans la livrabilité",
       "Travail en équipe pluridisciplinaire",
-      "Management (jusqu'à 12 personnes)"
+      "Management structurant (jusqu'à 12 personnes)",
+      "Résilience et capacité à traverser les transitions"
     ],
-    "outils": [
+    "outils_techniques": [
       "Power BI", "Excel avancé", "Kobo Toolbox",
       "Streamlit", "Jupyter Notebook",
       "VS Code", "Git/GitHub"
-    ]
+    ],
+    "outils_methodologiques": [
+      "SWOT", "Ishikawa (diagramme causes-effets)", "Eisenhower (priorisation)",
+      "Cadres logiques et indicateurs SMART", "ODUP (diagnostic organisationnel)",
+      "Théâtre-forum / Théâtre de l'opprimé", "Metaplan", "Phillips 6x6",
+      "Mind mapping", "Brainstorming structuré", "Abaque de Régnier",
+      "Retro-planning", "Conduite du changement"
+    ],
+    "positionnement_technique": "Azélie consolide activement son socle technique dans le cadre d'un M1 Big Data & IA exigeant. Sa force différenciante n'est pas d'être la plus technique, mais de comprendre la logique technique ET les enjeux métier — ce qui la positionne comme un pont entre équipes stratégiques et techniques."
   },
 
   "projets": [
@@ -220,7 +384,7 @@
       "nom": "Portfolio Dualité",
       "type": "Site web",
       "stack": "Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Zustand",
-      "description": "Portfolio interactif avec double mode (Stratège/Tech), gamification, Easter Egg, et chatbot IA RAG.",
+      "description": "Portfolio interactif avec double mode (Stratège/Tech), gamification, Easter Egg, et chatbot IA.",
       "lien": "Ce site",
       "github": "https://github.com/azelie-bernard/portfolio",
       "points_forts": ["Mode dual Stratège/Tech", "Gamification & badges", "Easter Egg interactif", "Chatbot IA"],
@@ -263,7 +427,7 @@
   ],
 
   "chiffres_cles": {
-    "annees_experience": "8+",
+    "annees_experience": "10+",
     "pays_intervention": "4 (France, Sénégal, Togo, Europe)",
     "partenaires_geres": "15+",
     "budgets_pilotes": "1M€+",
@@ -271,29 +435,37 @@
     "personnes_accompagnees_apf": "200+",
     "equipe_max_managee": "12 personnes",
     "precision_classificateur_nlp": "89%",
-    "reduction_temps_data_cleaning": "70%"
+    "reduction_temps_data_cleaning": "70%",
+    "personnes_ciblees_resilience_dakar": "860 000",
+    "world_cleanup_day": "150 pays, 20M+ personnes (coordination Afrique de l'Ouest)",
+    "femmes_accompagnees_guinaw_rails": "28",
+    "jeunes_mobilite_erasmus": "87% n'avaient jamais voyagé",
+    "budget_projet_erasmus_jeunes": "26 934 EUR",
+    "employes_apf": "14 200",
+    "personnes_accompagnees_apf_national": "30 000"
   },
 
   "valeurs": [
     "Impact mesurable : chaque projet doit produire des résultats quantifiables",
     "Approche systémique : comprendre les interconnexions avant d'agir",
-    "Éthique & durabilité : l'IA au service de l'humain, pas l'inverse"
+    "Éthique & durabilité : l'IA au service de l'humain, pas l'inverse",
+    "Responsabilité : la technologie n'est pas neutre, elle doit être pensée avec conscience"
   ],
 
   "recherche_emploi": {
-    "type": "Alternance",
-    "debut": "Septembre 2025",
-    "fin": "Septembre 2027",
-    "postes_vises": ["Data Engineer", "ML Engineer", "Chargée de projet IA/Data"],
-    "secteurs_interet": ["Data Engineering", "Intelligence Artificielle", "Analyse de données", "Projets internationaux"],
-    "localisation_souhaitee": "Bordeaux ou télétravail/hybride",
-    "disponibilite": "Septembre 2025",
-    "valeur_ajoutee": "Double compétence métier (8 ans gestion de projets internationaux) + technique (data/IA). Pont idéal entre équipes business et tech."
+    "type": "CDI",
+    "postes_vises": ["AI Engineer", "Cheffe de projet IA", "Data Engineer"],
+    "secteurs_interet": ["Santé", "Environnement", "Humanitaire", "Politiques publiques", "Innovation responsable", "Data Engineering", "Intelligence Artificielle"],
+    "localisation_souhaitee": "France, international ou full remote",
+    "formation_en_cours": "M1 Big Data & IA à Sup de Vinci en alternance (2025-2027)",
+    "disponibilite": "Disponible",
+    "valeur_ajoutee": "Profil hybride combinant plus de 10 ans de gestion de projets complexes et internationaux avec une expertise technique en data et IA en consolidation active. Pont entre équipes stratégiques et techniques."
   },
 
   "parcours_international": {
     "france": ["Paris", "Lyon", "Bordeaux", "Oullins", "Cognac"],
     "senegal": "Dakar (2018, programme Écozone, 1 an)",
+    "togo": "Voyage humanitaire fondateur (2013, construction d'une école)",
     "europe": "Programmes européens multi-pays via Erasmus+ et Horizon Europe"
   },
 
@@ -303,7 +475,7 @@
     "mode_tech": "Cyberpunk raffiné — noir profond, accents néon cyan/magenta. Police JetBrains Mono. Ton décontracté et technique.",
     "gamification": "Barre de progression, badges à débloquer en explorant le site",
     "easter_egg": "Le Konami Code (↑↑↓↓←→←→BA) débloque Le Dilemme du Recruteur, un mini-jeu de théorie des jeux",
-    "chatbot": "Assistant IA RAG alimenté par Groq (Llama 3.3), avec personnalité adaptée au mode actif",
+    "chatbot": "Assistant IA alimenté par Groq (Llama 3.3), avec personnalité adaptée au mode actif",
     "stack": "Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Zustand, Three.js, GSAP"
   }
 }
