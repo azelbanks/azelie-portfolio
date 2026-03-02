@@ -108,6 +108,16 @@ export function ChatBot() {
       : '> init azelie_bot.exe\n// Hey! Ask me anything about Azelie. Skills, projects, background — I got you.',
   };
 
+  const initialSuggestions = isStrategist
+    ? ['Qui est Azélie ?', 'Pourquoi la data et l\'IA ?', 'Ses compétences', 'Pourquoi la recruter ?']
+    : ['Who is Azélie?', 'Pourquoi l\'IA ?', 'Stack technique', 'Pourquoi la recruter ?'];
+
+  const followUpSuggestions = isStrategist
+    ? ['Son parcours', 'Ses projets', 'Sa formation', 'La contacter']
+    : ['background()', 'projects.list()', 'education.get()', 'contact.info()'];
+
+  const suggestions = chatHistory.length === 0 ? initialSuggestions : followUpSuggestions;
+
   return (
     <AnimatePresence>
       {isChatOpen && (
@@ -170,43 +180,7 @@ export function ChatBot() {
           {/* Messages area */}
           <div className="flex-1 overflow-y-auto py-4 space-y-1" aria-live="polite">
             {chatHistory.length === 0 && !streamingContent && (
-              <>
-                <ChatMessage message={welcomeMessage} index={0} />
-                <div className="px-4 pt-2 pb-1 flex flex-wrap gap-2">
-                  {(isStrategist
-                    ? [
-                        'Qui est Azélie ?',
-                        'Pourquoi la data et l\'IA ?',
-                        'Ses compétences',
-                        'Pourquoi la recruter ?',
-                      ]
-                    : [
-                        'Who is Azélie?',
-                        'Pourquoi l\'IA ?',
-                        'Stack technique',
-                        'Pourquoi la recruter ?',
-                      ]
-                  ).map((q) => (
-                    <motion.button
-                      key={q}
-                      onClick={() => handleSendMessage(q)}
-                      disabled={isTyping}
-                      className={cn(
-                        'text-xs px-3 py-1.5 rounded-full',
-                        'border border-border',
-                        'text-foreground-muted hover:text-foreground-primary',
-                        'hover:bg-background-secondary',
-                        'transition-colors duration-200',
-                        'disabled:opacity-50 disabled:cursor-not-allowed'
-                      )}
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      {q}
-                    </motion.button>
-                  ))}
-                </div>
-              </>
+              <ChatMessage message={welcomeMessage} index={0} />
             )}
 
             {chatHistory.map((msg, i) => (
@@ -251,6 +225,31 @@ export function ChatBot() {
                   ))}
                 </div>
               </motion.div>
+            )}
+
+            {/* Suggestions — always visible when not typing/streaming */}
+            {!isTyping && !streamingContent && (
+              <div className="px-4 pt-2 pb-1 flex flex-wrap gap-2">
+                {suggestions.map((q) => (
+                  <motion.button
+                    key={q}
+                    onClick={() => handleSendMessage(q)}
+                    disabled={isTyping}
+                    className={cn(
+                      'text-xs px-3 py-1.5 rounded-full',
+                      'border border-border',
+                      'text-foreground-muted hover:text-foreground-primary',
+                      'hover:bg-background-secondary',
+                      'transition-colors duration-200',
+                      'disabled:opacity-50 disabled:cursor-not-allowed'
+                    )}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    {q}
+                  </motion.button>
+                ))}
+              </div>
             )}
 
             <div ref={messagesEndRef} />
