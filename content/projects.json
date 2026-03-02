@@ -14,7 +14,7 @@
       "tags": ["Python", "Streamlit", "Game Theory", "Plotly", "Data Viz"],
       "links": {
         "streamlit": "https://dilemme-du-prisonnier.streamlit.app",
-        "github": "https://github.com/azelie-bernard/dilemme-prisonnier"
+        "github": "https://github.com/azelbanks/dilemme-prisonnier"
       },
       "highlights": [
         "5+ stratégies IA",
@@ -37,7 +37,7 @@
       "tags": ["Next.js", "TypeScript", "Tailwind", "Framer Motion", "Zustand"],
       "links": {
         "demo": "#",
-        "github": "https://github.com/azelie-bernard/portfolio"
+        "github": "https://github.com/azelbanks/portfolio"
       },
       "highlights": [
         "Mode dual Stratège/Tech",
@@ -79,7 +79,7 @@
       "category": "data",
       "tags": ["Python", "Pandas", "Data Cleaning", "Automation"],
       "links": {
-        "github": "https://github.com/azelie-bernard/data-toolkit"
+        "github": "https://github.com/azelbanks/data-toolkit"
       },
       "highlights": [
         "-70% temps préparation",
@@ -121,7 +121,7 @@
       "category": "ai",
       "tags": ["Python", "scikit-learn", "spaCy", "NLP", "Machine Learning"],
       "links": {
-        "github": "https://github.com/azelie-bernard/text-classifier"
+        "github": "https://github.com/azelbanks/text-classifier"
       },
       "highlights": [
         "89% accuracy",

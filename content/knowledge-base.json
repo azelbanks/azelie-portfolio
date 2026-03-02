@@ -8,7 +8,7 @@
     "email": "azeliebernard@gmail.com",
     "telephone": "+33 6 46 48 10 77",
     "linkedin": "https://www.linkedin.com/in/azélie-bernard",
-    "github": "https://github.com/azelie-bernard",
+    "github": "https://github.com/azelbanks",
     "site_streamlit": "https://dilemme-du-prisonnier.streamlit.app/",
     "langues": [
       { "langue": "Français", "niveau": "Langue maternelle" },
@@ -376,7 +376,7 @@
       "stack": "Python, Streamlit, Plotly",
       "description": "Simulateur interactif de théorie des jeux avec plus de 5 stratégies IA (Tit-for-Tat, Pavlov, Random...). Visualisations en temps réel.",
       "lien": "https://dilemme-du-prisonnier.streamlit.app",
-      "github": "https://github.com/azelie-bernard/dilemme-prisonnier",
+      "github": "https://github.com/azelbanks/dilemme-prisonnier",
       "points_forts": ["5+ stratégies IA", "Visualisation temps réel", "Interface interactive"],
       "projet_phare": true
     },
@@ -386,7 +386,7 @@
       "stack": "Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Zustand",
       "description": "Portfolio interactif avec double mode (Stratège/Tech), gamification, Easter Egg, et chatbot IA.",
       "lien": "Ce site",
-      "github": "https://github.com/azelie-bernard/portfolio",
+      "github": "https://github.com/azelbanks/portfolio",
       "points_forts": ["Mode dual Stratège/Tech", "Gamification & badges", "Easter Egg interactif", "Chatbot IA"],
       "projet_phare": true
     },
@@ -403,7 +403,7 @@
       "type": "Outil Python",
       "stack": "Python, Pandas",
       "description": "Suite d'outils pour le nettoyage et la standardisation de jeux de données hétérogènes. Réduction du temps de préparation de 70%.",
-      "github": "https://github.com/azelie-bernard/data-toolkit",
+      "github": "https://github.com/azelbanks/data-toolkit",
       "points_forts": ["-70% temps de préparation", "Détection de doublons", "Export multi-format"],
       "projet_phare": false
     },
@@ -420,7 +420,7 @@
       "type": "Pipeline ML",
       "stack": "Python, scikit-learn, spaCy",
       "description": "Pipeline NLP de classification automatique de documents. Vectorisation TF-IDF, classificateur SVM. 89% de précision sur le jeu de test.",
-      "github": "https://github.com/azelie-bernard/text-classifier",
+      "github": "https://github.com/azelbanks/text-classifier",
       "points_forts": ["89% de précision", "Pipeline complet", "Multi-catégories"],
       "projet_phare": false
     }

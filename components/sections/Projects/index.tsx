@@ -48,7 +48,7 @@ const projects: Project[] = [
     tags: ['Python', 'Streamlit', 'Théorie des jeux', 'Plotly'],
     links: {
       streamlit: 'https://azelie-bernard-dilemme-prisonnier.streamlit.app',
-      github: 'https://github.com/azelie-bernard/dilemme-prisonnier'
+      github: 'https://github.com/azelbanks/dilemme-prisonnier'
     },
     highlights: [
       '5 stratégies IA implémentées',
@@ -68,7 +68,7 @@ const projects: Project[] = [
     category: 'web',
     tags: ['Next.js', 'TypeScript', 'Tailwind', 'Framer Motion'],
     links: {
-      github: 'https://github.com/azelie-bernard/portfolio'
+      github: 'https://github.com/azelbanks/portfolio'
     },
     highlights: [
       'Double thème Stratège/Tech',
@@ -106,7 +106,7 @@ const projects: Project[] = [
     category: 'data',
     tags: ['Python', 'Pandas', 'Automatisation'],
     links: {
-      github: 'https://github.com/azelie-bernard/data-toolkit'
+      github: 'https://github.com/azelbanks/data-toolkit'
     },
     highlights: [
       '-70% temps de préparation',

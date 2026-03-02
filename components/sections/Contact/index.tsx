@@ -68,7 +68,7 @@ const socialLinks = [
   { 
     id: 'github',
     icon: Github, 
-    href: 'https://github.com/azelie-bernard', 
+    href: 'https://github.com/azelbanks', 
     label: 'GitHub',
   },
   { 

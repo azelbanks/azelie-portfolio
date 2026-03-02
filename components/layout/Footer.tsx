@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     name: 'GitHub',
-    href: 'https://github.com/azelie-bernard',
+    href: 'https://github.com/azelbanks',
     icon: Github,
   },
   {
