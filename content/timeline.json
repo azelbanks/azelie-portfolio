@@ -165,14 +165,14 @@
       "location": "Bordeaux",
       "startDate": "2025-09",
       "endDate": "2027-09",
-      "status": "En cours (alternance)",
+      "status": "Diplômée (alternance 2 ans)",
       "description": {
-        "strategist": "Formation en alternance combinant mon expertise en gestion de projet avec des compétences techniques avancées en data science et intelligence artificielle.",
-        "tech": "Deep dive en Machine Learning, Python avancé, architectures Big Data et MLOps. Objectif : devenir le pont entre le métier et la tech."
+        "strategist": "Formation diplômante combinant mon expertise en gestion de projet avec des compétences techniques avancées en data science et intelligence artificielle. 2 ans d'alternance pour ancrer la théorie dans la pratique.",
+        "tech": "Deep dive en Machine Learning, Python avancé, architectures Big Data et MLOps. 2 ans d'alternance. Résultat : le pont entre le métier et la tech."
       },
       "skills": ["Python", "SQL", "Machine Learning", "Big Data", "ETL", "MLOps"],
       "highlight": true,
-      "current": true
+      "current": false
     },
     {
       "id": "bioforce",

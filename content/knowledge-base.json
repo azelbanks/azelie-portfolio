@@ -16,8 +16,8 @@
       { "langue": "Wolof", "niveau": "Notions (acquises au Sénégal)" }
     ],
     "tagline": "Là où la stratégie rencontre le code",
-    "resume_profil": "Professionnelle de l'impact avec plus de 10 ans d'expérience en gestion de projets complexes et internationaux, Azélie développe aujourd'hui une expertise technique en Big Data et Intelligence Artificielle. Son profil hybride relie vision stratégique, maturité organisationnelle et compétences data/IA en consolidation active.",
-    "phrase_cle": "Elle construit une expertise technique en IA pour prolonger une décennie de gestion de projets complexes et à impact."
+    "resume_profil": "Professionnelle de l'impact avec plus de 10 ans d'expérience en gestion de projets complexes et internationaux, Azélie est diplômée d'un Mastère Big Data & Intelligence Artificielle (Sup de Vinci) complété par 2 ans d'alternance en data. Son profil hybride relie vision stratégique, maturité organisationnelle et compétences data/IA opérationnelles.",
+    "phrase_cle": "Elle allie une décennie de gestion de projets complexes à impact avec une expertise technique data & IA validée par un master et 2 ans d'alternance."
   },
 
   "histoire_fondatrice": {
@@ -35,7 +35,7 @@
       ],
       "impact": "Ce moment a installé chez elle un rapport profond à l'éducation, une conscience aiguë de l'impact concret, et un besoin viscéral de contribuer à quelque chose d'utile."
     },
-    "fierte": "Sa plus grande fierté n'est pas un poste ou un titre. C'est la trajectoire elle-même : partie sans vision claire après le bac, construite à travers l'expérience, soutenue par des mentors qui ont cru en elle et lui ont permis de croire en ses capacités, capable aujourd'hui de gravir les échelons et d'entrer en M1 Big Data & IA. Ce que le monde lui a apporté à travers les projets humanitaires et les personnes qui l'ont accompagnée est sa vraie richesse.",
+    "fierte": "Sa plus grande fierté n'est pas un poste ou un titre. C'est la trajectoire elle-même : partie sans vision claire après le bac, construite à travers l'expérience, soutenue par des mentors qui ont cru en elle et lui ont permis de croire en ses capacités, capable aujourd'hui de gravir les échelons et d'obtenir un Mastère Big Data & IA. Ce que le monde lui a apporté à travers les projets humanitaires et les personnes qui l'ont accompagnée est sa vraie richesse.",
     "declic": "Son premier voyage humanitaire au Togo a été le déclic fondateur de toute sa trajectoire professionnelle.",
     "citation_togo": "Apporter des moyens corrects à des enfants pour qu'ils puissent savoir est une grande source de satisfaction. Investir dans l'avenir des enfants, donc de la société de demain, est une construction qui va au-delà des briques que nous avons entassées."
   },
@@ -122,7 +122,7 @@
     "postes_vises": ["AI Engineer à impact", "Cheffe de projet IA avec socle technique fort"],
     "secteurs_impact": ["Santé", "Environnement", "Humanitaire", "Politiques publiques", "Innovation responsable"],
     "trajectoire": {
-      "court_terme_1_3_ans": "Consolidation technique : maîtrise de Python, compétences en architecture data, compréhension fine des modèles IA, autonomie technique croissante. Développement d'une crédibilité technique solide. Leadership transversal et méthodologique.",
+      "court_terme_1_3_ans": "Montée en responsabilité technique : approfondissement Python, architecture data, modélisation IA. Valorisation du Mastère et de l'alternance en contexte professionnel. Leadership transversal et méthodologique.",
       "moyen_terme_3_6_ans": "Leadership hybride : AI Engineer senior orientée impact ou Cheffe de projet IA avec forte crédibilité technique. Capable de traduire les besoins métier, dialoguer avec les développeurs, comprendre les contraintes techniques, piloter une feuille de route IA.",
       "long_terme_6_10_ans": "Leadership transformationnel : Head of AI Project, Responsable transformation data ou Directrice de programme IA à impact. Pilotage d'équipes multidisciplinaires, de projets complexes à forte responsabilité, et de décisions stratégiques liées à l'IA."
     }
@@ -165,12 +165,12 @@
   },
 
   "positionnement_strategique": {
-    "identite_professionnelle": "Profil hybride à forte maturité organisationnelle, en consolidation technique IA.",
-    "narratif_central": "Elle construit une expertise technique en IA pour prolonger une décennie de gestion de projets complexes et à impact.",
+    "identite_professionnelle": "Profil hybride alliant maturité organisationnelle et expertise data/IA validée par un Mastère et 2 ans d'alternance.",
+    "narratif_central": "Elle allie une décennie de gestion de projets à impact avec une expertise technique data & IA opérationnelle.",
     "fil_rouge": "Elle relie impact, organisation et technologie.",
     "trajectoire_coherente": "Humanitaire → gestion de projet → pilotage d'indicateurs → data → IA. Ce n'est pas un changement opportuniste, c'est une spirale ascendante — une montée en complexité cohérente vers plus de maîtrise systémique.",
-    "face_profils_techniques": "La plupart des profils purement techniques maîtrisent le code mais peinent à comprendre les enjeux métier, les dynamiques organisationnelles et la dimension humaine des projets. Azélie apporte cette compréhension stratégique en complément de compétences techniques en consolidation. Sa valeur réside dans sa capacité à relier les deux mondes.",
-    "potentiel_executif_vs_strategique": "Son potentiel dominant est stratégique, mais elle renforce activement son socle exécutif technique pour rendre ce potentiel crédible. Elle ne veut être ni une stratège sans compréhension technique, ni une technicienne sans vision."
+    "face_profils_techniques": "La plupart des profils purement techniques maîtrisent le code mais peinent à comprendre les enjeux métier, les dynamiques organisationnelles et la dimension humaine des projets. Azélie apporte cette compréhension stratégique avec des compétences techniques data/IA opérationnelles. Sa valeur réside dans sa capacité à relier les deux mondes.",
+    "potentiel_executif_vs_strategique": "Son profil est à la fois stratégique et technique. Elle n'est ni une stratège sans compréhension technique, ni une technicienne sans vision — c'est un pont opérationnel entre les deux."
   },
 
   "formation": [
@@ -178,10 +178,10 @@
       "diplome": "Mastère Big Data & Intelligence Artificielle",
       "etablissement": "Sup de Vinci",
       "ville": "Bordeaux",
-      "periode": "Septembre 2025 — Septembre 2027",
-      "statut": "En cours (alternance)",
+      "periode": "2025 — 2027",
+      "statut": "Diplômée (alternance 2 ans)",
       "contenu": "Machine Learning, Python avancé, SQL, architectures Big Data, ETL, MLOps, Power BI",
-      "objectif": "Consolider un socle technique solide pour soutenir une ambition stratégique en IA"
+      "objectif": "Expertise technique data & IA opérationnelle au service d'une vision stratégique"
     },
     {
       "diplome": "Coordinateur de Projet de Solidarité Internationale",
@@ -366,7 +366,7 @@
       "Mind mapping", "Brainstorming structuré", "Abaque de Régnier",
       "Retro-planning", "Conduite du changement"
     ],
-    "positionnement_technique": "Azélie consolide activement son socle technique dans le cadre d'un M1 Big Data & IA exigeant. Sa force différenciante n'est pas d'être la plus technique, mais de comprendre la logique technique ET les enjeux métier — ce qui la positionne comme un pont entre équipes stratégiques et techniques."
+    "positionnement_technique": "Azélie est diplômée d'un Mastère Big Data & IA, complété par 2 ans d'alternance en data. Sa force différenciante : comprendre la logique technique ET les enjeux métier — ce qui la positionne comme un pont opérationnel entre équipes stratégiques et techniques."
   },
 
   "projets": [
@@ -457,9 +457,9 @@
     "postes_vises": ["AI Engineer", "Cheffe de projet IA", "Data Engineer"],
     "secteurs_interet": ["Santé", "Environnement", "Humanitaire", "Politiques publiques", "Innovation responsable", "Data Engineering", "Intelligence Artificielle"],
     "localisation_souhaitee": "France, international ou full remote",
-    "formation_en_cours": "M1 Big Data & IA à Sup de Vinci en alternance (2025-2027)",
+    "formation_diplomee": "Mastère Big Data & IA à Sup de Vinci — diplômée (alternance 2025-2027)",
     "disponibilite": "Disponible",
-    "valeur_ajoutee": "Profil hybride combinant plus de 10 ans de gestion de projets complexes et internationaux avec une expertise technique en data et IA en consolidation active. Pont entre équipes stratégiques et techniques."
+    "valeur_ajoutee": "Profil hybride combinant plus de 10 ans de gestion de projets complexes et internationaux avec une expertise data & IA validée par un Mastère et 2 ans d'alternance. Pont opérationnel entre équipes stratégiques et techniques."
   },
 
   "parcours_international": {

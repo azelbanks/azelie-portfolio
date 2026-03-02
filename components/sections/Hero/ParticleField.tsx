@@ -119,19 +119,12 @@ export function ParticleField() {
       },
       move: {
         enable: true,
-        speed: 1.2,
+        speed: 1,
         direction: 'none',
         random: true,
         straight: false,
         outModes: {
           default: 'bounce',
-        },
-        trail: {
-          enable: true,
-          length: 3,
-          fill: {
-            color: '#00F0FF',
-          },
         },
       },
       number: {
@@ -143,10 +136,10 @@ export function ParticleField() {
         value: 80,
       },
       opacity: {
-        value: { min: 0.3, max: 0.7 },
+        value: { min: 0.1, max: 0.4 },
         animation: {
           enable: true,
-          speed: 1,
+          speed: 0.5,
           sync: false,
         },
       },
@@ -162,7 +155,7 @@ export function ParticleField() {
         },
       },
       shadow: {
-        blur: 5,
+        blur: 3,
         color: {
           value: '#00F0FF',
         },

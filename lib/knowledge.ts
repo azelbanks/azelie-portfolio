@@ -278,7 +278,7 @@ Type: ${r.type}
 Postes visés: ${r.postes_vises.join(', ')}
 Secteurs d'intérêt: ${r.secteurs_interet.join(', ')}
 Localisation souhaitée: ${r.localisation_souhaitee}
-Formation en cours: ${r.formation_en_cours}
+Formation: ${r.formation_diplomee}
 Disponibilité: ${r.disponibilite}
 Valeur ajoutée: ${r.valeur_ajoutee}`;
 }

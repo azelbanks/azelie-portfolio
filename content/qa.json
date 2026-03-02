@@ -13,8 +13,8 @@
       "question": "Qui est Azélie Bernard ?",
       "alternates": ["Présente-toi", "C'est qui Azélie ?", "Who is Azélie?", "Dis-moi qui tu représentes"],
       "answer": {
-        "strategist": "Azélie Bernard est une professionnelle de l'impact avec plus de 10 ans d'expérience en gestion de projets complexes et internationaux. Elle développe aujourd'hui une expertise technique en Big Data et IA dans le cadre d'un M1 à Sup de Vinci. Son profil hybride relie **vision stratégique**, **maturité organisationnelle** et **compétences data/IA en consolidation active**.",
-        "tech": "Azélie Bernard, 31 ans, basée à Bordeaux. 10+ ans de gestion de projets internationaux, maintenant en `data/IA`. Elle fait un M1 Big Data & IA à Sup de Vinci et consolide son stack : `Python`, `SQL`, `Power BI`, `ML`. Le genre de profil qui comprend le `WHY` autant que le `HOW`."
+        "strategist": "Azélie Bernard est une professionnelle de l'impact avec plus de 10 ans d'expérience en gestion de projets complexes et internationaux, diplômée d'un **Mastère Big Data & IA** (Sup de Vinci) complété par 2 ans d'alternance. Son profil hybride relie **vision stratégique**, **maturité organisationnelle** et **compétences data/IA opérationnelles**.",
+        "tech": "Azélie Bernard, 31 ans, Bordeaux. 10+ ans de gestion de projets internationaux + `Mastère Big Data & IA` (2 ans d'alternance). Stack : `Python`, `SQL`, `Power BI`, `ML`, `NLP`. Le genre de profil qui comprend le `WHY` autant que le `HOW`."
       },
       "category": "personal"
     },
@@ -31,8 +31,8 @@
       "question": "Est-elle techniquement autonome ?",
       "alternates": ["Son niveau technique?", "Elle sait coder seule?", "Is she technically independent?", "Autonomie technique?"],
       "answer": {
-        "strategist": "Azélie consolide activement son autonomie technique dans le cadre d'un M1 Big Data & IA exigeant. En **Power BI**, elle maîtrise solidement la logique des dashboards et de la visualisation. En **SQL**, elle manie les requêtes analytiques intermédiaires. En **Python**, elle progresse de manière structurée. Son objectif est d'aligner profondeur technique et vision stratégique.",
-        "tech": "En `Power BI` : solide, la logique des dashboards est acquise. En `SQL` : requêtes analytiques intermédiaires, ok. En `Python` : en progression dans le cadre du M1. Ce qui la distingue : elle comprend la `logique` derrière les outils, pas juste la syntaxe. Et elle apprend vite."
+        "strategist": "Azélie est diplômée d'un Mastère Big Data & IA avec 2 ans d'alternance en data. En **Power BI**, elle maîtrise la conception de dashboards et la visualisation. En **SQL**, elle gère les requêtes analytiques avancées. En **Python**, elle travaille avec Pandas, scikit-learn et spaCy. Son atout : elle aligne profondeur technique et vision stratégique.",
+        "tech": "En `Power BI` : solide, dashboards et visualisation maîtrisés. En `SQL` : requêtes analytiques avancées. En `Python` : `Pandas`, `scikit-learn`, `spaCy`, `ML pipelines`. Mastère Big Data & IA + 2 ans d'alternance. Ce qui la distingue : elle comprend la `logique` derrière les outils, pas juste la syntaxe."
       },
       "category": "skills"
     },
@@ -40,8 +40,8 @@
       "question": "Est-elle junior ou expérimentée ?",
       "alternates": ["Quel est son niveau?", "C'est une débutante?", "Is she junior?", "Niveau d'expérience?"],
       "answer": {
-        "strategist": "Techniquement, Azélie est en consolidation de compétences. Professionnellement, elle est **expérimentée** : plus de 10 ans de gestion de projets, de budgets supérieurs à 1M€, de partenariats internationaux et de pilotage d'indicateurs. Elle n'est pas une débutante du monde du travail. Elle construit une nouvelle compétence technique sur une base professionnelle solide.",
-        "tech": "Techniquement : en montée en compétence active. Professionnellement : 10+ ans d'XP, budgets > 1M€, 50+ projets pilotés, management d'équipes jusqu'à 12 personnes. Elle n'est pas `junior` — elle ajoute une nouvelle `stack` à un profil déjà senior en gestion de projet."
+        "strategist": "Azélie est **expérimentée** sur les deux plans. Professionnellement : plus de 10 ans de gestion de projets, budgets supérieurs à 1M€, partenariats internationaux et pilotage d'indicateurs. Techniquement : diplômée d'un **Mastère Big Data & IA** avec 2 ans d'alternance en data. Elle combine maturité professionnelle et compétences techniques opérationnelles.",
+        "tech": "Professionnellement : 10+ ans d'XP, budgets > 1M€, 50+ projets pilotés, management d'équipes jusqu'à 12 personnes. Techniquement : `Mastère Big Data & IA` + 2 ans d'alternance, stack `Python/SQL/Power BI/ML`. Pas `junior` — profil hybride senior gestion de projet + data/IA."
       },
       "category": "hiring"
     },
@@ -58,8 +58,8 @@
       "question": "Pourquoi devrait-on la recruter ?",
       "alternates": ["Why should I hire her?", "Pourquoi elle et pas quelqu'un d'autre?", "Qu'est-ce qu'elle apporte?", "Pourquoi recruter Azélie?"],
       "answer": {
-        "strategist": "Azélie combine **maturité professionnelle**, **vision stratégique**, **montée en compétence technique** et **sens de l'impact**. Elle ne vient pas chercher un poste, elle vient construire une trajectoire durable. Son profil hybride est rare : elle comprend les enjeux métier autant que les contraintes techniques. C'est le pont idéal entre les équipes business et tech.",
-        "tech": "Profil hybride rare : 10+ ans de compréhension métier + compétences `data/IA` en consolidation. La plupart des data engineers apprennent la data d'abord, le métier ensuite. Azélie a fait l'inverse : 10 ans à comprendre `POURQUOI` la donnée compte, puis apprendre `COMMENT` la traiter."
+        "strategist": "Azélie combine **maturité professionnelle**, **vision stratégique**, **expertise data/IA** et **sens de l'impact**. Diplômée d'un Mastère Big Data & IA avec 2 ans d'alternance, elle ne vient pas chercher un poste — elle vient construire une trajectoire durable. Son profil hybride est rare : elle comprend les enjeux métier autant que les contraintes techniques.",
+        "tech": "Profil hybride rare : 10+ ans de compréhension métier + `Mastère Big Data & IA` + 2 ans d'alternance data. La plupart des data engineers apprennent la data d'abord, le métier ensuite. Azélie a fait l'inverse : 10 ans à comprendre `POURQUOI` la donnée compte, puis `COMMENT` la traiter. Et maintenant elle fait les deux."
       },
       "category": "hiring"
     },
@@ -121,8 +121,8 @@
       "question": "Elle cherche quoi comme poste ?",
       "alternates": ["What kind of job?", "Quel type de poste?", "What is she looking for?", "Disponibilité?"],
       "answer": {
-        "strategist": "Azélie recherche un **CDI** en tant qu'AI Engineer, Cheffe de projet IA ou Data Engineer. Elle est ouverte à des postes en **France**, à l'**international** ou en **full remote**. Elle poursuit en parallèle un M1 Big Data & IA à Sup de Vinci en alternance. Elle cherche un environnement où ses compétences stratégiques et son socle technique en consolidation peuvent créer de la valeur.",
-        "tech": "Recherche : `CDI`. Postes visés : `AI Engineer`, `Cheffe de projet IA`, `Data Engineer`. Localisation : France, international ou `full remote`. Elle fait aussi un M1 Big Data & IA à Sup de Vinci en alternance. Bonus si l'entreprise valorise les profils qui font le pont entre la `data` et le `métier`."
+        "strategist": "Azélie recherche un **CDI** en tant qu'AI Engineer, Cheffe de projet IA ou Data Engineer. Elle est ouverte à des postes en **France**, à l'**international** ou en **full remote**. Diplômée d'un Mastère Big Data & IA (2 ans d'alternance), elle cherche un environnement où ses compétences stratégiques et techniques peuvent créer de la valeur.",
+        "tech": "Recherche : `CDI`. Postes visés : `AI Engineer`, `Cheffe de projet IA`, `Data Engineer`. Localisation : France, international ou `full remote`. Diplômée Mastère Big Data & IA + 2 ans alternance. Bonus si l'entreprise valorise les profils qui font le pont entre la `data` et le `métier`."
       },
       "category": "hiring"
     },
@@ -148,8 +148,8 @@
       "question": "Est-elle plus stratège ou technicienne ?",
       "alternates": ["Strategist or technical?", "Exécutante ou stratège?", "Son profil dominant?", "Executive vs strategic?"],
       "answer": {
-        "strategist": "Son potentiel dominant est **stratégique**, et elle développe activement son socle exécutif technique pour rendre ce potentiel crédible. Elle ne veut être ni une stratège sans compréhension technique, ni une technicienne sans vision. Elle se projette comme une **architecte de transformation** — capable de relier vision et exécution, humain et technique, stratégie et donnée.",
-        "tech": "Son `main()` est stratégique. Mais elle `build` son socle technique pour que ça compile. Elle veut pas être une stratège qui parle de tech sans comprendre, ni une dev isolée sans vision produit. Elle veut être le `bridge` : `strategy.connect(implementation)`."
+        "strategist": "Son potentiel dominant est **stratégique**, appuyé par un socle technique validé par un Mastère Big Data & IA et 2 ans d'alternance. Elle ne veut être ni une stratège sans compréhension technique, ni une technicienne sans vision. Elle se projette comme une **architecte de transformation** — capable de relier vision et exécution, humain et technique, stratégie et donnée.",
+        "tech": "Son `main()` est stratégique. Son socle technique est `validated` (Mastère Big Data & IA + 2 ans alternance). Elle veut pas être une stratège qui parle de tech sans comprendre, ni une dev isolée sans vision produit. Elle veut être le `bridge` : `strategy.connect(implementation)`."
       },
       "category": "hiring"
     },
@@ -184,8 +184,8 @@
       "question": "Quelles sont ses compétences techniques ?",
       "alternates": ["Hard skills?", "Technical skills?", "Compétences tech?", "Elle sait coder?"],
       "answer": {
-        "strategist": "Azélie consolide activement ses compétences techniques dans le cadre de son M1 Big Data & IA : **Power BI** (maîtrise solide), **SQL** (requêtes analytiques intermédiaires), **Python** (Pandas, scikit-learn, spaCy — en progression structurée), **Machine Learning** et **ETL**. Sa force différenciante n'est pas d'être la plus technique, mais de comprendre la logique technique **ET** les enjeux métier.",
-        "tech": "Stack actuel : `Power BI` (solide), `SQL` (intermédiaire analytique), `Python` (Pandas, scikit-learn, spaCy, Streamlit — en progression), `ML`, `ETL`. En apprentissage : architectures Big Data, MLOps. Le vrai `diff` : elle comprend le `WHY` métier autant que le `HOW` technique. C'est pas juste du code, c'est du code qui a du sens."
+        "strategist": "Azélie a développé ses compétences techniques au travers de son Mastère Big Data & IA (2 ans d'alternance) : **Power BI** (maîtrise solide), **SQL** (requêtes analytiques), **Python** (Pandas, scikit-learn, spaCy), **Machine Learning** et **ETL**. Sa force différenciante n'est pas d'être la plus technique, mais de comprendre la logique technique **ET** les enjeux métier.",
+        "tech": "Stack : `Power BI` (solide), `SQL` (analytique), `Python` (Pandas, scikit-learn, spaCy, Streamlit), `ML`, `ETL`, architectures `Big Data`, `MLOps`. Formée via Mastère Big Data & IA + 2 ans alternance. Le vrai `diff` : elle comprend le `WHY` métier autant que le `HOW` technique. C'est pas juste du code, c'est du code qui a du sens."
       },
       "category": "skills"
     },
@@ -211,8 +211,8 @@
       "question": "Son potentiel de leadership futur ?",
       "alternates": ["Future leadership?", "Son évolution possible?", "Leadership potential?", "Où elle sera dans 5 ans?"],
       "answer": {
-        "strategist": "La trajectoire d'Azélie la projette vers un **leadership hybride** : à court terme, consolidation technique et crédibilité. À moyen terme (3-6 ans), un rôle d'AI Engineer senior ou de cheffe de projet IA stratégique. À long terme, un potentiel de **Head of AI Project** ou **responsable transformation data**. Son profil lui permet de piloter des équipes multidisciplinaires avec maturité stratégique et compréhension technique.",
-        "tech": "Roadmap leadership : `v1.0` (1-3 ans) consolidation technique + crédibilité. `v2.0` (3-6 ans) AI Engineer senior ou cheffe de projet IA stratégique. `v3.0` (6-10 ans) Head of AI Project ou responsable transformation data. Le `diff` : elle aura la compréhension `end-to-end`, du besoin métier au déploiement."
+        "strategist": "La trajectoire d'Azélie la projette vers un **leadership hybride** : à court terme, montée en responsabilité technique et crédibilité opérationnelle. À moyen terme (3-6 ans), un rôle d'AI Engineer senior ou de cheffe de projet IA stratégique. À long terme, un potentiel de **Head of AI Project** ou **responsable transformation data**. Son profil lui permet de piloter des équipes multidisciplinaires avec maturité stratégique et compréhension technique.",
+        "tech": "Roadmap leadership : `v1.0` (1-3 ans) montée en responsabilité technique + crédibilité opérationnelle. `v2.0` (3-6 ans) AI Engineer senior ou cheffe de projet IA stratégique. `v3.0` (6-10 ans) Head of AI Project ou responsable transformation data. Le `diff` : elle a déjà la compréhension `end-to-end`, du besoin métier au déploiement."
       },
       "category": "hiring"
     },
@@ -247,8 +247,8 @@
       "question": "Quelle est sa formation actuelle ?",
       "alternates": ["What is she studying?", "Current education?", "Sup de Vinci?", "Études?"],
       "answer": {
-        "strategist": "Azélie prépare un **Mastère Big Data & Intelligence Artificielle** à Sup de Vinci (Bordeaux), en alternance de septembre 2025 à septembre 2027. La formation couvre le Machine Learning, Python avancé, les architectures Big Data et le MLOps. Elle consolide ainsi un socle technique solide pour soutenir une ambition stratégique en IA.",
-        "tech": "M1 Big Data & IA à Sup de Vinci, Bordeaux. Alternance de septembre 2025 à septembre 2027. Au programme : `Machine Learning`, `Python avancé`, architectures `Big Data`, `MLOps`. Objectif : avoir la crédibilité technique pour piloter des projets IA."
+        "strategist": "Azélie est diplômée d'un **Mastère Big Data & Intelligence Artificielle** de Sup de Vinci (Bordeaux), obtenu après 2 ans d'alternance (2025-2027). La formation couvre le Machine Learning, Python avancé, les architectures Big Data et le MLOps. Ce diplôme ancre un socle technique solide au service d'une ambition stratégique en IA.",
+        "tech": "Mastère Big Data & IA à Sup de Vinci, Bordeaux. Diplômée après 2 ans d'alternance (2025-2027). Programme : `Machine Learning`, `Python avancé`, architectures `Big Data`, `MLOps`. Résultat : crédibilité technique validée pour piloter des projets IA."
       },
       "category": "education"
     },
@@ -338,7 +338,7 @@
       "alternates": ["Plus grande fierté?", "Proudest moment?", "Ce dont elle est fière?", "Moment marquant?"],
       "answer": {
         "strategist": "Sa plus grande fierté est sa **trajectoire elle-même** : partie sans vision claire après le bac, elle s'est construite à travers l'expérience, soutenue par des mentors qui ont cru en elle. Le déclic a été son premier voyage humanitaire au Togo en 2013 — la construction d'une école qui a installé en elle la conviction que l'éducation transforme les destins et que l'impact concret prime sur les discours.",
-        "tech": "Ce qui l'a le plus marquée : sa trajectoire entière. De `zero_direction` après le bac à M1 Big Data & IA, en passant par la construction d'une école au Togo (2013), 10+ ans de projets internationaux et des mentors qui ont `push` ses capacités. Le `commit` initial : Togo, 2013. Tout le reste est un `git log` cohérent."
+        "tech": "Ce qui l'a le plus marquée : sa trajectoire entière. De `zero_direction` après le bac à Mastère Big Data & IA, en passant par la construction d'une école au Togo (2013), 10+ ans de projets internationaux et des mentors qui ont `push` ses capacités. Le `commit` initial : Togo, 2013. Tout le reste est un `git log` cohérent."
       },
       "category": "personal"
     },
@@ -382,8 +382,8 @@
       "question": "Quand est-elle disponible ?",
       "alternates": ["Disponibilité?", "When can she start?", "Date de début?", "Notice period?"],
       "answer": {
-        "strategist": "Azélie est actuellement en alternance dans le cadre de son M1 Big Data & IA. Pour discuter des modalités et de sa disponibilité précise, contactez-la directement à **azeliebernard@gmail.com**.",
-        "tech": "Actuellement en alternance (M1 Big Data & IA). Pour les `details` de dispo et de `scheduling`, ping direct : azeliebernard@gmail.com."
+        "strategist": "Azélie est **disponible immédiatement** pour un CDI. Diplômée de son Mastère Big Data & IA, elle peut démarrer rapidement. Pour discuter des modalités, contactez-la directement à **azeliebernard@gmail.com**.",
+        "tech": "Status : `disponible immédiatement` pour CDI. Mastère Big Data & IA terminé. Pour les `details` de dispo et de `scheduling`, ping direct : azeliebernard@gmail.com."
       },
       "category": "hiring"
     },
@@ -400,8 +400,8 @@
       "question": "Pourquoi a-t-elle quitté l'Agence Erasmus+ ?",
       "alternates": ["Why did she leave Erasmus?", "Raison de départ?", "Pourquoi partir?"],
       "answer": {
-        "strategist": "Après 4 ans à l'Agence Erasmus+ France, Azélie a choisi d'évoluer vers la data et l'IA — un choix délibéré de montée en compétence technique. Elle a quitté un poste stable pour investir dans une formation exigeante (M1 Big Data & IA). C'est un choix de **progression**, pas de fuite.",
-        "tech": "4 ans de `level up` chez Erasmus+ France, puis décision de `fork` vers la data/IA. Pas un `rage quit` — un choix stratégique de montée en compétence. Elle a quitté un CDI stable pour investir dans un M1 Big Data & IA. C'est du `calculated risk`."
+        "strategist": "Après 4 ans à l'Agence Erasmus+ France, Azélie a choisi d'évoluer vers la data et l'IA — un choix délibéré de montée en compétence technique. Elle a quitté un poste stable pour investir dans une formation exigeante (Mastère Big Data & IA). C'est un choix de **progression**, pas de fuite.",
+        "tech": "4 ans de `level up` chez Erasmus+ France, puis décision de `fork` vers la data/IA. Pas un `rage quit` — un choix stratégique de montée en compétence. Elle a quitté un CDI stable pour investir dans un Mastère Big Data & IA. C'est du `calculated risk`."
       },
       "category": "background"
     },
@@ -535,7 +535,7 @@
       "question": "Comment elle apprend une nouvelle technologie ?",
       "alternates": ["Learning method?", "Comment elle apprend?", "Méthode d'apprentissage?", "How does she learn?"],
       "answer": {
-        "strategist": "Azélie fonctionne en **cycles structurés** : découverte, approfondissement, structuration, puis transmission. Elle ne se contente pas d'utiliser un outil — elle veut comprendre la **logique derrière**. C'est ce qui lui permet de progresser vite et de retenir durablement. Son M1 Big Data & IA fournit le cadre académique, mais sa curiosité naturelle est le vrai moteur.",
+        "strategist": "Azélie fonctionne en **cycles structurés** : découverte, approfondissement, structuration, puis transmission. Elle ne se contente pas d'utiliser un outil — elle veut comprendre la **logique derrière**. C'est ce qui lui permet de progresser vite et de retenir durablement. Son Mastère Big Data & IA fournit le cadre académique, mais sa curiosité naturelle est le vrai moteur.",
         "tech": "Son `learning pipeline` : 1) `explore` (comprendre le concept), 2) `deep dive` (la logique derrière l'outil), 3) `structure` (organiser ce qu'elle a compris), 4) `build` (mettre en pratique). Elle veut pas juste copier-coller du `Stack Overflow` — elle veut comprendre le `WHY` du code."
       },
       "category": "skills"
@@ -571,8 +571,8 @@
       "question": "Comment elle mesure son propre impact ?",
       "alternates": ["Self-assessment?", "Comment elle s'évalue?", "Measuring impact?", "Auto-évaluation?"],
       "answer": {
-        "strategist": "Par la **progression réelle**, pas par la validation extérieure. Azélie mesure son impact à travers des indicateurs concrets : ce qu'elle a structuré, ce qu'elle a rendu possible, ce qu'elle a appris. Son parcours — d'une année sabbatique après le bac à un M1 Big Data & IA — est en lui-même la preuve de cette progression. C'est un sujet qu'elle aime approfondir lors d'un échange direct.",
-        "tech": "Pas par les `likes` ou les `titles`. Par la `progression réelle` : qu'est-ce qu'elle a structuré, qu'est-ce qu'elle a rendu possible, qu'est-ce qu'elle a appris. Son `git log` personnel — d'une année sabbatique à un M1 Big Data & IA — c'est la meilleure métrique."
+        "strategist": "Par la **progression réelle**, pas par la validation extérieure. Azélie mesure son impact à travers des indicateurs concrets : ce qu'elle a structuré, ce qu'elle a rendu possible, ce qu'elle a appris. Son parcours — d'une année sabbatique après le bac à un Mastère Big Data & IA — est en lui-même la preuve de cette progression. C'est un sujet qu'elle aime approfondir lors d'un échange direct.",
+        "tech": "Pas par les `likes` ou les `titles`. Par la `progression réelle` : qu'est-ce qu'elle a structuré, qu'est-ce qu'elle a rendu possible, qu'est-ce qu'elle a appris. Son `git log` personnel — d'une année sabbatique à un Mastère Big Data & IA — c'est la meilleure métrique."
       },
       "category": "personal"
     },
@@ -688,7 +688,7 @@
       "question": "Comment elle voit son rôle dans une équipe data ?",
       "alternates": ["Role in data team?", "Son rôle dans une équipe?", "Quelle place dans une équipe tech?", "Position in team?"],
       "answer": {
-        "strategist": "Azélie se positionne naturellement comme le **lien entre le métier et la technique**. Dans une équipe data, elle est celle qui traduit les besoins métier en spécifications compréhensibles, qui contextualise les résultats techniques pour les décideurs, et qui s'assure que les solutions répondent au vrai problème. Elle consolide en parallèle sa capacité à contribuer techniquement.",
+        "strategist": "Azélie se positionne naturellement comme le **lien entre le métier et la technique**. Dans une équipe data, elle est celle qui traduit les besoins métier en spécifications compréhensibles, qui contextualise les résultats techniques pour les décideurs, et qui s'assure que les solutions répondent au vrai problème. Son double bagage (10+ ans de gestion de projets + Mastère data/IA) lui permet de contribuer à la fois stratégiquement et techniquement.",
         "tech": "Le `bridge` entre le métier et la tech. Dans une équipe data, elle `translate` les besoins métier en specs, `contextualize` les outputs pour les stakeholders, et s'assure que le `model` résout le vrai `problem`. En parallèle, elle monte sur le `technical contribution`. Le profil qui fait que l'équipe ne `build` pas dans le vide."
       },
       "category": "hiring"

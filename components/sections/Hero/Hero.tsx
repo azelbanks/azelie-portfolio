@@ -52,7 +52,7 @@ export function Hero() {
             'absolute inset-0 transition-all duration-700',
             isStrategist
               ? 'bg-gradient-to-b from-transparent via-background-primary/50 to-background-primary'
-              : 'bg-gradient-to-b from-transparent via-background-primary/70 to-background-primary'
+              : 'bg-gradient-to-b from-background-primary/40 via-background-primary/80 to-background-primary'
           )}
         />
 
@@ -132,10 +132,10 @@ export function Hero() {
               texts={
                 isStrategist
                   ? [
+                      'Chef de Projet Data & IA',
                       'Ingénieure de Projets Européens',
-                      'Cheffe de Projet',
-                      'Data & IA en consolidation',
-                      'Profil Hybride',
+                      'Profil Hybride Stratégie × Tech',
+                      'Master Big Data & IA',
                     ]
                   : [
                       'const role = "Data Engineer";',
@@ -170,9 +170,9 @@ export function Hero() {
                 </span>
                 <br />
                 <span className="text-body-lg mt-2 block">
-                  8 ans d&apos;expérience en gestion de projets complexes.
+                  10+ ans de gestion de projets complexes.
                   <br />
-                  Aujourd&apos;hui, je code ce que j&apos;analysais.
+                  Diplômée Master Big Data & IA.
                 </span>
               </>
             ) : (
@@ -181,7 +181,7 @@ export function Hero() {
                 <span className="text-gradient">{profileData.personal.tagline}</span>
                 <br />
                 <code className="text-sm mt-2 block text-foreground-muted">
-                  {`experience.years = 8; // now I code what I used to analyze`}
+                  {`experience.years = 10; // strategy + data + AI`}
                 </code>
               </>
             )}
