@@ -208,6 +208,25 @@
 
   "experiences": [
     {
+      "poste": "Data Analyst",
+      "entreprise": "Cheops Technology",
+      "lieu": "Canéjan, Nouvelle-Aquitaine, France · Sur site",
+      "periode": "Septembre 2025 — Aujourd'hui",
+      "duree": "8 mois",
+      "en_cours": true,
+      "description": "Production d'indicateurs fiables, utiles et alignés avec les enjeux opérationnels et stratégiques de la division. Recueil et structuration des besoins en reporting avec les métiers, conception et maintenance de tableaux de bord Power BI, paramétrage ServiceNow Performance Analytics, extractions SQL, contrôle qualité des données et documentation des modèles.",
+      "realisations": [
+        "Conception, développement et maintenance de tableaux de bord Power BI",
+        "Paramétrage et enrichissement des rapports ServiceNow Performance Analytics",
+        "Extractions SQL et contrôle qualité des données",
+        "Maintenance des infrastructures BI (modèles, jeux de données, flux, dashboards)",
+        "Documentation des modèles, règles de gestion et cartographies",
+        "Support premier niveau aux utilisateurs BI et recettes fonctionnelles",
+        "Veille continue sur les outils et usages BI"
+      ],
+      "competences": ["Power BI", "SQL", "ServiceNow PA", "Data Quality", "ETL", "Documentation BI"]
+    },
+    {
       "poste": "Consultante Senior en Ingénierie de Projets Européens & Stratégie",
       "entreprise": "Niamato Consulting (Indépendant)",
       "lieu": "Bordeaux — Hybride",

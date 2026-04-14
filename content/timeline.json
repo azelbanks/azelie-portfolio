@@ -1,6 +1,31 @@
 {
   "experiences": [
     {
+      "id": "cheops",
+      "type": "experience",
+      "title": "Data Analyst",
+      "organization": "Cheops Technology",
+      "location": "Canéjan, Nouvelle-Aquitaine, France · Sur site",
+      "startDate": "2025-09",
+      "endDate": null,
+      "duration": "8 mois",
+      "description": {
+        "strategist": "Production d'indicateurs fiables, utiles et alignés avec les enjeux opérationnels et stratégiques de la division. Recueil et structuration des besoins en reporting avec les métiers, conception et maintenance de tableaux de bord Power BI, paramétrage ServiceNow Performance Analytics.",
+        "tech": "End-to-end BI pipeline ownership : extractions SQL, développement et maintenance de dashboards Power BI, configuration ServiceNow Performance Analytics. Contrôle qualité et fraîcheur des données, documentation des modèles et règles de gestion, support utilisateurs BI et recettes fonctionnelles."
+      },
+      "achievements": [
+        "Conception, développement et maintenance de tableaux de bord Power BI",
+        "Paramétrage et enrichissement des rapports ServiceNow Performance Analytics",
+        "Extractions SQL et contrôle qualité des données",
+        "Maintenance des infrastructures BI (modèles, jeux de données, flux)",
+        "Documentation des modèles, règles de gestion et cartographies",
+        "Support premier niveau aux utilisateurs BI et recettes fonctionnelles"
+      ],
+      "skills": ["Power BI", "SQL", "ServiceNow PA", "Data Quality", "ETL", "Documentation BI"],
+      "highlight": true,
+      "current": true
+    },
+    {
       "id": "niamato",
       "type": "experience",
       "title": "Consultant Senior en Ingénierie de Projets Européens & Stratégie",
