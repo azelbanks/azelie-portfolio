@@ -175,11 +175,11 @@
 
   "formation": [
     {
-      "diplome": "Mastère Big Data & Intelligence Artificielle",
+      "diplome": "Mastère Data & Intelligence Artificielle",
       "etablissement": "Sup de Vinci",
       "ville": "Bordeaux",
-      "periode": "2025 — 2027",
-      "statut": "Diplômée (alternance 2 ans)",
+      "periode": "2025 — en cours",
+      "statut": "En cours — M1 (2025-2026). M2 en alternance recherché. Rythme : 2 semaines entreprise / 1 semaine école.",
       "contenu": "Machine Learning, Python avancé, SQL, architectures Big Data, ETL, MLOps, Power BI",
       "objectif": "Expertise technique data & IA opérationnelle au service d'une vision stratégique"
     },

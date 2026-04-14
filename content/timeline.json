@@ -185,19 +185,19 @@
     {
       "id": "supdevinci",
       "type": "education",
-      "title": "Mastère Big Data & Intelligence Artificielle",
+      "title": "Mastère Data & Intelligence Artificielle",
       "organization": "Sup de Vinci",
       "location": "Bordeaux",
       "startDate": "2025-09",
-      "endDate": "2027-09",
-      "status": "Diplômée (alternance 2 ans)",
+      "endDate": null,
+      "status": "En cours — M1 (2025-2026). M2 en alternance recherché. Rythme : 2 semaines entreprise / 1 semaine école.",
       "description": {
-        "strategist": "Formation diplômante combinant mon expertise en gestion de projet avec des compétences techniques avancées en data science et intelligence artificielle. 2 ans d'alternance pour ancrer la théorie dans la pratique.",
-        "tech": "Deep dive en Machine Learning, Python avancé, architectures Big Data et MLOps. 2 ans d'alternance. Résultat : le pont entre le métier et la tech."
+        "strategist": "Formation diplômante combinant expertise en gestion de projet et compétences techniques avancées en data science et intelligence artificielle. M2 en alternance pour ancrer la théorie dans la pratique.",
+        "tech": "Deep dive en Machine Learning, Python avancé, architectures Big Data et MLOps. Currently in M1, looking for M2 alternance (2 weeks company / 1 week school)."
       },
       "skills": ["Python", "SQL", "Machine Learning", "Big Data", "ETL", "MLOps"],
       "highlight": true,
-      "current": false
+      "current": true
     },
     {
       "id": "bioforce",
