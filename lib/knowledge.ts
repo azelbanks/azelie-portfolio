@@ -189,8 +189,14 @@ ${exps}`;
 function compileCompetences(): string {
   const c = kb.competences;
   return `## COMPÉTENCES
-### Techniques
-${c.techniques.map((t) => `- ${t}`).join('\n')}
+### IA Agentique & LLM
+${c.ia_agentique_llm.map((t) => `- ${t}`).join('\n')}
+
+### Data & Développement
+${c.data_developpement.map((t) => `- ${t}`).join('\n')}
+
+### Qualité & Pilotage
+${c.qualite_pilotage.map((t) => `- ${t}`).join('\n')}
 
 ### Métier
 ${c.metier.map((m) => `- ${m}`).join('\n')}
