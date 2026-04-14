@@ -104,55 +104,58 @@ const getSkillCategories = (mode: 'strategist' | 'tech'): SkillCategory[] => {
     // Mode Tech
     return [
       {
-        id: 'programmation',
-        name: 'Programmation',
-        icon: Code,
-        description: 'Langages et frameworks maîtrisés',
-        skills: [
-          { name: 'Python', level: 'avance', details: 'Pandas, NumPy, scripts ETL' },
-          { name: 'SQL', level: 'operationnel', details: 'PostgreSQL, requêtes complexes' },
-          { name: 'JavaScript/TypeScript', level: 'operationnel', details: 'React, Next.js' },
-          { name: 'HTML/CSS', level: 'operationnel', details: 'Tailwind CSS' },
-          { name: 'Git/GitHub', level: 'operationnel', details: 'Versioning, collaboration' },
-        ]
-      },
-      {
-        id: 'data',
-        name: 'Data Engineering',
-        icon: Database,
-        description: 'Traitement et analyse de données',
-        skills: [
-          { name: 'Pandas/NumPy', level: 'avance', details: 'Manipulation de datasets' },
-          { name: 'Data Cleaning', level: 'avance', details: 'Pipelines de nettoyage' },
-          { name: 'ETL', level: 'operationnel', details: 'Extraction, transformation' },
-          { name: 'Visualisation', level: 'avance', details: 'Plotly, Streamlit' },
-          { name: 'Power BI', level: 'operationnel', details: 'Dashboards, rapports' },
-        ]
-      },
-      {
-        id: 'ia-ml',
-        name: 'IA & Machine Learning',
+        id: 'ia-agentique',
+        name: 'IA Agentique & LLM',
         icon: Brain,
-        description: 'Intelligence artificielle et apprentissage automatique',
+        description: 'Intelligence artificielle, agents et traitement du langage',
         skills: [
-          { name: 'Scikit-learn', level: 'operationnel', details: 'Classification, régression' },
-          { name: 'NLP basique', level: 'notions', details: 'Traitement de texte' },
-          { name: 'Streamlit', level: 'avance', details: 'Apps interactives' },
-          { name: 'Prompt Engineering', level: 'operationnel', details: 'GPT, Claude' },
-          { name: 'RAG (en apprentissage)', level: 'notions', details: 'LangChain, embeddings' },
+          { name: 'Agents IA / Orchestration', level: 'operationnel', details: 'Systèmes multi-agents' },
+          { name: 'LLM APIs (Groq, OpenAI, Anthropic)', level: 'operationnel', details: 'Intégration & production' },
+          { name: 'RAG / Bases vectorielles', level: 'operationnel', details: 'Retrieval-Augmented Generation' },
+          { name: 'Prompting avancé', level: 'avance', details: 'Chain-of-thought, few-shot' },
+          { name: 'NLP / Traitement du langage', level: 'operationnel', details: 'spaCy, Keras, classification' },
+          { name: 'Prototypage rapide', level: 'avance', details: 'De l\'idée au MVP' },
         ]
       },
       {
-        id: 'devops',
-        name: 'Outils & DevOps',
-        icon: Globe,
-        description: 'Environnement de développement et déploiement',
+        id: 'data-dev',
+        name: 'Data & Développement',
+        icon: Code,
+        description: 'Langages, frameworks et outils de données',
         skills: [
-          { name: 'VS Code / Cursor', level: 'avance', details: 'IDE principal' },
-          { name: 'Terminal/Bash', level: 'operationnel', details: 'Commandes, scripts' },
-          { name: 'Docker', level: 'notions', details: 'Containerisation basique' },
-          { name: 'Vercel/Streamlit Cloud', level: 'operationnel', details: 'Déploiement' },
-          { name: 'Environnements virtuels', level: 'operationnel', details: 'venv, conda' },
+          { name: 'Python', level: 'avance', details: 'Pandas, scikit-learn, Streamlit' },
+          { name: 'SQL', level: 'operationnel', details: 'Extractions, requêtes analytiques' },
+          { name: 'Power BI', level: 'avance', details: 'Dashboards, modèles, DAX' },
+          { name: 'Git / GitHub', level: 'operationnel', details: 'Versioning, collaboration' },
+          { name: 'Docker', level: 'operationnel', details: 'Micro-services, conteneurisation' },
+          { name: 'MongoDB', level: 'operationnel', details: 'NoSQL, pipelines temps réel' },
+          { name: 'Streamlit', level: 'avance', details: 'Apps interactives data' },
+          { name: 'Next.js / Vercel', level: 'operationnel', details: 'React, TypeScript, déploiement' },
+          { name: 'Elasticsearch / Kibana', level: 'notions', details: 'Search & observabilité' },
+        ]
+      },
+      {
+        id: 'qualite-pilotage',
+        name: 'Qualité & Pilotage',
+        icon: Briefcase,
+        description: 'Méthodologie, cadrage et communication technique',
+        skills: [
+          { name: 'Amélioration continue', level: 'avance', details: 'Processus BI & data' },
+          { name: 'Cadrage de besoins métiers', level: 'avance', details: 'Recueil, structuration' },
+          { name: 'Vulgarisation technique', level: 'avance', details: 'Pont métier-tech' },
+        ]
+      },
+      {
+        id: 'outils-tech',
+        name: 'Outils',
+        icon: Globe,
+        description: 'Outils de productivité et de développement',
+        skills: [
+          { name: 'Claude Code', level: 'avance', details: 'Développement assisté par IA' },
+          { name: 'ChatGPT / Copilot', level: 'avance', details: 'Productivité & code' },
+          { name: 'n8n', level: 'operationnel', details: 'Automatisation de workflows' },
+          { name: 'Office 365', level: 'avance', details: 'Excel, SharePoint, Teams' },
+          { name: 'ServiceNow', level: 'operationnel', details: 'Performance Analytics' },
         ]
       },
     ];

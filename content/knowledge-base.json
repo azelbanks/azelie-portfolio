@@ -340,17 +340,29 @@
   ],
 
   "competences": {
-    "techniques": [
-      "Power BI — maîtrise solide de la logique des dashboards et de la visualisation",
-      "SQL — requêtes analytiques intermédiaires",
-      "Python (Pandas, scikit-learn, spaCy, Streamlit) — en progression active dans le cadre du M1",
-      "Machine Learning — compréhension des concepts et logiques algorithmiques",
-      "ETL — principes de structuration et transformation de données",
-      "NLP (Natural Language Processing) — expérimentation (classificateur 89% précision)",
-      "Data Cleaning & Wrangling — structuration de données hétérogènes",
-      "Visualisation de données (Plotly, Power BI)",
-      "Next.js / React / TypeScript (ce portfolio)",
-      "Git / GitHub"
+    "ia_agentique_llm": [
+      "Agents IA / Orchestration — systèmes multi-agents (15 agents spécialisés sur EU Project Lab)",
+      "LLM APIs (Groq, OpenAI, Anthropic) — intégration et mise en production",
+      "RAG / Bases vectorielles — Retrieval-Augmented Generation",
+      "Prompting avancé — chain-of-thought, few-shot, prompt engineering",
+      "NLP / Traitement du langage — spaCy, Keras, classification (89% précision)",
+      "Prototypage rapide — de l'idée au MVP"
+    ],
+    "data_developpement": [
+      "Python — Pandas, scikit-learn, Streamlit, scripts ETL",
+      "SQL — extractions, requêtes analytiques",
+      "Power BI — dashboards, modèles, DAX",
+      "Git / GitHub — versioning, collaboration",
+      "Docker — micro-services, conteneurisation",
+      "MongoDB — NoSQL, pipelines temps réel",
+      "Streamlit — apps interactives data",
+      "Next.js / Vercel — React, TypeScript, déploiement",
+      "Elasticsearch / Kibana — search & observabilité"
+    ],
+    "qualite_pilotage": [
+      "Amélioration continue — processus BI & data",
+      "Cadrage de besoins métiers — recueil, structuration",
+      "Vulgarisation technique — pont métier-tech"
     ],
     "metier": [
       "Ingénierie de projets européens (Erasmus+, Horizon Europe)",
@@ -374,9 +386,12 @@
       "Résilience et capacité à traverser les transitions"
     ],
     "outils_techniques": [
-      "Power BI", "Excel avancé", "Kobo Toolbox",
+      "Claude Code", "ChatGPT / Copilot", "n8n",
+      "Office 365", "SharePoint",
+      "Power BI", "ServiceNow PA",
       "Streamlit", "Jupyter Notebook",
-      "VS Code", "Git/GitHub"
+      "VS Code", "Git/GitHub", "Docker",
+      "Elasticsearch", "Kibana"
     ],
     "outils_methodologiques": [
       "SWOT", "Ishikawa (diagramme causes-effets)", "Eisenhower (priorisation)",
