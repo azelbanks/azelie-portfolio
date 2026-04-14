@@ -395,19 +395,52 @@
       "stack": "Python, Streamlit, Plotly",
       "description": "Simulateur interactif de théorie des jeux avec plus de 5 stratégies IA (Tit-for-Tat, Pavlov, Random...). Visualisations en temps réel.",
       "lien": "https://dilemme-du-prisonnier.streamlit.app",
-      "github": "https://github.com/azelbanks/dilemme-prisonnier",
-      "points_forts": ["5+ stratégies IA", "Visualisation temps réel", "Interface interactive"],
+      "github": "https://github.com/azelbanks/dilemme-du-prisonnier",
+      "points_forts": ["Simulation multi-agents", "Stratégies décisionnelles", "Visualisation temps réel"],
+      "projet_phare": true
+    },
+    {
+      "nom": "EU Project Lab",
+      "type": "Système multi-agents IA",
+      "stack": "Claude Code, Prompt Engineering, Multi-Agents",
+      "description": "Conception et cadrage d'un système de 15 agents IA spécialisés. Livrables : analyse concurrentielle, personas, tunnel de conversion, plan de lancement, cadrage juridique.",
+      "points_forts": ["15 agents IA spécialisés", "Livrables stratégiques complets", "Développé avec Claude Code"],
+      "projet_phare": true
+    },
+    {
+      "nom": "R.E.A.D.Y — Plateforme IA Éducative",
+      "type": "Plateforme IA",
+      "stack": "RAG, LLM, Agents IA, AI Act",
+      "description": "Cadrage fonctionnel et technique d'une plateforme IA éducative. Architectures RAG, pipelines LLM, agents IA et conformité AI Act. En cours de développement.",
+      "points_forts": ["Architecture RAG", "Conformité AI Act", "En cours de développement"],
       "projet_phare": true
     },
     {
       "nom": "Portfolio Dualité",
       "type": "Site web",
-      "stack": "Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Zustand",
-      "description": "Portfolio interactif avec double mode (Stratège/Tech), gamification, Easter Egg, et chatbot IA.",
-      "lien": "Ce site",
-      "github": "https://github.com/azelbanks/portfolio",
-      "points_forts": ["Mode dual Stratège/Tech", "Gamification & badges", "Easter Egg interactif", "Chatbot IA"],
+      "stack": "Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Zustand, Groq API",
+      "description": "Portfolio interactif avec double mode (Stratège/Tech), gamification, Easter Egg, et chatbot LLM (LLaMA 3.3 / Groq API) entraîné sur base de connaissances structurée.",
+      "lien": "azelie-portfolio.vercel.app",
+      "github": "https://github.com/azelbanks/azelie-portfolio",
+      "points_forts": ["Mode dual Stratège/Tech", "Chatbot LLM (LLaMA 3.3 / Groq)", "Gamification & badges", "Easter Egg interactif"],
       "projet_phare": true
+    },
+    {
+      "nom": "Thumalien — Social Media Intelligence & NLP",
+      "type": "Pipeline Data & NLP",
+      "stack": "Python, Bluesky Websocket, MongoDB, Streamlit, Keras, Docker",
+      "description": "Pipeline Data temps réel pour l'analyse de médias sociaux (Bluesky). Détection Fake News et analyse émotionnelle (MLP/Keras). Architecture micro-services Docker.",
+      "github": "https://github.com/azelbanks/projet_etude",
+      "points_forts": ["Pipeline temps réel", "Détection Fake News", "Architecture micro-services Docker"],
+      "projet_phare": true
+    },
+    {
+      "nom": "FundLoop — App SaaS",
+      "type": "Application web SaaS",
+      "stack": "Next.js, Supabase, API Claude (Anthropic)",
+      "description": "Application web SaaS avec intégration API Anthropic (Claude), dashboard et gestion de projets.",
+      "points_forts": ["Intégration API Claude", "Next.js + Supabase", "Dashboard projet"],
+      "projet_phare": false
     },
     {
       "nom": "Dashboard de Suivi Erasmus+",

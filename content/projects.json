@@ -8,18 +8,18 @@
       },
       "description": {
         "strategist": "Application interactive illustrant les concepts de théorie des jeux et de prise de décision stratégique. Utilisée comme outil pédagogique pour explorer les dynamiques de coopération et de compétition.",
-        "tech": "Full-stack Streamlit app implementing iterated prisoner's dilemma with multiple AI strategies (Tit-for-Tat, Pavlov, Random). Real-time visualization with Plotly. Pure Python backend."
+        "tech": "Multi-agent simulation implementing iterated prisoner's dilemma with autonomous decision-making strategies. Real-time visualization with Plotly. Pure Python/Streamlit backend."
       },
-      "category": "data",
-      "tags": ["Python", "Streamlit", "Game Theory", "Plotly", "Data Viz"],
+      "category": "ai",
+      "tags": ["Python", "Streamlit", "Multi-Agents", "Game Theory", "Plotly"],
       "links": {
         "streamlit": "https://dilemme-du-prisonnier.streamlit.app",
-        "github": "https://github.com/azelbanks/dilemme-prisonnier"
+        "github": "https://github.com/azelbanks/dilemme-du-prisonnier"
       },
       "highlights": [
-        "5+ stratégies IA",
-        "Visualisation temps réel",
-        "Interface interactive"
+        "Simulation multi-agents",
+        "Stratégies décisionnelles",
+        "Visualisation temps réel"
       ],
       "featured": true
     },
@@ -41,10 +41,93 @@
       },
       "highlights": [
         "Mode dual Stratège/Tech",
+        "Chatbot LLM (LLaMA 3.3 / Groq)",
         "Gamification & badges",
         "Easter Egg interactif"
       ],
       "featured": true
+    },
+    {
+      "id": "eu-project-lab",
+      "title": {
+        "strategist": "EU Project Lab — Système Multi-Agents IA",
+        "tech": "Multi-Agent AI System - Claude Code"
+      },
+      "description": {
+        "strategist": "Conception et cadrage d'un système de 15 agents IA spécialisés pour l'ingénierie de projets européens. Livrables produits : analyse concurrentielle, personas, tunnel de conversion, plan de lancement, cadrage juridique.",
+        "tech": "Multi-agent system architecture with 15 specialized AI agents, built with Claude Code assistance. Deliverables: competitive analysis, personas, conversion funnel, launch plan, legal compliance framework."
+      },
+      "category": "ai",
+      "tags": ["Multi-Agents", "Claude Code", "IA", "Prompt Engineering", "Stratégie"],
+      "links": {},
+      "highlights": [
+        "15 agents IA spécialisés",
+        "Livrables stratégiques complets",
+        "Développé avec Claude Code"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ready-platform",
+      "title": {
+        "strategist": "R.E.A.D.Y — Plateforme IA Éducative",
+        "tech": "R.E.A.D.Y - RAG & AI Agents Platform"
+      },
+      "description": {
+        "strategist": "Cadrage fonctionnel et technique d'une plateforme IA éducative. Montée en compétences sur les architectures RAG, pipelines LLM, agents IA et conformité AI Act.",
+        "tech": "Educational AI platform leveraging RAG architecture, LLM pipelines, and AI agents. Full functional & technical scoping with AI Act compliance. In active development."
+      },
+      "category": "ai",
+      "tags": ["RAG", "LLM", "Agents IA", "AI Act", "EdTech"],
+      "links": {},
+      "highlights": [
+        "Architecture RAG",
+        "Conformité AI Act",
+        "En cours de développement"
+      ],
+      "featured": true
+    },
+    {
+      "id": "thumalien",
+      "title": {
+        "strategist": "Thumalien — Social Media Intelligence & NLP",
+        "tech": "Thumalien - Real-time Data Pipeline & NLP"
+      },
+      "description": {
+        "strategist": "Pipeline de données temps réel pour l'analyse de médias sociaux. Détection de Fake News et analyse émotionnelle sur les contenus Bluesky.",
+        "tech": "Real-time data pipeline: Bluesky Websocket → MongoDB → Streamlit. Fake News detection and emotional analysis with MLP/Keras. Docker micro-services architecture."
+      },
+      "category": "data",
+      "tags": ["Python", "MongoDB", "Streamlit", "NLP", "Keras", "Docker"],
+      "links": {
+        "github": "https://github.com/azelbanks/projet_etude"
+      },
+      "highlights": [
+        "Pipeline temps réel",
+        "Détection Fake News",
+        "Architecture micro-services Docker"
+      ],
+      "featured": true
+    },
+    {
+      "id": "fundloop",
+      "title": {
+        "strategist": "FundLoop — Application SaaS de Gestion de Projets",
+        "tech": "FundLoop - Next.js SaaS with Claude API"
+      },
+      "description": {
+        "strategist": "Application web SaaS intégrant l'IA pour le dashboard et la gestion de projets. Intégration de l'API Claude (Anthropic) pour l'assistance intelligente.",
+        "tech": "Next.js + Supabase SaaS application with Anthropic Claude API integration. Features: project dashboard, AI-assisted project management."
+      },
+      "category": "web",
+      "tags": ["Next.js", "Supabase", "API Claude", "Anthropic", "SaaS"],
+      "links": {},
+      "highlights": [
+        "Intégration API Claude",
+        "Next.js + Supabase",
+        "Dashboard projet"
+      ],
+      "featured": false
     },
     {
       "id": "erasmus-dashboard",
